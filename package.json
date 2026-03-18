@@ -28,7 +28,7 @@
     "react-content-loader": "^6.0.3",
     "react-cookie": "^4.0.3",
     "react-countdown": "^2.3.1",
-    "react-datepicker": "^3.8.0",
+    "react-datepicker": "^9.1.0",
     "react-debounce-input": "^3.2.5",
     "react-dom": "^18",
     "react-dropzone": "^11.4.2",
