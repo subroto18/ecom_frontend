@@ -1,0 +1,48 @@
+.userAddressTable {
+    margin-bottom: 8px !important;
+    font-size: .8rem;
+    background: #fff;
+    border: 1px solid aliceblue;
+}
+.userAddressTable thead {
+    background: #f6f6f6;
+}
+
+.userAddressType {
+    font-size: .9rem;
+    color: #9e9e9e;
+}
+
+.userAddressTypeBtn {
+    background: #f6f6f6 !important;
+    border: 1px solid lightslategrey !important;
+    color: lightslategrey !important;
+    padding: .8rem 2rem !important;
+}
+
+.userAddressEdit {
+    color: var(--primaryColor) !important;
+    text-transform: uppercase;
+}
+
+.defaultAddressText {
+    font-size: 13px;
+    color: var(--primaryColor);
+}
+.mobileBackground{
+    background-color: white !important;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px -1px gray;
+}
+.addressText {
+    margin-top: 10px;
+}
+.addressTableContainer {
+    padding-bottom: 58px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,11 @@
+.singleProductImgDiv.d-flex.justify-content-center.popupCart {
+    position: relative;
+}
+
+.singleProductImgDiv.d-flex.justify-content-center.popupCart .smallImgDiv {
+    left: 20px;
+}
+
+.mainImgDiv.popupCart {
+    margin-top: 50px;
+}

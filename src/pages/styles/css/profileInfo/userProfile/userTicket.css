@@ -1,0 +1,171 @@
+.support-empty-div {
+    background: var(--white);
+    justify-items: center;
+    justify-self: center;
+    padding: 70px 0;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.ticket-modal-form {
+    padding: 33px;
+    text-align: left;
+}
+.ticket-title {
+    font-size: 20px;
+}
+.react-confirm-alert {
+    z-index: 9999999999999;
+}
+.support-ticket-div {
+    background: var(--whiteColor);
+    margin-top: 18px;
+}
+
+.live-support {
+    background: var(--white);
+}
+
+.live-support-header {
+    background: var(--primaryColor);
+    padding: 11px;
+    color: var(--backgroundColor);
+}
+.ticket-status {
+    background: green;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+
+
+.live-support-footer {
+    height: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid var(--backgroundColor);
+    padding: 30px;
+    padding-top: 60px; 
+}
+
+.live-support-send-msg {
+    width: 88%;
+    /* margin: auto; */
+}
+.live-support-media {
+    width: 5%;
+}
+
+.live-support-media i {
+    font-size: 22px;
+    cursor: pointer;
+}
+.live-support-send {
+    width: 5%;
+}
+.live-support-send i {
+    font-size: 23px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.live-support-body {
+    max-height: 443px;
+    overflow-y: scroll;
+}
+
+
+.live-support-media .drag-image.d-flex.justify-content-center.align-items-center.align-middle {
+     width: unset;
+     height: unset;
+     margin-top: 0px;
+}
+.show-gallery {
+    width: 88%;
+    margin: auto;
+    height: 88px;
+}
+
+.avatar-img {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-left: 8px !important;
+}
+.text-time {
+    display: block;
+    font-size: 9px;
+    color: #444;
+    clear: both;
+}
+.text-message {
+    background: var(--colorSkyBlue);
+    padding: 13px;
+    margin-right: 32px;
+    border-radius: 15px;
+}
+.user-chat-div.d-flex {
+    float: right;
+}
+.live-support-refresh {
+    margin-top: 6px;
+}
+
+.admin {
+    margin-top: 11px;
+    width: 60%;
+    float: left;
+}
+.user{
+    margin-top: 11px;
+    width: 60%;
+    float: right;
+}
+.message-div {
+    margin-bottom: 20px;
+}
+.media-t-d {
+    width: 31px;
+    float: left;
+}
+
+.ticket-media {
+    width: 26px;
+    margin-top: 5px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.token-pending-badge {
+    background: red;
+    padding: 4px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.token-active-badge {
+    background: green;
+    padding: 4px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.profile-name-div .hello-user{
+    font-size: 14px;
+}
+.profile-name-div .userName {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ticketMediaImg{
+    width: 200px;
+    height: 200px;
+    margin-right: 35px;
+    border-radius: 10px;
+}

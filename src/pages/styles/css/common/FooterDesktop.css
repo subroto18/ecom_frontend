@@ -1,0 +1,135 @@
+
+/* Footer */
+#footer {
+    background: var(--footerBackgroundColor);
+}
+.footerContainer{
+    padding: 0;
+}
+.footer-logo {
+    width: 200px;
+}
+
+.footer-logo img{
+    position:unset!important;
+}
+
+.footerAddressText {
+    color: var(--footerTextColor);
+    font-size: 14px;
+}
+.footerIcon {
+    font-size: 16px;
+}
+.footer-contact-details {
+    align-items: center;
+}
+.footer-contact-details p {
+    margin-bottom: 0px;
+}
+.footer-ul {
+    color: var(--footerIconColor);
+    font-size: 13px;
+    padding: 0;
+    opacity: 0.5;
+}
+.footer-ul:hover .footer-ul li{
+    opacity: 1;
+}
+.footer-ul li:hover {
+    color: var(--primaryColor);
+}
+.footer-section-title {
+    color: var(--footerTextColor);
+    font-weight: 500;
+    font-size: 22px;
+}
+.footer-hr {
+    background: var(--darkBlackColor);
+    opacity: 0.2;
+}
+.pg-logos {
+    width: 60px;
+}
+
+.about-us-text {
+    color: var(--footerTextColor);
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.9;
+}
+.all-rights {
+    background: var(--copyRightBackgroundColor);
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+.all-rights p {
+    margin-bottom: 0;
+    color: var(--copyRightColor);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footerIconAccount {
+    width: 27px;
+}
+.footer-social-icons {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: .5s !important;
+    font-size: 12px;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 30px;
+}
+/*i.fab.fa-facebook-f.footer-social-icons.mr-2 {*/
+/*    padding: 8px 11px !important;*/
+/*    border: 1px solid;*/
+/*}*/
+/*i.fab.fa-instagram.footer-social-icons.mr-2 {*/
+/*    padding: 8px 11px !important;*/
+/*    border: 1px solid;*/
+/*}*/
+
+i.fab.fa-facebook-f.footer-social-icons.mr-2:hover {
+    background: #4267B2;
+    border: 1px solid #4267B2;
+    transition: .5s;
+}
+
+i.fab.fa-twitter.footer-social-icons.mr-2:hover {
+    background: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    transition: .5s;
+}
+
+i.fab.fa-instagram.footer-social-icons.mr-2:hover {
+    background: linear-gradient(45deg, #833AB4, #C13584);
+    border: 1px solid #C13584;
+    transition: .5s;
+}
+
+i.fab.fa-youtube.footer-social-icons:hover {
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    transition: .5s;
+}
+.footer-social-icon {
+    margin-left: 18px;
+}
+
+.fb-plugin {
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+.payment-image-div {
+    display: flex;
+    justify-content: center;
+}
+.pg-logos img {
+    position: unset !important;
+}
+

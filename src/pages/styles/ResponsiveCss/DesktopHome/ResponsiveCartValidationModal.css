@@ -1,0 +1,157 @@
+@media (min-width: 1400px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mainImgDiv.popupCart img {
+        height: 171px !important;
+        width: 173px !important;
+    }
+
+    .mainImgDiv {
+         height: auto!important;
+         width: 96% !important;
+
+    }
+
+    .singleProductCardTitle {
+        font-size: 15px;
+    }
+    .rating {
+        padding: 0 0px;
+    }
+    .variation {
+        padding: 0 0px;
+        margin-top: 10px;
+    }
+
+
+    .totalPriceDiv {
+        margin-top: 25px;
+        font-size: 20px;
+        margin-bottom: 25px;
+
+    }
+    .mainImgDiv.popupCart {
+        margin-top: 0px;
+    }
+
+    .d-flex.mb-3.colorVariation {
+        margin-bottom: 12px !important;
+    }
+    .variationNamePopUpCart.mr-2.mt-1 {
+        font-size: 13px;
+    }
+    .box.colorBox {
+        padding: 2px 11px !important;
+
+    }
+    .outerColorBox {
+        padding: 4px 3px !important;
+        margin-right: 8px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .variationName {
+        font-size: 13px;
+    }
+    .regularPriceDiv {
+        margin-top: 0px;
+    }
+    .quantityDiv {
+        margin-top: 10px;
+    }
+    .totalPriceDiv {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .addCardProduct.text-left {
+        padding: 0 0px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}

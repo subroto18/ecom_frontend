@@ -1,0 +1,220 @@
+@media (min-width: 1400px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .searchArea{
+     margin-top:30px;
+        width:92%;
+    }
+
+    .mainNav {
+        height: 94px;
+    }
+    .react-autosuggest__container {
+        width: 92%;
+    }
+    .searchBtn.btn.btn-primary {
+        width: 7%;
+    }
+
+    .logoImgDiv{
+        margin-top: 15px;
+    }
+    .searchBox {
+        margin-top: 40px;
+    }
+    .cart-function {
+        margin-top: 34px;
+    }
+    .faCartIcon {
+        font-size: 24px;
+    }
+}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .mainNav {
+        height: 94px;
+    }
+    .react-autosuggest__container {
+        width: 92%;
+    }
+    .searchBtn.btn.btn-primary {
+        width: 7%;
+    }
+
+    .logoImgDiv{
+        margin-top: 15px;
+    }
+    .searchBox {
+        margin-top: 40px;
+    }
+    .cart-function {
+        margin-top: 34px;
+    }
+    .faCartIcon {
+        font-size: 24px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .mainNav {
+        height: 94px;
+    }
+    .react-autosuggest__container {
+        width: 92%;
+    }
+    .searchBtn.btn.btn-primary {
+        width: 7%;
+    }
+    .logoImgDiv{
+        margin-top: 15px;
+    }
+
+    .searchBox {
+        margin-top: 30px;
+    }
+    .cart-function {
+        margin-top: 31px;
+    }
+    .faCartIcon {
+        font-size: 24px;
+    }
+    .react-autosuggest__input {
+        height: 34px;
+    }
+    .searchBtn.btn.btn-primary {
+        height: 34px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .react-autosuggest__container {
+        width: 87% !important;
+    }
+    .searchBtn.btn.btn-primary {
+        width: 9%!important;
+    }
+    .faCartIcon {
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    .mainNav {
+        height: 80px;
+    }
+    .logoImgDiv {
+        margin-top: 15px;
+        height: 60%;
+    }
+    .searchBox {
+        margin-top: 30px;
+    }
+    .react-autosuggest__input {
+        font-size: 13px;
+        height: 30px;
+    }
+    .searchBtn.btn.btn-primary {
+        height: 30px;
+    }
+    .cart-function {
+        margin-top: 22px;
+    }
+    .bg-danger {
+        width: 14px !important;
+        height: 14px !important;
+        border-radius: 50% !important;
+        line-height: 11px !important;
+        font-size: 8px;
+        margin-left: -1px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+    .logoImgDiv {
+        margin-top: 13px;
+    }
+    .cart-function {
+        margin-top: 23px;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}

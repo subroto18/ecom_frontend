@@ -1,0 +1,45 @@
+.topRated.title {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.topRated.title::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+.topRated .cardImgDiv {
+    height: 200px;
+}
+.topRated .cardImgDiv img{
+    height: 100%;
+}
+
+.topRated .productTitle {
+    font-size: 14px !important;
+}
+.topRated.trendingCard.card {
+    height: 140px;
+}
+.topRated .cardImgDiv {
+    height: 120px;
+    padding-right: 0px;
+    width: 160px;
+}
+.topRatedRow{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.topRated {
+    background: var(--sectionBackground);
+    padding: 30px;
+}
+.topRated.TitleDiv {
+    padding: 0;
+}

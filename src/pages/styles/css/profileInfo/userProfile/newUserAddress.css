@@ -1,0 +1,64 @@
+.addNewAddress {
+    background: white;
+}
+
+.addressAddCardBody {
+    text-align: left;
+}
+
+.newAddressInput {
+    margin-bottom: 1.2rem;
+}
+
+.addressInputField {
+    width: 100%;
+}
+
+.label-select-text {
+    font-size: .9rem;
+    color: #9e9e9e;
+}
+
+.address-label {
+    background: #f6f6f6 !important;
+    color: #fff !important;
+    padding: .8rem 2rem !important;
+}
+#office{
+    background-color: var(--secondaryColor) !important;
+}
+#office:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--secondaryColor) !important;
+    color: var(--primaryColor) !important;
+}
+#home {
+    background-color: var(--primaryColor) !important;
+}
+#home:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--primaryColor) !important;
+    color: var(--primaryColor) !important;
+}
+
+.newAddressAdd {
+    background: var(--primaryColor) !important;
+    color: white !important;
+    width: 120px;
+    text-align: center;
+}
+
+.newAddressCancel {
+    background: lightgrey !important;
+    color: #fff !important;
+    width: 120px;
+    text-align: center;
+}
+
+.addNewAddress.card {
+    border: 0 !important;
+    padding: 25px;
+}
+.selected {
+    background: var(--primaryColor) !important;
+}

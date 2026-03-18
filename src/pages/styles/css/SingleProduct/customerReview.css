@@ -1,0 +1,142 @@
+.totalReview {
+    margin-top: 20px;
+}
+.big-view {
+    font-size: 36px;
+    color: var(--primaryColor);
+    font-weight: 600;
+    margin: 0;
+}
+.big-view span {
+    font-size: 14px;
+    color: var(--textColor);
+}
+.fas.fa-star.star {
+    font-size: 22px;
+    color: var(--cardPriceOffColor);
+}
+.big-star {
+    margin-bottom: 16px;
+}
+
+.fas.fa-star.active {
+    color: var(--cardPriceOffColor);
+}
+
+.fas.fa-star.active.starMark {
+    color: var(--primaryColor);
+}
+
+.paginationReview {
+    margin: auto;
+    text-align: center;
+    max-width: 236px;
+    margin-top: 45px;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primaryColor)!important;
+    color: var(--btntextColor)!important;
+    border: 0px!important;
+}
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow:unset!important;
+}
+.productReviewTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--sectionTitleColor);
+    margin-bottom: 0px;
+    position: relative;
+}
+.productReview {
+    background: var(--sectionBackground);
+    padding: 30px;
+    overflow: hidden;
+}
+.productReviewTitle::before {
+    content: '';
+    height: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.customerInfo {
+    margin-top: 21px;
+    display: block;
+    width: 100%;
+    clear: both;
+
+}
+.customerImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.customerImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.customerName {
+    margin-top: 3px;
+    margin-left: 12px;
+}
+
+.customerNameTitle {
+    font-weight: 700;
+    font-size: 14px;
+}
+.reviewImg {
+    width: 100px;
+    height: 100px;
+}
+.reviewImg img{
+    width: 100%;
+    height: 100%;
+}
+.customerReviewImgText {
+    margin-top: 15px;
+}
+.reviewImg {
+    max-width: 76px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.reviewImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.customerProductImg{
+    position: relative;
+}
+
+.reviewImg img:hover {
+    width: 100%;
+    height: 100%;
+    transform: scale(2.1);
+    transition: .3s a ease;
+    cursor: pointer;
+}
+.customerOpinion p {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+.productReviewRow.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.big-star i {
+    font-size: 22px;
+}

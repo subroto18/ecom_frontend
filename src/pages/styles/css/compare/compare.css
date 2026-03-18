@@ -1,0 +1,96 @@
+.comparisonTable.table.table-bordered {
+    background: var(--sectionBackground);
+}
+.compare-table.table-bordered{
+    width: 21.4rem !important;
+    margin:0 25px !important;
+    margin-bottom: 30px !important;
+    margin: 0 auto;
+    float: left;
+    background-color: #fff;
+}
+.clearfix{
+    overflow: auto;
+}
+
+.comparisonTable th {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.comparisonTable td {
+    font-size: .9rem;
+}
+
+.cProductImage {
+    margin-bottom: .7rem;
+    width: 80%;
+    height: 60%;
+}
+
+.cProductName {
+    font-weight: 400;
+    color: #05a8cb;
+}
+
+.CProductPrice {
+    font-weight: bold;
+}
+
+.cSpecialPrice {
+    color: red;
+}
+
+.cProductAddToCart {
+    font-size: .9rem !important;
+    border: 2px solid var(--primaryColor)!important;
+    color: var(--primaryColor)!important;
+    background: var(--primaryColorFade) !important;
+    transition: .8s !important;
+    margin-right: 1rem;
+}
+
+.cProductAddToCart:hover {
+    background: #05a8cb !important;
+    color: white !important;
+    transition: .8s !important;
+}
+
+.cProductWishlist {
+    font-size: 1.5rem;
+    color: #05a8cb;
+    vertical-align: middle;
+}
+
+.cProductCancel {
+    position: absolute;
+    right: 27px;
+}
+
+.hd-compare-td {
+    position: relative;
+}
+.cProductCancel {
+    position: absolute;
+    top: 13px;
+
+    font-size: 16px;
+}
+
+.card-body.desktop-cwc-body {
+    position: relative;
+    min-height: 70px;
+}
+
+.compareEmptyDiv p {
+    font-size: 20px;
+}
+
+.compareEmptyDiv{
+    background: var(--white);
+    padding: 63px;
+    text-align: center;
+}
+.table.compare-table{
+    box-shadow: unset!important;
+}

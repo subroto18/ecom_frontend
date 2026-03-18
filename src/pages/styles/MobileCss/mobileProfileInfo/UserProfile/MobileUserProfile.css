@@ -1,0 +1,498 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileProfileDiv .profileImageDiv {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px;
+        position: relative;
+    }
+
+    .mobileProfileDiv .profileImageDiv .profileImg {
+        height: 120px;
+    }
+
+    .mobileProfileDiv .profileImageDiv .pIiDiv {
+        position: relative;
+        display: inline-block;
+    }
+
+    .mobileProfileDiv .profileImageDiv .imageEditIcon {
+        position: absolute;
+        bottom: 18px;
+        left: 88px;
+        background: white;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font-size: .7rem;
+        line-height: 1.5rem;
+        box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    }
+
+    .mobileProfileDiv .profileImageDiv .userName {
+        margin-top: 5px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle p {
+        font-size: .9rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .emailInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle p {
+        font-size: .9rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .editInfo {
+        font-weight: 600;
+        font-size: .9rem;
+        color: var(--primaryColor) !important;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo i {
+        margin-right: 20px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .label {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .info {
+        font-size: .9rem;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv i {
+        margin-right: 20px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .label {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .info {
+        font-size: .9rem;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileProfileDiv .profileImageDiv {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px;
+        position: relative;
+    }
+
+    .mobileProfileDiv .profileImageDiv .profileImg {
+        height: 120px;
+    }
+
+    .mobileProfileDiv .profileImageDiv .pIiDiv {
+        position: relative;
+        display: inline-block;
+    }
+
+    .mobileProfileDiv .profileImageDiv .imageEditIcon {
+        position: absolute;
+        bottom: 18px;
+        left: 88px;
+        background: white;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font-size: .7rem;
+        line-height: 1.5rem;
+        box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    }
+
+    .mobileProfileDiv .profileImageDiv .userName {
+        margin-top: 5px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle p {
+        font-size: .9rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .emailInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle p {
+        font-size: .9rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .editInfo {
+        font-weight: 600;
+        font-size: .9rem;
+        color: var(--primaryColor) !important;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo i {
+        margin-right: 20px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .label {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .info {
+        font-size: .9rem;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv i {
+        margin-right: 20px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .label {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .info {
+        font-size: .9rem;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .mobileProfileDiv .profileImageDiv {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px;
+        position: relative;
+    }
+
+    .mobileProfileDiv .profileImageDiv .profileImg {
+        height: 90px;
+    }
+
+    .mobileProfileDiv .profileImageDiv .pIiDiv {
+        position: relative;
+        display: inline-block;
+    }
+
+    .mobileProfileDiv .profileImageDiv .imageEditIcon {
+        position: absolute;
+        bottom: 13px;
+        left: 65px;
+        background: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: .55rem;
+        line-height: 1.3rem;
+        box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    }
+
+    .mobileProfileDiv .profileImageDiv .userName {
+        margin-top: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle p {
+        font-size: .85rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .emailInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle p {
+        font-size: .85rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .editInfo {
+        font-weight: 600;
+        font-size: .9rem;
+        color: var(--primaryColor) !important;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo i {
+        margin-right: 20px;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .label {
+        font-size: .85rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .info {
+        font-size: .85rem;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv i {
+        margin-right: 20px;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .label {
+        font-size: .85rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .info {
+        font-size: .85rem;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .mobileProfileDiv .profileImageDiv {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px;
+        position: relative;
+    }
+
+    .mobileProfileDiv .profileImageDiv .profileImg {
+        height: 90px;
+    }
+
+    .mobileProfileDiv .profileImageDiv .pIiDiv {
+        position: relative;
+        display: inline-block;
+    }
+
+    .mobileProfileDiv .profileImageDiv .imageEditIcon {
+        position: absolute;
+        bottom: 13px;
+        left: 65px;
+        background: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: .55rem;
+        line-height: 1.3rem;
+        box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    }
+
+    .mobileProfileDiv .profileImageDiv .userName {
+        margin-top: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfoTitle p {
+        font-size: .85rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .emailInfo {
+        margin: 20px 0px;
+        background: white;
+        padding: 20px 20px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoTitle p {
+        font-size: .85rem;
+        color: dimgray;
+    }
+
+    .mobileProfileDiv .editInfo {
+        font-weight: 600;
+        font-size: .9rem;
+        color: var(--primaryColor) !important;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo i {
+        margin-right: 20px;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .label {
+        font-size: .85rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .profilePersonalInfo .personalInfo .info {
+        font-size: .85rem;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv {
+        display: flex;
+        align-items: baseline;
+        margin: 15px 0px;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv i {
+        margin-right: 20px;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .label {
+        font-size: .85rem;
+        font-weight: 600;
+    }
+
+    .mobileProfileDiv .emailInfo .emailInfoDiv .info {
+        font-size: .85rem;
+    }
+
+}

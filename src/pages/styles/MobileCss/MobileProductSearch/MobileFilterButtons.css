@@ -1,0 +1,111 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileFilterApply button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        background: var(--secondaryColor) !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterApply {
+        flex: 1;
+    }
+
+    .mobileFilterReset button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterReset {
+        flex: 1;
+    }
+
+
+    .mobileFilterReset button:hover {
+        background-color: var(--primaryColor) !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileFilterApply button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        background: var(--secondaryColor) !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterApply {
+        flex: 1;
+    }
+
+    .mobileFilterReset button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterReset {
+        flex: 1;
+    }
+
+
+    .mobileFilterReset button:hover {
+        background-color: var(--primaryColor) !important;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .mobileFilterApply button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        background: var(--secondaryColor) !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterApply {
+        flex: 1;
+    }
+
+    .mobileFilterReset button {
+        width: 100%;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 0px !important;
+        height: 40px !important;
+    }
+
+    .mobileFilterReset {
+        flex: 1;
+    }
+
+
+    .mobileFilterReset button:hover {
+        background-color: var(--primaryColor) !important;
+    }
+
+}

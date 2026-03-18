@@ -1,0 +1,102 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .register-input h1{
+        font-size: 2.1rem;
+    }
+    .register-input-group {
+        padding: 1rem 3.4rem !important;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.9rem !important;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+    .register-input h1{
+        font-size: 2.05rem;
+    }
+    .register-input-group {
+        padding: 1rem 2rem !important;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.8rem !important;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .register-input-group {
+        padding: 1rem 1.5rem !important;
+    }
+    .register-input h1 {
+        font-size: 1.7rem;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+    .radioButton.MuiFormControlLabel-root{
+        margin-left: -1px !important;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.8rem !important;
+    }
+    .radioButton .css-y3qy4r-MuiButtonBase-root-MuiIconButton-root-PrivateSwitchBase-root{
+        margin-left: 0px !important;
+    }
+    .radioButton.MuiFormControlLabel-root.mr-2.phoneNumberUse {
+        margin-left: -1px !important;
+      }
+}
+
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .register-input-group {
+        padding: 1rem 1.5rem !important;
+    }
+
+    .register-input h1 {
+        font-size: 1.7rem;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+    .radioButton.MuiFormControlLabel-root{
+        margin-left: 0px !important;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.8rem !important;
+    }
+
+
+}

@@ -1,0 +1,191 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileProfileEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .mobileProfileEditDiv .editLabel {
+        font-size: 1rem;
+        margin-bottom: 0.3rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input {
+        width: 100%;
+        padding: .375rem .75rem;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input:focus {
+        border: 1px solid var(--primaryColor);
+        outline: none;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose label {
+        padding: 0px 10px;
+    }
+
+    .mobileProfileEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: 1rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker select {
+        color: #333 !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileProfileEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .mobileProfileEditDiv .editLabel {
+        font-size: 1rem;
+        margin-bottom: 0.3rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input {
+        width: 100%;
+        padding: .375rem .75rem;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input:focus {
+        border: 1px solid var(--primaryColor);
+        outline: none;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose label {
+        padding: 0px 10px;
+    }
+
+    .mobileProfileEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: 1rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker select {
+        color: #333 !important;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .mobileProfileEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .mobileProfileEditDiv .editLabel {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input {
+        width: 100%;
+        padding: .375rem .75rem;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input:focus {
+        border: 1px solid var(--primaryColor);
+        outline: none;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose label {
+        padding: 0px 5px;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose .MuiTypography-body1 {
+        font-size: .85rem;
+    }
+
+    .mobileProfileEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: .85rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker select {
+        color: #333 !important;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .mobileProfileEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .mobileProfileEditDiv .editLabel {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input {
+        width: 100%;
+        padding: .375rem .75rem;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .mobileProfileEditDiv .react-datepicker-wrapper input:focus {
+        border: 1px solid var(--primaryColor);
+        outline: none;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose label {
+        padding: 0px 5px;
+    }
+
+    .mobileProfileEditDiv .mobileGenderChoose .MuiTypography-body1 {
+        font-size: .85rem;
+    }
+
+    .mobileProfileEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: .85rem !important;
+    }
+
+    .mobileProfileEditDiv .react-datepicker select {
+        color: #333 !important;
+    }
+
+}

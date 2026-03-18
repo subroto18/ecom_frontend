@@ -1,0 +1,55 @@
+.flashSaleDiv {
+    background-color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 3px;
+}
+.flashSaleRow{
+    margin-right: -15px!important;
+    margin-left: -15px!important;
+}
+.flashSaleTitle {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+}
+.flashSaleTitle::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+#clockDiv {
+    display: flex;
+    margin-left: 15px;
+}
+
+.timeBox {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 7px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+.flashSaleTitleDiv {
+    display: flex;
+}
+
+
+#clockDiv span {
+    background: var(--primaryColor);
+    line-height: 35px;
+    padding: 1px 18px;
+    font-size: 20px;
+    color: var(--btntextColor);
+    border-radius: 3px;
+}
+
+.TitleCountDownDiv {
+    display: flex;
+}

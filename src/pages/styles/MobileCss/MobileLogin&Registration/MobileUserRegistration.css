@@ -1,0 +1,225 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .register-img {
+        display: none;
+    }
+
+    .register-input-group {
+        padding: 1rem 1.3rem !important;
+        background: white;
+        border-radius: 10px;
+    }
+    .fullContainer {
+        padding: 5rem 3rem!important;
+        margin-bottom: 2rem !important;
+    }
+
+    .register-input p {
+        margin-bottom: 1rem !important;
+    }
+
+    .register-input h1 {
+        font-size: 1.7rem;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+
+    .registrationDIv {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.7rem !important;
+    }
+    .registrationDIv.mobileRegistrationDiv {
+        background: var(--sectionBackground);
+        padding: 44px;
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .register-img {
+        display: none;
+    }
+
+    .register-input-group {
+        padding: 1rem 1.3rem !important;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .register-input p {
+        margin-bottom: 1rem !important;
+    }
+    .fullContainer {
+        padding: 5rem 3rem!important;
+        margin-bottom: 1rem !important;
+    }
+
+    .register-input h1 {
+        font-size: 1.7rem;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+
+    .registrationDIv {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.65rem !important;
+    }
+
+    .registrationDIv.mobileRegistrationDiv {
+        background: var(--sectionBackground);
+        padding: 44px;
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .register-img {
+        display: none;
+    }
+
+    .register-input-group {
+        padding: 1rem 1.3rem !important;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .register-input p {
+        margin-bottom: 1rem !important;
+    }
+
+    .register-input h1 {
+        font-size: 1.3rem;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+    .fullContainer {
+        padding: 5rem 3rem!important;
+    }
+    .formControl{
+        padding: 0.35rem 0.75rem;
+        font-size: 0.83rem;
+    }
+    .registrationDIv {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .radioButton.MuiFormControlLabel-root{
+        margin-left: 0px !important;
+    }
+    .radiobutton .css-ahj2mt-MuiTypography-root{
+        font-size: 0.6rem !important;
+    }
+
+    .registrationDIv.mobileRegistrationDiv {
+        background: var(--sectionBackground);
+        padding: 44px;
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .userRegisterContainer {
+        padding: 2rem !important;
+    }
+
+    .register-img {
+        display: none;
+    }
+
+    .register-input-group {
+        padding: 1rem 1.3rem !important;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .register-input p {
+        font-size: .7rem;
+        margin-bottom: 1rem !important;
+    }
+    .fullContainer {
+        padding: 5rem 2rem!important;
+        margin-bottom: 2rem !important;
+    }
+    .formControl{
+        padding: 0.3rem 0.75rem;
+        font-size: 0.8rem;
+    }
+    .register-input h1 {
+        font-size: 1rem;
+    }
+    .onLoginUsing{
+        margin-left: 0 !important;
+    }
+    .radioButton.MuiFormControlLabel-root{
+        margin-right: 0 !important;
+    }
+
+    .registerSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+
+    .registrationDIv {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .registrationDIv.mobileRegistrationDiv {
+        background: var(--sectionBackground);
+        padding: 44px;
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+}

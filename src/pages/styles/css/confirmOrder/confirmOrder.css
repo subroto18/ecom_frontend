@@ -1,0 +1,130 @@
+.orderInvoice {
+    padding: 2rem 12rem !important;
+}
+
+.thankNote {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.orderNumber {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #282c34;
+    text-align: center;
+}
+
+.orderAmountReady {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #282c34;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: .3rem !important;
+}
+
+.orderAmount {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.deliveryDateDiv {
+    border: 1px solid #282c34;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.estDate {
+    margin-bottom: 0 !important;
+    font-weight: 600;
+}
+
+.orderInvoiceHR {
+    margin: .5rem 0 !important;
+}
+
+.orderMoreDetails {
+    margin-bottom: 0 !important;
+}
+
+.dateInfo {
+    align-items: center;
+}
+
+.dateInfoImg.confirmPic {
+    height: 55px;
+    width: 60px;
+}
+
+.boldPath {
+    font-weight: 600;
+}
+
+.viewOrder {
+    display: flex;
+    align-items: center;
+}
+
+.viewOrderBtn {
+    border: 2px solid var(--primaryColor)!important;
+    background: transparent !important;
+    color: var(--primaryColor)!important;
+    transition: .8s !important;
+}
+
+.viewOrderBtn:hover {
+    border: 2px solid var(--primaryColor)!important;
+    background:var(--primaryColor)!important;
+    color: white !important;
+    transition: .8s;
+}
+
+.orderEmail {
+    border: 1px solid #282c34;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.orderEmailText {
+    margin-bottom: 0 !important;
+    font-size: .9rem;
+}
+
+.orderEmailIcon {
+    color: var(--primaryColor)!important;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.purchase-btn {
+    text-align: left;
+    margin-top: 13px;
+    padding: 0px;
+}
+
+.payment-failed-icon {
+    font-size: 57px;
+    margin-bottom: 16px;
+    color: red;
+}
+
+.payment-failed-div {
+    margin: auto;
+    text-align: center;
+    padding: 46px 0px;
+}
+
+.confirm-thum-div{
+    width: 106px;
+    height: 100px;
+}
+.deliveryPn{
+    margin-top: 25px;
+}

@@ -1,0 +1,209 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.7rem;
+    }
+    .silvarPackageImg{
+      width: 125px !important;
+      height: 122px !important;
+      margin-top: 1px;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.7rem;
+    }
+    .silvarPackageImg{
+      width: 125px !important;
+      height: 122px !important;
+      margin-top: 1px;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.65rem;
+    }
+    .silvarPackageImg{
+      width: 120px !important;
+      height: 120px !important;
+      margin-top: 8px;
+    }
+    .packageTextField{
+      margin-top: 10px;
+    }
+    .upgradeBtn {
+      font-size: 0.6rem !important;
+    }
+    .color-type1 p{
+      font-size: 0.8rem;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.65rem;
+    }
+    .silvarPackageImg{
+      width: 120px !important;
+      height: 120px !important;
+      margin-top: 16px;
+    }
+    .upgradeBtn {
+      font-size: 0.6rem !important;
+    }
+    .color-type1 p{
+      font-size: 0.8rem;
+    }
+    .packageTextField{
+      margin-top: 22px;
+    }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.65rem;
+    }
+    .silvarPackageImg{
+      width: 120px !important;
+      height: 120px !important;
+      margin-top: 10px;
+    }
+    .color-type1{
+      text-align: center;
+    }
+    .packageTextField{
+      margin-top: 10px;
+    }
+    .packageName{
+      font-size: 12px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.65rem;
+    }
+    .silvarPackageImg{
+      width: 120px !important;
+      height: 120px !important;
+    }
+    .color-type1{
+      text-align: center;
+    }
+    .packageTextField{
+      margin-top: 13px;
+    }
+    .packageName{
+      font-size: 11px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .packageTextSize {
+      font-size: 0.5rem;
+    }
+    .silvarPackageImg{
+      width: 85px !important;
+      height: 85px !important;
+      margin-top: 5px;
+    }
+    .seller-color-divs.color-type4.silverPackageDiv {
+      height: 125px;
+    }
+    .upgradeBtn {
+      font-size: 0.4rem !important;
+    }
+    .color-type1 p{
+      font-size: 0.8rem;
+    }
+    .color-type1{
+      text-align: center;
+    }
+    .packageTextField{
+      margin-top: 0px;
+    }
+    .packageName{
+      font-size: 10px;
+    }
+    .upgradePackageBtn{
+      font-size: 8px !important;
+    }
+    .badge-success{
+      font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+  .packageTextSize {
+    font-size: 0.55rem;
+  }
+  .silvarPackageImg{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .color-type1 p{
+    font-size: 0.77rem;
+  }
+  .color-type1{
+    text-align: center;
+  }
+  .packageName{
+    font-size: 8px;
+  }
+  .badge-success{
+    font-size: 9px;
+  }
+}

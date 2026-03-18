@@ -1,0 +1,68 @@
+#newsLatter {
+    background-color: var(--primaryColor);
+}
+.newsletter-section {
+    padding: 4rem 0;
+    align-items: center;
+}
+.newsletter-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+.newsletter-subtitle {
+    margin-bottom: 0px;
+}
+
+.newsletter-form {
+    margin-bottom: 0px !important;
+    width: 100%;
+    position: relative;
+}
+.newsletter-info {
+    align-items: center;
+    color: var(--whiteColor);
+}
+.newsletter-form .form-control {
+    height: 60px !important;
+    border-radius: 40px;
+    background-clip: border-box;
+    padding-left: 20px !important
+}
+
+.newsletter-btn {
+    height: 47px;
+    width: 110px;
+    position: absolute;
+    right: 23px;
+    top: 6px;
+    border-radius: 30px !important;
+    border: 2px solid var(--primaryColor) !important;
+    background: rgba(5,168,203,.3) !important;
+    color: var(--primaryColor) !important;
+    transition: .5s !important;
+}
+
+.newsletter-btn:hover {
+    border-color: 1px var(--secondaryColor) !important;
+    background: var(--secondaryColor) !important;
+    color: var(--whiteColor) !important;
+    transition: .5s;
+}
+#formBasicEmail:focus {
+    color: var(--dark);
+    background-color: var(--whiteColor) !important;
+    outline: 0;
+    border-color: var(--primaryColor) !important;
+    box-shadow: unset !important;
+    border: 0;
+}
+
+.newsletter-form .form-control {
+    height: 60px !important;
+    border-radius: 40px;
+    background-clip: border-box;
+    padding-left: 20px !important;
+    border: 0;
+    outline: 0;
+}

@@ -1,0 +1,19 @@
+.our-facilities {
+    padding: 20px 30px;
+    text-align: center;
+}
+.ourServiceLogo {
+    font-size: 40px;
+    color: var(--primaryColor);
+    margin-bottom: 15px;
+}
+.ourServiceText {
+    font-size: 14px;
+    color: var(--textColor);
+}
+.our-facilities:not(:last-child) {
+    border-right: 2px solid var(--backgroundColor);
+}
+#ourService {
+    margin-bottom: 30px;
+}

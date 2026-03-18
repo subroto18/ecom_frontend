@@ -1,0 +1,155 @@
+@media (min-width: 1400px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .product-card.featured-trending-topRated-product-card.card {
+        padding-right: 10px;
+    }
+    .product-card.featured-trending-topRated-product-card.card .cardImgDiv {
+        height: 125px;
+        padding: 13px 5px;
+        width: 140px;
+    }
+
+    .featured-trending-topRated .productTitle {
+        font-size: 12px !important;
+    }
+
+    .product-card.featured-trending-topRated-product-card.card .rating {
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .rating .fa-star {
+        font-size: 12px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    .product-card.featured-trending-topRated-product-card.card {
+        padding-right: 10px;
+    }
+    .product-card.featured-trending-topRated-product-card.card .cardImgDiv {
+        height: 120px;
+        padding: 13px 5px;
+        width: 110px;
+    }
+
+    .featured-trending-topRated .productTitle {
+        font-size: 12px !important;
+    }
+
+    .product-card.featured-trending-topRated-product-card.card .rating {
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .rating .fa-star {
+        font-size: 12px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .featured {
+        margin-bottom: 25px;
+    }
+    .featured.title {
+        font-size: 20px;
+    }
+    .featured .productTitle {
+        font-size: 12px !important;
+    }
+    .featured.title::before {
+        top: 27px;
+    }
+    .trending {
+        margin-bottom: 25px;
+    }
+
+    .productCategory.title {
+        font-size: 18px;
+    }
+    .productCategory.title::before {
+
+        top: 25px;
+    }
+
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}

@@ -1,0 +1,249 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280.55px) {
+
+    /* CSS */
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1025px) {
+
+    /* CSS */
+    .shippingDiv p,
+    .billingDiv p{
+        font-size: 0.9rem;
+    }
+    .step-name{
+        font-size: 0.8rem;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.84rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.93rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.4rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.87rem;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.85rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.95rem;
+    }
+    .step-name{
+        font-size: 0.7rem;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.84rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.93rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.4rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.87rem;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.85rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.95rem;
+    }
+    .step-name{
+        font-size: 0.7rem;
+    }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.82rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.91rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.36rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.85rem;
+    }
+    .orderTotal{
+        display: flex !important;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.82rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.92rem;
+    }
+    .step-name{
+        font-size: 0.65rem;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.8rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.9rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.3rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.84rem;
+    }
+    .orderTotal{
+        display: flex !important;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.82rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.92rem;
+    }
+    .step-name{
+        font-size: 0.58rem;
+    }
+    .step-counter{
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50%;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 481.55px) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.77rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.87rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.27rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.8rem;
+    }
+    .orderTotal{
+        display: flex !important;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.8rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.9rem;
+    }
+    .step-name{
+        font-size: 0.52rem;
+    }
+    .step-counter{
+        width: 25px !important;
+        height: 25px !important;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 320.55px) {
+    .shippingDiv p,
+    .billingDiv p,
+    .paidOption{
+        font-size: 0.72rem;
+    }
+    .shippingDiv h6,
+    .billingDiv h6{
+        font-size: 0.84rem;
+    }
+    .cart-summery h4 {
+        font-size: 1.22rem;
+    }
+    .cart-summery-subtitle,
+    .cart-summery-subtitle-price{
+        font-size: 0.75rem;
+    }
+    .orderTotal{
+        display: flex !important;
+    }
+    .orderTotal .oTotalLabel{
+        font-size: 0.75rem;
+    }
+    .orderTotal .oTotalValue{
+        font-size: 0.85rem;
+    }
+    .step-name{
+        font-size: 0.5rem;
+    }
+    .step-counter{
+        width: 25px !important;
+        height: 25px !important;
+        border-radius: 50%;
+    }
+}

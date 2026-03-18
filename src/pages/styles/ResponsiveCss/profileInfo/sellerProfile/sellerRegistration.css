@@ -1,0 +1,135 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+
+    .sellerRegistrationBtn {
+        height: 40px;
+    }
+
+    #sellerRegistration {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sellerRegisterInput h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+
+    .sellerRegistrationBtn {
+        height: 40px;
+    }
+
+    #sellerRegistration {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sellerRegisterInput h1 {
+        font-size: 2rem;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 482px) {
+
+    .sellerRegistrationBtn {
+        height: 40px;
+    }
+
+    .sellerRegisterInput h1 {
+        font-size: 1.5rem;
+    }
+
+    .register-input-group {
+        padding: .1rem 1rem !important;
+    }
+
+    #sellerRegistration {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .sellerRegistrationBtn {
+        height: 40px;
+    }
+
+    .sellerRegisterInput h1 {
+        font-size: 1.5rem;
+    }
+
+    .register-input-group {
+        padding: .1rem 1rem !important;
+    }
+
+    #sellerRegistration {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+}

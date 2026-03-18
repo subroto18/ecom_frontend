@@ -1,0 +1,101 @@
+.dealCard.card.border-primary {
+    margin: 1px 0px 4px 0px;
+}
+.todayDealDiv {
+    margin-top: 33px;
+    border-radius: 3px;
+    height: 400px;
+    overflow: hidden;
+}
+.dealCardBody.card-body {
+    width: 100% !important;
+    height: 100% !important;
+}
+.dealImg {
+    height: 60px;
+    width: 80px;
+}
+.dealImg img {
+    width: 100%;
+    height: 100%;
+}
+.dealTitleDiv {
+    background: var(--primaryColor);
+    border-radius: 3px;
+}
+.deal-title {
+    font-size: 16px;
+    padding: 10px 10px 17px 10px;
+    text-align: center;
+    color: var(--whiteColor);
+
+}
+
+.hotDeal {
+    background: var(--discountTextColor);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.card-body {
+    padding: 1px!important;
+}
+.dealLink:hover {
+    text-decoration: none;
+}
+
+
+.border-primary {
+    border-color: var(--primaryColor) !important;
+}
+.dealCard {
+    margin-top: 11px;
+}
+.dealCardBody{
+    margin: 0!important;
+}
+.dealAllCard {
+    margin-top: 10px;
+}
+
+.todayDealSliderDiv {
+    padding: 0 18px;
+}
+
+.mobile{
+    display: none;
+}
+
+.dealImg.preloadDealImg {
+    width: 100% !important;
+    height: 71px;
+}
+
+.dealCard.card.border-primary {
+    padding: 10px;
+    margin-top: 15px;
+    height: 93px;
+}
+.regularPrice.singlePrice.dealP {
+    margin-top: 19px !important;
+}
+.allDeals .slick-slider.slick-vertical.slick-initialized {
+    height: 333px;
+}
+
+.dealCardBody.card-body .dealPrice{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+.regularPrice del {
+    font-size: 12px;
+    font-weight: normal;
+}
+.singlePriceText{
+    font-size: 16px !important;
+}

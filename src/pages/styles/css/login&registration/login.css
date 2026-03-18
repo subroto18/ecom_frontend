@@ -1,0 +1,101 @@
+.loginRow{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.loginDiv {
+    margin-top: 0px;
+}
+
+.login-img {
+    height: 100%;
+}
+
+.loginLink {
+    color: var(--primaryColor) !important;
+
+}
+
+.loginLink:hover {
+    color: var(--secondaryColor) !important;
+
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+.auth-login-div {
+
+    width: 100%;
+    margin: auto;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+.socialLoginBtn {
+    margin-top: 6px;
+}
+
+.change-login-mode-btn {
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.react-tel-input .selected-flag {
+    background: #F6F4F5 !important;
+}
+
+.loginRegistrationIcon{
+    background-color: transparent;
+    border-right: none;
+    
+}
+.inputIcon{
+    border-right: 2px solid #CED4DA;
+    padding-right: 10px;
+    margin-right: -12px;
+}
+
+.inputTextField{
+    padding: 20px 15px !important;
+    border-left: none !important;
+    background-color: transparent !important;
+}
+.signinGoogle{
+    background-color: #2B70E3 !important;
+}
+.signinFb{
+    background-color: #385592 !important;
+}
+.popupLoginDiv .rememberCheackBox{
+    width: 129px;
+}
+
+
+.google-btn{
+    background: #CF4535 !important;
+}
+
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: transparent!important;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width: 300px;
+    outline: none;
+}
+
+.login-btn{
+    margin-top: 8px;
+}
+.register-input{
+    margin-top: 80px;
+}

@@ -1,0 +1,252 @@
+.productSearch{
+    background: var(--sectionBackground);
+}
+.productSearchTitle {
+    background: var(--primaryColor);
+    padding: 5px;
+}
+
+.productSearchTitle h6 {
+    color: var(--whiteColor);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 10px;
+
+    margin-top: 6px;
+}
+
+.css-17oy5pu-MuiSlider {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.css-17oy5pu-MuiSlider {
+    cursor: pointer;
+    color: var(--primaryColor)!important;
+}
+
+.css-ebcf4f-MuiSlider-rail {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 8px!important;
+    border-radius: 0px!important;
+    background-color: currentColor;
+    opacity: 0.38;
+}
+
+.css-1cft6hy-MuiSlider-track {
+    display: block;
+    position: absolute;
+    height: 8px!important;
+    border-radius: 1px;
+    background-color: currentColor;
+}
+
+.css-1mvm4lu-MuiSlider-thumb {
+    width: 20px!important;
+    height: 20px!important;
+    margin-top: -6px!important;
+    border-radius: 14%!important;
+
+}
+
+.variationBox {
+    margin-bottom: 20px;
+
+}
+
+
+.variationBox {
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    overflow: hidden;
+    margin: 14px 5px;
+}
+
+.variationBox .box {
+    border: 1px solid var(--cardPriceOffColor);
+    border-radius: 3px !important;
+    padding: 5px 15px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+.variationBtnBox {
+    border: 1px solid var(--cardPriceOffColor) !important;
+    color: var(--textColor) !important;
+    cursor: pointer;
+}
+
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--primaryColor)!important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: var(--primaryColor)!important;
+}
+.MuiFormLabel-root.Mui-focused {
+    color: var(--primaryColor)!important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px!important;
+}
+
+.MuiFormLabel-root {
+    font-size: 0.9rem!important;
+    line-height: 0!important;
+
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input:first-child {
+    padding-left: 10px!important;
+}
+
+#controllable-states-demo {
+    background: var(--sectionBackground)!important;
+}
+#controllable-states-demo1  {
+    background: var(--sectionBackground)!important;
+}
+#controllable-states-demo2  {
+    background: var(--sectionBackground)!important;
+}
+
+.newClassOnClick {
+
+    border-radius: 5px!important;
+    border: 1px solid var(--primaryColor)!important;
+}
+.newClassOnClick:hover{
+    border-radius: 5px!important;
+}
+
+.productSortRow.row {
+    margin-bottom: 20px;
+}
+
+.searchDiv {
+    position: absolute;
+    width: 100%;
+}
+.d-flex.searchArea {
+    margin-top: 45px;
+    position: relative;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1281px) {
+    .d-flex.searchArea {
+        margin-top: 28px;
+    }
+}
+.searchBox {
+    /* margin-top: 36px; */
+    position: absolute;
+    background: var(--white);
+    z-index: 9;
+    top: 39px;
+    padding: 0px;
+    box-shadow: 1px 1px 8px #aaaaaa;
+    width: 100%;
+}
+.search-title-div {
+    background: var(--backgroundColor);
+    padding: 11px 16px;
+    text-align: right;
+}
+.search-bar-link.text-muted {
+    padding: 8px 16px;
+    border-bottom: 1px dotted;
+}
+.search-img {
+    width: 70px;
+    margin-right: 10px;
+    min-width: 70px;
+}
+.form-control.searchInput {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    font-size: 0.95rem;
+}
+.searchDiv {
+    position: absolute;
+    width: 96%;
+}
+.searchResultTextPrice{
+    font-size: 15px !important;
+}
+.bubble1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    left: 37% !important;
+}
+.bubble1 .loader-items .bubble {
+
+    background-color: #dddddd!important;
+
+
+}
+.search-bar-link.text-muted.d-flex.justify-content-between.btn.btn-primary {
+    background: unset !important;
+    color: #6c757d !important ;
+    border-bottom: 1px dotted !important;
+    width: 100%;
+}
+
+.search-bar-link.text-muted.d-flex.justify-content-between.btn.btn-primary.search-del {
+    background: unset !important;
+    color: #6c757d !important ;
+    border-bottom: 1px dotted !important;
+    width: 5%;
+}
+.input-range {
+    margin-top: 0px;
+    padding-bottom: 61px;
+}
+.remove {
+    border-radius: 5px !important;
+    border: 1px solid var(--cardPriceOffColor) !important;
+}
+
+.newClassOnClick {
+    background: var(--primaryColor)!important;
+    color: var(--white)!important;
+    border: 0px !important;
+}
+.productSearch{
+    border-radius: 5px;
+}
+
+.productSearch .input-range__track--background{
+    left: 15px !important;
+    right: 15px !important;
+    position: absolute !important;
+}
+
+.shortBy{
+    background-color: #fff !important;
+}
+.input-range__label-container {
+    left: 0% !important;
+}
+.productSortRow .css-1uaxfgw-MuiButtonBase-root-MuiIconButton-root{
+    margin: -11px;
+}
+.productSortRow .css-ptiqhd-MuiSvgIcon-root {
+    font-size: 1rem !important;
+}
+
+.filter-icon {
+    cursor: pointer;
+}
+
+.filterDrawer .active{
+
+}

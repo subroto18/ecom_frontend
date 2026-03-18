@@ -1,0 +1,106 @@
+/*!*fontawesome css*!*/
+@import "common/theme.css";
+@import "fontawesome/all.min.css";
+/*theme color css*/
+/*Common  css for all pages*/
+@import "common/topBar.css";
+@import "common/common.css";
+@import "common/card.css";
+@import "common/HorizontalMegaMenu.css";
+@import "common/FooterDesktop.css";
+@import "common/CartCompareWishlist.css";
+/*Desktop DesktopHome pages*/
+@import "desktopHome/navDesktop.css";
+@import "desktopHome/megaMenu.css";
+@import "desktopHome/homeSlider.css";
+@import "desktopHome/todaysDeal.css";
+@import "desktopHome/flashSale.css";
+@import "desktopHome/FlashSaleAllProduct.css";
+@import "desktopHome/newArrival.css";
+@import "desktopHome/banner.css";
+@import "desktopHome/featuredTopRatedTrending.css";
+@import "desktopHome/productFromCategory.css";
+@import "desktopHome/bestSeller.css";
+@import "desktopHome/topTen.css";
+@import "desktopHome/ourService.css";
+@import "desktopHome/newsLatter.css";
+@import "desktopHome/allBrands.css";
+@import "desktopHome/allCategory.css";
+@import "desktopHome/sellerShop.css";
+@import "desktopHome/cartVariationModal.css";
+
+/*Single  product  pages*/
+@import "SingleProduct/singleProduct.css";
+
+/*search  product  pages*/
+
+@import "searchProduct/searchProduct.css";
+
+/*All category page */
+
+@import "desktopHome/allCategory.css";
+
+/* cart page page */
+@import "cart/cart.css";
+/* wishlist page */
+
+
+
+/* login and registration  */
+
+
+@import "login&registration/login.css";
+@import "login&registration/userRegistration.css";
+@import "login&registration/sellerRegistration.css";
+
+/* user profile info */
+@import "profileInfo/userProfile/manageUserProfile.css";
+@import "profileInfo/userProfile/userProfile.css";
+@import "profileInfo/userProfile/userAddress.css";
+@import "profileInfo/userProfile/userCancellation.css";
+@import "profileInfo/userProfile/userVoucher.css";
+@import "profileInfo/userProfile/userReviews.css";
+@import "profileInfo/userProfile/userWishlist.css";
+@import "profileInfo/userProfile/editUserProfile.css";
+@import "profileInfo/userProfile/newUserAddress.css";
+@import "profileInfo/userProfile/securityVerification.css";
+@import "profileInfo/userProfile/verificationCode.css";
+@import "profileInfo/userProfile/UserOrders.css";
+@import "profileInfo/userProfile/userTicket.css";
+@import "profileInfo/userProfile/userWallet.css";
+@import "profileInfo/userProfile/userReturns.css";
+@import "profileInfo/userProfile/userDownloadableProducts.css";
+/* seller profile info */
+
+@import "profileInfo/sellerProfile/sellerDashboard.css";
+@import "profileInfo/sellerProfile/sellerProfile.css";
+@import "profileInfo/sellerProfile/sellerProfileSidebar.css";
+@import "profileInfo/sellerProfile/SellerPackage.css";
+@import "profileInfo/sellerProfile/Media.css";
+@import "profileInfo/sellerProfile/SellerOrders.css";
+@import "profileInfo/sellerProfile/addProduct.css";
+/* compare page */
+
+@import "compare/compare.css";
+
+
+/* checkout page */
+
+@import "checkout/checkout.css";
+
+
+/* payment page */
+
+@import "payment/payment.css";
+
+/* confirm order page */
+
+
+@import "confirmOrder/confirmOrder.css";
+
+/* delivery info page */
+
+@import "DeliveryInfo/DeliveryInfo.css";
+
+/* media */
+@import "Media/Media.css";

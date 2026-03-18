@@ -1,0 +1,72 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #mobileMegaMenu {
+        margin-top: 55px;
+        margin-bottom: 65px;
+    }
+
+    .nav-img-logo {
+        width: 22px;
+        height: 20px;
+        margin-right: 10px !important;
+    }
+    .far.fa-chevron-double-right.mnm-icon {
+        font-size: 14px;
+        margin-right: 4px;
+    }
+
+    .MuiAccordionSummary-root {
+        display: flex;
+        padding: 0px 16px;
+        height: 48px!important;
+        transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+    .MuiButtonBase-root.MuiAccordionSummary-root.Mui-expanded {
+        height: 48px!important;
+    }
+    .MuiAccordionSummary-content.Mui-expanded {
+        margin: 12px 0!important;
+        padding: 0!important;
+    }
+    .MuiAccordionSummary-root.Mui-expanded {
+        height: 48px!important;
+    }
+    .MuiAccordionSummary-root.Mui-expanded {
+        min-height: 48px!important;
+    }
+    .MuiAccordionDetails-root {
+        padding: 0px 14px 0px;
+    }
+    .MuiAccordion-root.Mui-expanded {
+        margin: 0!important;
+    }
+    .MuiTypography-body1 {
+        font-size: 14px!important;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+    }
+    .mobile-sub-sub-menu-icon {
+        margin-right: 4px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+}

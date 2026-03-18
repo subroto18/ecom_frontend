@@ -1,0 +1,85 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1370px) {
+
+    .gatewayDiv {
+        width: 200px;
+    }
+    .paymentOption{
+        width: 100%;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .gatewayDiv {
+        width: 190px;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    .gatewayDiv {
+        width: 100%;
+    }
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .gatewayDiv {
+        width: 100%;
+    }
+    .paymentHeading {
+        margin-top: -24px;
+        margin-bottom: 10px;
+      }
+      .pGatewayName {
+        font-size: 12px;
+      }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .selectPM {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .checkoutPaymentSummery {
+        margin-top: 1.5rem;
+    }
+
+    payConfirm {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .paymentHeading {
+        margin-top: -24px;
+        margin-bottom: 10px;
+      }
+      .pGatewayName {
+        font-size: 12px;
+      }
+
+}

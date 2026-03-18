@@ -1,0 +1,74 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .profile.title::before {
+        top: 18px;
+    }
+    .profile.title {
+        font-size: 15px;
+    }
+    #deliveryInfo {
+        margin-top: -13px;
+    }
+    .addNewAddress.card {
+        margin-top: 23px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .profile.title::before {
+        top: 18px;
+    }
+    .profile.title {
+        font-size: 15px;
+    }
+    #deliveryInfo {
+        margin-top: -13px;
+    }
+    .addNewAddress.card {
+        margin-top: 23px !important;
+    }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .profile.title::before {
+        top: 18px;
+    }
+    .profile.title {
+        font-size: 15px;
+    }
+    #deliveryInfo {
+        margin-top: -13px;
+    }
+    .addNewAddress.card {
+        margin-top: 23px !important;
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+    .profile.title::before {
+        top: 18px;
+    }
+    .profile.title {
+        font-size: 15px;
+    }
+    #deliveryInfo {
+        margin-top: -13px;
+    }
+    .addNewAddress.card {
+        margin-top: 23px !important;
+    }
+}

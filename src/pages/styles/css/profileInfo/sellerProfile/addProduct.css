@@ -1,0 +1,45 @@
+.inputDay{
+    font-size: 0.8rem;
+}
+.formContainer{
+    margin-top: 1px ;
+}
+.inputBoxSize{
+    padding: 1.12rem 0.75rem !important;
+}
+
+.product-title-div {
+    display: flex;
+    text-align: left;
+    margin-left: 0px;
+}
+.sellerProductThumbnailImage {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.product-title-div {
+    display: flex;
+    text-align: left;
+    margin-left: 0px;
+}
+.sellerProductThumbnail {
+    width: 58px;
+}
+.actionBtn .editBtn{
+    background-color: transparent !important;
+}
+.actionBtn .deleteBtn{
+    background-color: transparent !important;
+}
+.editIcon{
+    background-color: #4285F4 !important;
+}
+.deleteIcon {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-right: -2px !important;
+    background-color: #FF3547 !important;  
+}
+.productMetaData{
+    margin-top: 30px !important;
+}

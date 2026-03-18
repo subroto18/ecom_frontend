@@ -1,0 +1,761 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .user-avatar.mobile-avatar {
+        width: 81px;
+    }
+    .icon-red {
+        color: var(--colorRed);
+    }
+
+    .icon-green {
+        color: var(--colorGreen);
+    }
+
+    .icon-blue {
+        color: var(--colorSkyBlue);
+    }
+
+    .icon-orange {
+        color: var(--colorOrange);
+    }
+
+    .icon-golden {
+        color: var(--colorGolden);
+    }
+
+    .icon-pink {
+        color: var(--colorPink)
+    }
+
+    .background-red {
+        background: var(--colorRed);
+    }
+
+    .background-green {
+        background: var(--colorGreen);
+    }
+
+    .background-blue {
+        background: var(--colorSkyBlue);
+    }
+
+    .background-orange {
+        background: var(--colorOrange);
+    }
+
+    .background-golden {
+        background: var(--colorGolden);
+    }
+
+    .background-pink {
+        background: var(--colorPink)
+    }
+
+    .mobileUserInfoDiv {
+        background: white;
+        padding: 15px;
+        margin: 15px 0px;
+    }
+
+    .mobileUserInfoDiv .userImageIcon {
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .mobileUserInfoDiv .userAccountName {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .mobileUserInfoDiv .userAccountEmail {
+        font-size: .9rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .userAccountPhone {
+        font-size: .9rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .AccountWalletBalance {
+        margin-top: 5px;
+        font-size: .85rem !important;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 5px 25px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon i {
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background: var(--backgroundColor);
+        margin: 20px 20px 3px;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon .iconName {
+        font-size: .75rem;
+        color: var(--colorLightGrey);
+        margin-bottom: 0px;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv {
+        display: flex;
+        align-items: center;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv i {
+        padding: 10px;
+        border-radius: 50%;
+        color: white;
+        margin-right: 20px;
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .menuName {
+        flex: 10;
+        font-size: 1rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .notificationCount {
+        width: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    .mobileAccordianMenu .accordion-item{
+        border: none;
+        background-color: #f5f5f5;
+    }
+    .mobileAccordianMenu .accordion-header {
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 8px -6px gray;
+    }
+    .mobileAccordianMenu .accordion-body {
+        margin-bottom: 10px;
+        background-color: #f5f5f5;
+        padding: 0rem 1rem;
+      }
+    .mobileAccordianMenu .accordion-button:not(.collapsed) {
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+        background-color: #fff;
+    }  
+    .mobileAccordianMenu .profile-sub-menu {
+        margin-left: 0px;
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+      }
+    .mobileAccordianMenu  li {
+        background-color: #fff;
+        list-style: none;
+        padding: 12px 17px;
+        border-radius: 5px;
+        box-shadow: 0px 0.1px 1.55px 0.4px gray;
+    }
+    .noSubMenu .accordion-button::after{
+        height: 0px;
+    }  
+    .addSubMenu .accordion-button::after{
+        background-size: auto;
+        width: 14px;
+        height: 16px;
+    }
+    .mobileAccordianMenu .mobileMenuIcon {
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .user-avatar.mobile-avatar {
+        width: 81px;
+    }
+    .icon-red {
+        color: var(--colorRed);
+    }
+
+    .icon-green {
+        color: var(--colorGreen);
+    }
+
+    .icon-blue {
+        color: var(--colorSkyBlue);
+    }
+
+    .icon-orange {
+        color: var(--colorOrange);
+    }
+
+    .icon-golden {
+        color: var(--colorGolden);
+    }
+
+    .icon-pink {
+        color: var(--colorPink)
+    }
+
+    .background-red {
+        background: var(--colorRed);
+    }
+
+    .background-green {
+        background: var(--colorGreen);
+    }
+
+    .background-blue {
+        background: var(--colorSkyBlue);
+    }
+
+    .background-orange {
+        background: var(--colorOrange);
+    }
+
+    .background-golden {
+        background: var(--colorGolden);
+    }
+
+    .background-pink {
+        background: var(--colorPink)
+    }
+
+    .mobileUserInfoDiv {
+        background: white;
+        padding: 15px;
+        margin: 15px 0px;
+    }
+
+    .mobileUserInfoDiv .userImageIcon {
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .mobileUserInfoDiv .userAccountName {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .mobileUserInfoDiv .userAccountEmail {
+        font-size: .9rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .userAccountPhone {
+        font-size: .9rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .AccountWalletBalance {
+        margin-top: 5px;
+        font-size: .85rem !important;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 5px 25px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon i {
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background: var(--backgroundColor);
+        margin: 20px 20px 3px;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon .iconName {
+        font-size: .75rem;
+        color: var(--colorLightGrey);
+        margin-bottom: 0px;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv {
+        display: flex;
+        align-items: center;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv:last-child {
+        border-bottom: none;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv i {
+        padding: 10px;
+        border-radius: 50%;
+        color: white;
+        margin-right: 20px;
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .menuName {
+        flex: 10;
+        font-size: 1rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .notificationCount {
+        width: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    .mobileAccordianMenu .accordion-item{
+        border: none;
+        background-color: #f5f5f5;
+    }
+    .mobileAccordianMenu .accordion-header {
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 8px -6px gray;
+    }
+    .mobileAccordianMenu .accordion-body {
+        margin-bottom: 10px;
+        background-color: #f5f5f5;
+        padding: 0rem 1rem;
+      }
+    .mobileAccordianMenu .accordion-button:not(.collapsed) {
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+        background-color: #fff;
+    }  
+    .mobileAccordianMenu .profile-sub-menu {
+        margin-left: 0px;
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+      }
+    .mobileAccordianMenu  li {
+        background-color: #fff;
+        list-style: none;
+        padding: 12px 17px;
+        border-radius: 5px;
+        box-shadow: 0px 0.1px 1.55px 0.4px gray;
+    }
+    .noSubMenu .accordion-button::after{
+        height: 0px;
+    }  
+    .addSubMenu .accordion-button::after{
+        background-size: auto;
+        width: 14px;
+        height: 16px;
+    }
+    .mobileAccordianMenu .mobileMenuIcon {
+        margin-right: 10px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .user-avatar.mobile-avatar {
+        width: 81px;
+    }
+    .icon-red {
+        color: var(--colorRed);
+    }
+
+    .icon-green {
+        color: var(--colorGreen);
+    }
+
+    .icon-blue {
+        color: var(--colorSkyBlue);
+    }
+
+    .icon-orange {
+        color: var(--colorOrange);
+    }
+
+    .icon-golden {
+        color: var(--colorGolden);
+    }
+
+    .icon-pink {
+        color: var(--colorPink)
+    }
+
+    .background-red {
+        background: var(--colorRed);
+    }
+
+    .background-green {
+        background: var(--colorGreen);
+    }
+
+    .background-blue {
+        background: var(--colorSkyBlue);
+    }
+
+    .background-orange {
+        background: var(--colorOrange);
+    }
+
+    .background-golden {
+        background: var(--colorGolden);
+    }
+
+    .background-pink {
+        background: var(--colorPink)
+    }
+
+    .mobileUserInfoDiv {
+        background: white;
+        padding: 15px;
+        margin: 15px 0px;
+    }
+
+    .mobileUserInfoDiv .userImageIcon {
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .mobileUserInfoDiv .userAccountName {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .mobileUserInfoDiv .userAccountEmail {
+        font-size: .8rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .userAccountPhone {
+        font-size: .8rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .AccountWalletBalance {
+        margin-top: 5px;
+        font-size: .75rem !important;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 5px 25px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon i {
+        padding: 10px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background: var(--backgroundColor);
+        margin: 20px 15px 3px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+    .mobileUserAccount{
+        box-shadow: 0px 0px 8px -6px gray;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon .iconName {
+        font-size: .75rem;
+        color: var(--colorLightGrey);
+        margin-bottom: 0px;
+    }
+    .mobileAccordianMenu .accordion-item{
+        border: none;
+        background-color: #f5f5f5;
+    }
+    .mobileAccordianMenu .accordion-header {
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 8px -6px gray;
+    }
+    .mobileAccordianMenu .accordion-body {
+        margin-bottom: 10px;
+        background-color: #f5f5f5;
+        padding: 0rem 1rem;
+      }
+    .mobileAccordianMenu .accordion-button:not(.collapsed) {
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+        background-color: #fff;
+    }  
+    .mobileAccordianMenu .profile-sub-menu {
+        margin-left: 0px;
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+      }
+    .mobileAccordianMenu  li {
+        background-color: #fff;
+        list-style: none;
+        padding: 12px 17px;
+        border-radius: 5px;
+        box-shadow: 0px 0.1px 1.55px 0.4px gray;
+    }
+    .noSubMenu .accordion-button::after{
+        height: 0px;
+    }  
+    .addSubMenu .accordion-button::after{
+        background-size: auto;
+        width: 14px;
+        height: 16px;
+    }
+    .mobileAccordianMenu .mobileMenuIcon {
+        margin-right: 10px;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv:last-child {
+        border-bottom: none;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv i {
+        border-radius: 50%;
+        color: white;
+        margin-right: 15px;
+        font-size: .9rem;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        align-self: center;
+        line-height: 1.7rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .menuName {
+        flex: 10;
+        font-size: .9rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .notificationCount {
+        width: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+    .user-avatar.mobile-avatar {
+        width: 81px;
+    }
+
+    .icon-red {
+        color: var(--colorRed);
+    }
+
+    .icon-green {
+        color: var(--colorGreen);
+    }
+
+    .icon-blue {
+        color: var(--colorSkyBlue);
+    }
+
+    .icon-orange {
+        color: var(--colorOrange);
+    }
+
+    .icon-golden {
+        color: var(--colorGolden);
+    }
+
+    .icon-pink {
+        color: var(--colorPink)
+    }
+
+    .background-red {
+        background: var(--colorRed);
+    }
+
+    .background-green {
+        background: var(--colorGreen);
+    }
+
+    .background-blue {
+        background: var(--colorSkyBlue);
+    }
+
+    .background-orange {
+        background: var(--colorOrange);
+    }
+
+    .background-golden {
+        background: var(--colorGolden);
+    }
+
+    .background-pink {
+        background: var(--colorPink)
+    }
+
+    .mobileUserInfoDiv {
+        background: white;
+        padding: 15px;
+        margin: 15px 0px;
+    }
+
+    .mobileUserInfoDiv .userImageIcon {
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .mobileUserInfoDiv .userAccountName {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .mobileUserInfoDiv .userAccountEmail {
+        font-size: .8rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .userAccountPhone {
+        font-size: .8rem;
+        margin-bottom: 3px;
+    }
+
+    .mobileUserInfoDiv .AccountWalletBalance {
+        margin-top: 5px;
+        font-size: .75rem !important;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 5px 25px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon i {
+        padding: 10px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background: var(--backgroundColor);
+        margin: 20px 15px 3px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+
+    .mobileUserInfoDiv .userAccountIcon .iconName {
+        font-size: .75rem;
+        color: var(--colorLightGrey);
+        margin-bottom: 0px;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv:last-child {
+        border-bottom: none;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv i {
+        border-radius: 50%;
+        color: white;
+        margin-right: 15px;
+        font-size: .9rem;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        align-self: center;
+        line-height: 1.7rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .menuName {
+        flex: 10;
+        font-size: .9rem;
+    }
+
+    .mobileUserAccountMenu .accountMenuDiv .notificationCount {
+        width: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: .8rem;
+    }
+    .mobileAccordianMenu .accordion-item{
+        border: none;
+        background-color: #f5f5f5;
+    }
+    .mobileAccordianMenu .accordion-header {
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 8px -6px gray;
+    }
+    .mobileAccordianMenu .accordion-body {
+        margin-bottom: 10px;
+        background-color: #f5f5f5;
+        padding: 0rem 1rem;
+      }
+    .mobileAccordianMenu .accordion-button:not(.collapsed) {
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+        background-color: #fff;
+    }  
+    .mobileAccordianMenu .profile-sub-menu {
+        margin-left: 0px;
+        color: var(--cui-accordion-button-color,rgba(44,56,74,.95));
+      }
+    .mobileAccordianMenu  li {
+        background-color: #fff;
+        list-style: none;
+        padding: 12px 17px;
+        border-radius: 5px;
+        box-shadow: 0px 0.1px 1.55px 0.4px gray;
+    }
+    .noSubMenu .accordion-button::after{
+        height: 0px;
+    }  
+    .addSubMenu .accordion-button::after{
+        background-size: auto;
+        width: 14px;
+        height: 16px;
+    }
+    .mobileAccordianMenu .mobileMenuIcon {
+        margin-right: 10px;
+    }
+
+}
+

@@ -1,0 +1,187 @@
+.mainNav {
+    height: 121px;
+    background-color: var(--navBackground);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+.navbar-brand {
+
+    margin-top: 10px!important;
+}
+
+.logoImgDiv {
+    text-align: center;
+
+}
+
+.logoImgDiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    margin-top: 17px;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+}
+.d-flex.searchBox {
+    line-height: 82px;
+    margin-top: 34px;
+}
+.cart-function {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+}
+
+@media (max-width: 1172px) {
+    .cart-function {
+        align-items: start !important;
+    }
+
+    .cart-function.align-items-center {
+        align-items: start !important;
+    }
+}
+
+.cart-function li {
+
+    margin-right: 15px;
+}
+
+.faCartIcon {
+    font-size: 26px;
+    color: var(--primaryColor);
+}
+.cartIcon {
+    position: relative;
+    margin-right: 2px;
+}
+
+sup {
+    position: absolute!important;
+    top: 8px!important;
+    left: 18px!important;
+}
+
+.search.form-control {
+    border-right: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.searchBtn.btn.btn-primary {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: var(--primaryColor)!important;
+    border-color: var(--primaryColor)!important;
+}
+.searchBtn.btn.btn-primary, .btn-primary:focus {
+    box-shadow: unset!important;
+}
+.form-control:focus {
+    color: var(--dark);
+    background-color: unset!important;
+    outline: 0;
+    border-color: var(--primaryColor)!important;
+    box-shadow: unset!important;
+}
+
+.bg-danger {
+    width: 18px!important;
+    height: 18px!important;
+    border-radius: 50%!important;
+    line-height: 17px!important;
+}
+.bg-danger {
+    background-color: var(--primaryColor) !important;
+}
+
+
+
+.react-autosuggest__input {
+    width: 100%;
+    height: 37px;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #e3e3e3;
+}
+.searchBtn.btn.btn-primary {
+    width: 5%;
+    height: 37px;
+}
+
+.react-autosuggest__container {
+    width: 95%;
+    float: left;
+}
+.searchBtn.btn.btn-primary {
+    width: 5%;
+}
+
+.searchImg.img-fluid {
+    width: 40px;
+    height: 48px;
+}
+
+.searchBox {
+    margin-top: 36px;
+    position: relative;
+}
+
+
+.searchItem:hover{
+
+   transform: scale(1.0001);
+    transition: .3s;
+}
+
+.searchImg.img-fluid {
+    width: 22px;
+    height: 27px;
+}

@@ -1,0 +1,765 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+    .singleProductImgDiv.d-flex.justify-content-center {
+        display: unset !important;
+    }
+
+    .singleProductCardTitleDiv {
+        margin-top: 6px!important;;
+    }
+
+
+
+    .variation {
+        background: transparent!important;;
+        padding: 10px!important;;
+        margin-bottom: 0!important;;
+    }
+
+    .quantityDiv {
+        display: flex;
+        height: 25px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .availableProduct.text-left {
+        margin-left: 0px;
+    }
+    .totalPriceDiv {
+        font-size: 17px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .regularPrice {
+        color: var(--primaryColor);
+        padding: 1px 0;
+        margin-left: 7px;
+    }
+
+    .socialMediaShareDiv {
+        margin-top: 10px;
+        padding: 0px!important;
+    }
+    .productReview {
+        background: transparent;
+        padding: 0px;
+        margin-top:10px;
+    }
+    .productReviewRow.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .productReviewTitle {
+        font-size: 17px;
+    }
+    .productReviewTitle::before {
+        top: 24px;
+    }
+    .productDes {
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .no-review-title {
+        margin-left: -15px;
+    }
+
+    .review-hr {
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+
+    .mobile-product-des {
+        margin-top: 0px !important;
+    }
+
+    .totalReview{
+        margin-top: 2px;
+        margin-left: -15px;
+    }
+
+    .smallImgDiv {
+        position: unset!important;;
+
+    }
+    .smallImgDiv {
+        position: unset !important;
+        display: flex;
+        margin-right: 15px;
+    }
+
+
+    .regularPriceDiv {
+        margin-top: 0!important;;
+        font-size: 14px!important;;
+        padding: 0px!important;;
+    }
+
+
+    .sellerName {
+        font-size: 13px;
+        font-family: poppins;
+        margin-bottom: 15px;
+    }
+
+    .sellerNameDiv {
+        padding: 0px!important;;
+        margin-top: 0!important;;
+        margin-bottom: 0!important;;
+    }
+
+
+
+    .singleProductCardDetails .rating {
+        margin-top: 0px!important;;
+        margin-left: 0px;
+    }
+
+
+
+    .singleProductCardDetails{
+        padding: 0;
+    }
+
+    .singleProductCardTitle {
+        font-size: 13px!important;;
+        margin-left: 0;
+    }
+
+
+
+    .smallImg {
+        border-radius: 3px;
+        width: 44px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        height: 44px;
+        margin-right: 8px;
+        margin-left: 0px;
+    }
+
+
+    .mainImgDiv {
+        height: 400px!important;;
+        margin-top: 85px!important;;
+    }
+    .mainImgDiv img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .customerInfo {
+        display: block;
+        width: 100%;
+        clear: both;
+        margin: -15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rating {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .customerReviewImgText {
+        margin-top: 0px;
+    }
+    .variation {
+        background: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .div.relatedProductPart{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .container {
+        max-width: 90%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+    .singleProductImgDiv.d-flex.justify-content-center {
+        display: unset !important;
+    }
+
+    .singleProductCardTitleDiv {
+        margin-top: 6px!important;;
+    }
+
+
+
+    .variation {
+        background: transparent!important;;
+        padding: 10px!important;;
+        margin-bottom: 0!important;;
+    }
+
+    .quantityDiv {
+        display: flex;
+        height: 25px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .availableProduct.text-left {
+        margin-left: 0px;
+    }
+    .totalPriceDiv {
+        font-size: 17px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .regularPrice {
+        color: var(--primaryColor);
+        padding: 1px 0;
+        margin-left: 7px;
+    }
+
+    .socialMediaShareDiv {
+        margin-top: 10px;
+        padding: 0px!important;
+    }
+    .productReview {
+        background: transparent;
+        padding: 0px;
+        margin-top:10px;
+    }
+    .productReviewRow.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .productReviewTitle {
+        font-size: 17px;
+    }
+    .productReviewTitle::before {
+        top: 24px;
+    }
+    .productDes {
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .no-review-title {
+        margin-left: -15px;
+    }
+
+    .review-hr {
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+
+    .mobile-product-des {
+        margin-top: 0px !important;
+    }
+
+    .totalReview{
+        margin-top: 2px;
+        margin-left: -15px;
+    }
+
+    .smallImgDiv {
+        position: unset!important;;
+
+    }
+    .smallImgDiv {
+        position: unset !important;
+        display: flex;
+        margin-right: 15px;
+    }
+
+
+    .regularPriceDiv {
+        margin-top: 0!important;;
+        font-size: 14px!important;;
+        padding: 0px!important;;
+    }
+
+
+    .sellerName {
+        font-size: 13px;
+        font-family: poppins;
+        margin-bottom: 15px;
+    }
+
+    .sellerNameDiv {
+        padding: 0px!important;;
+        margin-top: 0!important;;
+        margin-bottom: 0!important;;
+    }
+
+
+
+    .singleProductCardDetails .rating {
+        margin-top: 0px!important;;
+        margin-left: 0px;
+    }
+
+
+
+    .singleProductCardDetails{
+        padding: 0;
+    }
+
+    .singleProductCardTitle {
+        font-size: 13px!important;;
+        margin-left: 0;
+    }
+
+
+
+    .smallImg {
+        border-radius: 3px;
+        width: 44px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        height: 44px;
+        margin-right: 8px;
+        margin-left: 0px;
+    }
+
+
+    .mainImgDiv {
+        height: 400px!important;;
+        margin-top: 85px!important;;
+    }
+    .mainImgDiv img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .customerInfo {
+        display: block;
+        width: 100%;
+        clear: both;
+        margin: -15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rating {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .customerReviewImgText {
+        margin-top: 0px;
+    }
+    .variation {
+        background: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .div.relatedProductPart{
+        margin-bottom: 30px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container {
+        max-width: 90%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+    .singleProductImgDiv.d-flex.justify-content-center {
+        display: unset !important;
+    }
+
+    .singleProductCardTitleDiv {
+        margin-top: 6px!important;;
+    }
+
+
+
+    .variation {
+        background: transparent!important;;
+        padding: 10px!important;;
+        margin-bottom: 0!important;;
+    }
+
+    .quantityDiv {
+        display: flex;
+        height: 25px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .availableProduct.text-left {
+        margin-left: 0px;
+    }
+    .totalPriceDiv {
+        font-size: 17px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .regularPrice {
+        color: var(--primaryColor);
+        padding: 1px 0;
+        margin-left: 7px;
+    }
+
+    .socialMediaShareDiv {
+        margin-top: 10px;
+        padding: 0px!important;
+    }
+    .productReview {
+        background: transparent;
+        padding: 0px;
+        margin-top:10px;
+    }
+    .productReviewRow.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .productReviewTitle {
+        font-size: 17px;
+    }
+    .productReviewTitle::before {
+        top: 24px;
+    }
+    .productDes {
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .no-review-title {
+        margin-left: -15px;
+    }
+
+    .review-hr {
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+
+    .mobile-product-des {
+        margin-top: 0px !important;
+    }
+
+    .totalReview{
+        margin-top: 2px;
+        margin-left: -15px;
+    }
+
+    .smallImgDiv {
+        position: unset!important;;
+
+    }
+    .smallImgDiv {
+        position: unset !important;
+        display: flex;
+        margin-right: 15px;
+    }
+
+
+    .regularPriceDiv {
+        margin-top: 0!important;;
+        font-size: 14px!important;;
+        padding: 0px!important;;
+    }
+
+
+    .sellerName {
+        font-size: 13px;
+        font-family: poppins;
+        margin-bottom: 15px;
+    }
+
+    .sellerNameDiv {
+        padding: 0px!important;;
+        margin-top: 0!important;;
+        margin-bottom: 0!important;;
+    }
+
+
+
+    .singleProductCardDetails .rating {
+        margin-top: 0px!important;;
+        margin-left: 0px;
+    }
+
+
+
+    .singleProductCardDetails{
+        padding: 0;
+    }
+
+    .singleProductCardTitle {
+        font-size: 13px!important;;
+        margin-left: 0;
+    }
+
+
+
+    .smallImg {
+        border-radius: 3px;
+        width: 44px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        height: 44px;
+        margin-right: 8px;
+        margin-left: 0px;
+    }
+
+
+    .mainImgDiv {
+        height: 350px!important;;
+        margin-top: 85px!important;;
+    }
+    .mainImgDiv img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .customerInfo {
+        display: block;
+        width: 100%;
+        clear: both;
+        margin: -15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rating {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .customerReviewImgText {
+        margin-top: 0px;
+    }
+    .variation {
+        background: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .div.relatedProductPart{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+
+
+    .container {
+        max-width: 90%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+    .singleProductImgDiv.d-flex.justify-content-center {
+        display: unset !important;
+    }
+
+    .singleProductCardTitleDiv {
+        margin-top: 6px!important;;
+    }
+
+
+
+    .variation {
+        background: transparent!important;;
+        padding: 10px!important;;
+        margin-bottom: 0!important;;
+    }
+
+    .quantityDiv {
+        display: flex;
+        height: 25px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .availableProduct.text-left {
+        margin-left: 0px;
+    }
+    .totalPriceDiv {
+        font-size: 17px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .regularPrice {
+        color: var(--primaryColor);
+        padding: 1px 0;
+        margin-left: 7px;
+    }
+
+    .socialMediaShareDiv {
+        margin-top: 10px;
+        padding: 0px!important;
+    }
+    .productReview {
+        background: transparent;
+        padding: 0px;
+        margin-top:10px;
+    }
+    .productReviewRow.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .productReviewTitle {
+        font-size: 17px;
+    }
+    .productReviewTitle::before {
+        top: 24px;
+    }
+    .productDes {
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .no-review-title {
+        margin-left: -15px;
+    }
+
+    .review-hr {
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+
+    .mobile-product-des {
+        margin-top: 0px !important;
+    }
+
+    .totalReview{
+        margin-top: 2px;
+        margin-left: -15px;
+    }
+
+    .smallImgDiv {
+        position: unset!important;;
+
+    }
+    .smallImgDiv {
+        position: unset !important;
+        display: flex;
+        margin-right: 15px;
+    }
+
+
+    .regularPriceDiv {
+        margin-top: 0!important;;
+        font-size: 14px!important;;
+        padding: 0px!important;;
+    }
+
+
+    .sellerName {
+        font-size: 13px;
+        font-family: poppins;
+        margin-bottom: 15px;
+    }
+
+    .sellerNameDiv {
+        padding: 0px!important;;
+        margin-top: 0!important;;
+        margin-bottom: 0!important;;
+    }
+
+
+
+    .singleProductCardDetails .rating {
+        margin-top: 0px!important;;
+        margin-left: 0px;
+    }
+
+
+
+    .singleProductCardDetails{
+        padding: 0;
+    }
+
+    .singleProductCardTitle {
+        font-size: 13px!important;;
+        margin-left: 0;
+    }
+
+
+
+    .smallImg {
+        border-radius: 3px;
+        width: 44px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        height: 44px;
+        margin-right: 8px;
+        margin-left: 0px;
+    }
+
+
+    .mainImgDiv {
+        height: 350px!important;;
+        margin-top: 66px!important;;
+    }
+    .mainImgDiv img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .customerInfo {
+        display: block;
+        width: 100%;
+        clear: both;
+        margin: -15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rating {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .customerReviewImgText {
+        margin-top: 0px;
+    }
+    .variation {
+        background: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .div.relatedProductPart{
+        margin-bottom: 30px;
+    }
+
+}

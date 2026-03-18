@@ -1,0 +1,1345 @@
+.mobileBackTopBar {
+    display: flex;
+    padding: 15px 15px;
+    background: white;
+    position: relative;
+    z-index: 999999;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+.backArrow.btn.btn-primary {
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 19px;
+}
+.backArrow.btn.btn-primary .fa-arrow-left {
+    font-size: 12px;
+}
+
+.mobile-pre-loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mobile-nav-bottom {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.mobile-row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mobile-column{
+    padding-left: -5px;
+    padding-right: -5px;
+}
+
+
+
+
+.deleteBtn{
+    margin: 0!important;
+    padding: 0!important;
+}
+.mobile-logo {
+    margin-left: 27px;
+    margin-top: 9px;
+}
+
+
+.mobileTodaysDealRow.row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.mobile-sidebar-nav-link {
+    cursor: pointer;
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .cookieDiv {
+        width: 100%;
+        bottom: 48px;
+        left:0px
+    }
+
+    .product-card{
+        height: 90%;
+    }
+
+
+    .product-card.categoryProductCard.card {
+        height: 100px;
+        margin-bottom: 6px;
+    }
+    .desktop{
+        display: none;
+    }
+    .resDesktop{
+        display: none;
+    }
+    .mobileApp{
+        display: block;
+    }
+    .productCategory.title {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 22px;
+    }
+    .btn {
+
+        border: 0 !important;
+        font-size: 9px !important;
+        color: var(--btntextColor) !important;
+    }
+    .nav-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 6px;
+        left: 10px;
+    }
+
+    .priceOffDiv {
+        position: absolute;
+        background: red;
+        top: 0;
+        left: 0;
+        width: 42px;
+        border-top-left-radius: 5px;
+    }
+
+    .offPrice {
+        padding: 0;
+        margin: 0;
+        color: var(--whiteColor);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .pcb-name {
+        color: var(--textColor);
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .card-body.mobile-cb-card-div {
+        margin-top: 0px;
+    }
+    .mobile-cardImgDiv {
+        height: 122px;
+        position: relative;
+    }
+    .mobile-price-off {
+        position: absolute;
+        top: 0;
+        background: var(--primaryColor);
+        right: 0;
+        width: 38px;
+        color: #fff;
+        text-align: center;
+    }
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid var(--primaryColor);;
+        right: 36px;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-card-body.card-body {
+        text-align: left;
+    }
+    .productTitle {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .icon-star {
+        font-size: 12px;
+    }
+    .product-card .card-body .card-text {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .product-card .card-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: var(--cardPriceTitleColor);
+        transition: .8s;
+        margin-bottom: 1px;
+        padding: 0 1px;
+    }
+    .quantity {
+        background: var(--backgroundColor);
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: 16px 0 0 0;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0;
+        margin-right: 0px !important;
+        text-align: left;
+    }
+
+
+    #ourService {
+        padding-top: 0px !important;
+    }
+    #ourService .div {
+        background: var(--sectionBackground);
+    }
+    .ourServiceLogo {
+        font-size: 20px;
+        color: var(--primaryColor);
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .ourServiceText {
+        font-size: 12px;
+        color: var(--textColor);
+    }
+
+    #ourService {
+        padding-top: 9px !important;
+        margin-bottom: 25px;
+    }
+
+    .our-facilities {
+        padding: 13px 0px;
+        text-align: center;
+    }
+    #ourService .div {
+        background-color: var(--whiteColor);
+        padding: 2px;
+        border-radius: 3px;
+    }
+    .container {
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .xxs-6.col-sm-3.col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-card.product-card-card.loader.card {
+        height: 194px;
+    }
+    .mobile-card-price-details.loader {
+        margin-top: 25px;
+    }
+
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 7px !important;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 0px;
+        margin-left: 7px;
+    }
+    .cardImgDiv {
+        padding: 14px 14px;
+        height: 100% !important;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .fullBanner {
+        height: 124px;
+    }
+    .ShopName {
+        font-size: 12px;
+    }
+    .rating i {
+        font-size: 10px;
+    }
+    .cardImgDiv.mobile-product {
+        height: 150px !important;
+    }
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 0 !important;
+    }
+    .mobile-card-price-details {
+        margin-top: 0;
+    }
+    .regularPrice.singlePrice.mr-3 {
+        margin-left: 0;
+    }
+    .rating {
+        margin-top: -8px;
+        margin-bottom: 2px;
+    }
+
+
+    .w-100.mobile-nav.row .navCol {
+        margin-left: -23px !important;
+        margin-right: -23px !important;
+    }
+
+
+
+
+
+    /*// flashdeal common */
+
+    .card-title.h5{
+        line-height: 15px;
+        margin-bottom: 0!important;
+    }
+
+
+    .mobile-card-price-details.loader{
+        margin-top: 0!important;
+    }
+
+    .mobile-card-price-details{
+        margin-top: 14px;
+        text-align: left;
+    }
+    .show-more-div {
+        margin-top: 6px;
+    }
+    .product-card.mfdcp.card{
+        margin-bottom: 9px;
+        margin-top: 0px;
+    }
+
+    .fullBanner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .fullBanner {
+        height: 140px;
+    }
+
+    #banner {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+
+    .mobile-card-details {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rating {
+        margin-top: -4px;
+        margin-bottom: 10px;
+    }
+
+    span.bIcon {
+        background: #000;
+        padding: 7px 4px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-size: 9px;
+    }
+    .policy-content{
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .cookieDiv {
+        width: 100%;
+        bottom: 48px;
+        left:0px
+    }
+
+    .mobileBackTopBar{
+        padding: 15px 15px;
+    }
+
+    .product-card{
+        height: 90%;
+    }
+
+
+    .product-card.categoryProductCard.card {
+        height: 100px;
+        margin-bottom: 6px;
+    }
+    .desktop{
+        display: none;
+    }
+    .resDesktop{
+        display: none;
+    }
+    .mobileApp{
+        display: block;
+    }
+    .productCategory.title {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 22px;
+    }
+    .btn {
+
+        border: 0 !important;
+        font-size: 9px !important;
+        color: var(--btntextColor) !important;
+    }
+    .nav-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 6px;
+        left: 10px;
+    }
+
+    .priceOffDiv {
+        position: absolute;
+        background: red;
+        top: 0;
+        left: 0;
+        width: 42px;
+        border-top-left-radius: 5px;
+    }
+
+    .offPrice {
+        padding: 0;
+        margin: 0;
+        color: var(--whiteColor);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .pcb-name {
+        color: var(--textColor);
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .card-body.mobile-cb-card-div {
+        margin-top: 0px;
+    }
+    .mobile-cardImgDiv {
+        height: 122px;
+        position: relative;
+    }
+    .mobile-price-off {
+        position: absolute;
+        top: 0;
+        background: var(--primaryColor);
+        right: 0;
+        width: 38px;
+        color: #fff;
+        text-align: center;
+    }
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid var(--primaryColor);;
+        right: 36px;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-card-body.card-body {
+        text-align: left;
+    }
+    .productTitle {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .icon-star {
+        font-size: 12px;
+    }
+    .product-card .card-body .card-text {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .product-card .card-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: var(--cardPriceTitleColor);
+        transition: .8s;
+        margin-bottom: 1px;
+        padding: 0 1px;
+    }
+    .quantity {
+        background: var(--backgroundColor);
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: 16px 0 0 0;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0;
+        margin-right: 0px !important;
+        text-align: left;
+    }
+
+
+    #ourService {
+        padding-top: 0px !important;
+    }
+    #ourService .div {
+        background: var(--sectionBackground);
+    }
+    .ourServiceLogo {
+        font-size: 20px;
+        color: var(--primaryColor);
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .ourServiceText {
+        font-size: 12px;
+        color: var(--textColor);
+    }
+
+    #ourService {
+        padding-top: 9px !important;
+        margin-bottom: 25px;
+    }
+
+    .our-facilities {
+        padding: 13px 0px;
+        text-align: center;
+    }
+    #ourService .div {
+        background-color: var(--whiteColor);
+        padding: 2px;
+        border-radius: 3px;
+    }
+    .container {
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .xxs-6.col-sm-3.col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-card.product-card-card.loader.card {
+        height: 194px;
+    }
+    .mobile-card-price-details.loader {
+        margin-top: 25px;
+    }
+
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 7px !important;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 0px;
+        margin-left: 7px;
+    }
+    .cardImgDiv {
+        padding: 14px 14px;
+        height: 100% !important;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .fullBanner {
+        height: 124px;
+    }
+    .ShopName {
+        font-size: 12px;
+    }
+    .rating i {
+        font-size: 10px;
+    }
+    .cardImgDiv.mobile-product {
+        height: 170px !important;
+    }
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 0 !important;
+    }
+    .mobile-card-price-details {
+        margin-top: 0;
+    }
+    .regularPrice.singlePrice.mr-3 {
+        margin-left: 0;
+    }
+    .rating {
+        margin-top: -8px;
+        margin-bottom: 2px;
+    }
+
+
+    .w-100.mobile-nav.row .navCol {
+        margin-left: -23px !important;
+        margin-right: -23px !important;
+    }
+
+
+
+
+
+    /*// flashdeal common */
+
+    .card-title.h5{
+        line-height: 15px;
+        margin-bottom: 0!important;
+    }
+
+
+    .mobile-card-price-details.loader{
+        margin-top: 0!important;
+    }
+
+    .mobile-card-price-details{
+        margin-top: 14px;
+        text-align: left;
+    }
+    .show-more-div {
+        margin-top: 6px;
+    }
+    .product-card.mfdcp.card{
+        margin-bottom: 9px;
+        margin-top: 0px;
+    }
+
+    .fullBanner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .fullBanner {
+        height: 130px;
+    }
+
+    #banner {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+
+    .mobile-card-details {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rating {
+        margin-top: -4px;
+        margin-bottom: 10px;
+    }
+
+    span.bIcon {
+        background: #000;
+        padding: 7px 4px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-size: 9px;
+    }
+    .policy-content{
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .cookieDiv {
+        width: 100%;
+        bottom: 48px;
+        left:0px
+    }
+
+    .product-card{
+        height: 90%;
+    }
+
+
+    .product-card.categoryProductCard.card {
+        height: 74px;
+        margin-bottom: 6px;
+    }
+    .desktop{
+        display: none;
+    }
+    .resDesktop{
+        display: none;
+    }
+    .mobileApp{
+        display: block;
+    }
+    .productCategory.title {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 22px;
+    }
+    .btn {
+
+        border: 0 !important;
+        font-size: 9px !important;
+        color: var(--btntextColor) !important;
+    }
+    .nav-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 6px;
+        left: 10px;
+    }
+
+    .priceOffDiv {
+        position: absolute;
+        background: red;
+        top: 0;
+        left: 0;
+        width: 42px;
+        border-top-left-radius: 5px;
+    }
+
+    .offPrice {
+        padding: 0;
+        margin: 0;
+        color: var(--whiteColor);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .pcb-name {
+        color: var(--textColor);
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .card-body.mobile-cb-card-div {
+        margin-top: 0px;
+    }
+    .mobile-cardImgDiv {
+        height: 122px;
+        position: relative;
+    }
+    .mobile-price-off {
+        position: absolute;
+        top: 0;
+        background: var(--primaryColor);
+        right: 0;
+        width: 38px;
+        color: #fff;
+        text-align: center;
+    }
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid var(--primaryColor);;
+        right: 36px;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-card-body.card-body {
+        text-align: left;
+    }
+    .productTitle {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .icon-star {
+        font-size: 12px;
+    }
+    .product-card .card-body .card-text {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .product-card .card-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: var(--cardPriceTitleColor);
+        transition: .8s;
+        margin-bottom: 1px;
+        padding: 0 1px;
+    }
+    .quantity {
+        background: var(--backgroundColor);
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: 16px 0 0 0;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0;
+        margin-right: 0px !important;
+        text-align: left;
+    }
+
+
+    #ourService {
+        padding-top: 0px !important;
+    }
+    #ourService .div {
+        background: var(--sectionBackground);
+    }
+    .ourServiceLogo {
+        font-size: 20px;
+        color: var(--primaryColor);
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .ourServiceText {
+        font-size: 12px;
+        color: var(--textColor);
+    }
+
+    #ourService {
+        padding-top: 9px !important;
+        margin-bottom: 25px;
+    }
+
+    .our-facilities {
+        padding: 13px 0px;
+        text-align: center;
+    }
+    .our-facilities p {
+        display: none;
+    }
+    #ourService .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #ourService .div {
+        background-color: var(--whiteColor);
+        padding: 2px;
+        border-radius: 3px;
+    }
+    .container {
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .xxs-6.col-sm-3.col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-card.product-card-card.loader.card {
+        height: 194px;
+    }
+    .mobile-card-price-details.loader {
+        margin-top: 25px;
+    }
+
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 7px !important;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 0px;
+        margin-left: 7px;
+    }
+    .cardImgDiv {
+        padding: 14px 14px;
+        height: 100% !important;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .fullBanner {
+        height: 124px;
+    }
+    .ShopName {
+        font-size: 12px;
+    }
+    .rating i {
+        font-size: 10px;
+    }
+    .cardImgDiv.mobile-product {
+        height: 130px !important;
+    }
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 0 !important;
+    }
+    .mobile-card-price-details {
+        margin-top: 0;
+    }
+    .regularPrice.singlePrice.mr-3 {
+        margin-left: 0;
+    }
+    .rating {
+        margin-top: -8px;
+        margin-bottom: 2px;
+    }
+
+
+    .w-100.mobile-nav.row .navCol {
+        margin-left: -23px !important;
+        margin-right: -23px !important;
+    }
+
+
+
+
+
+    /*// flashdeal common */
+
+    .card-title.h5{
+        line-height: 15px;
+        margin-bottom: 0!important;
+    }
+
+
+    .mobile-card-price-details.loader{
+        margin-top: 0!important;
+    }
+
+    .mobile-card-price-details{
+        margin-top: 14px;
+        text-align: left;
+    }
+    .show-more-div {
+        margin-top: 6px;
+    }
+    .product-card.mfdcp.card{
+        margin-bottom: 9px;
+        margin-top: 0px;
+    }
+
+    .fullBanner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .fullBanner {
+        height: 100px;
+    }
+
+    #banner {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+
+    .mobile-card-details {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rating {
+        margin-top: -4px;
+        margin-bottom: 10px;
+    }
+    span.bIcon {
+        background: #000;
+        padding: 7px 4px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-size: 9px;
+    }
+    .policy-content{
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+
+    .cookieDiv {
+        width: 100%;
+        bottom: 48px;
+        left:0px
+    }
+
+    .product-card{
+        height: 90%;
+    }
+
+
+    .product-card.categoryProductCard.card {
+        height: 64px!important;
+      }
+    .desktop{
+        display: none;
+    }
+    .resDesktop{
+        display: none;
+    }
+    .mobileApp{
+        display: block;
+    }
+    .productCategory.title {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 22px;
+    }
+    .btn {
+        border: 0 !important;
+        font-size: 9px !important;
+        color: var(--btntextColor) !important;
+    }
+    .nav-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 6px;
+        left: 10px;
+    }
+
+    .priceOffDiv {
+        position: absolute;
+        background: red;
+        top: 0;
+        left: 0;
+        width: 42px;
+        border-top-left-radius: 5px;
+    }
+
+    .offPrice {
+        padding: 0;
+        margin: 0;
+        color: var(--whiteColor);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .pcb-name {
+        color: var(--textColor);
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .card-body.mobile-cb-card-div {
+        margin-top: 0px;
+    }
+    .mobile-cardImgDiv {
+        height: 122px;
+        position: relative;
+    }
+    .mobile-price-off {
+        position: absolute;
+        top: 0;
+        background: var(--primaryColor);
+        right: 0;
+        width: 38px;
+        color: #fff;
+        text-align: center;
+    }
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid var(--primaryColor);;
+        right: 36px;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-card-body.card-body {
+        text-align: left;
+    }
+    .productTitle {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .icon-star {
+        font-size: 12px;
+    }
+    .product-card .card-body .card-text {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .product-card .card-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: var(--cardPriceTitleColor);
+        transition: .8s;
+        margin-bottom: 1px;
+        padding: 0 1px;
+    }
+    .quantity {
+        background: var(--backgroundColor);
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: 16px 0 0 0;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0;
+        margin-right: 0px !important;
+        text-align: left;
+    }
+
+
+    #ourService {
+        padding-top: 0px !important;
+    }
+    #ourService .div {
+        background: var(--sectionBackground);
+    }
+    .ourServiceLogo {
+        font-size: 20px;
+        color: var(--primaryColor);
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .ourServiceText {
+        font-size: 12px;
+        color: var(--textColor);
+    }
+
+    #ourService {
+        padding-top: 9px !important;
+        margin-bottom: 25px;
+    }
+
+    .our-facilities {
+        padding: 13px 0px;
+        text-align: center;
+    }
+    #ourService .div {
+        background-color: var(--whiteColor);
+        padding: 2px;
+        border-radius: 3px;
+    }
+    .container {
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .xxs-6.col-sm-3.col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-card.product-card-card.loader.card {
+        height: 194px;
+    }
+    .mobile-card-price-details.loader {
+        margin-top: 25px;
+    }
+
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 7px !important;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 0px;
+        margin-left: 7px;
+    }
+    .cardImgDiv {
+        padding: 14px 14px;
+        height: auto !important;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .fullBanner {
+        height: 124px;
+    }
+    .ShopName {
+        font-size: 12px;
+    }
+    .rating i {
+        font-size: 10px;
+    }
+    .cardImgDiv.mobile-product {
+        height: 100px !important;
+    }
+    .discountPrice.singlePrice.ml-0.mr-0 {
+        font-size: 16px !important;
+        text-align: left;
+        margin-left: 0 !important;
+    }
+    .mobile-card-price-details {
+        margin-top: 0;
+    }
+    .regularPrice.singlePrice.mr-3 {
+        margin-left: 0;
+    }
+    .rating {
+        margin-top: -8px;
+        margin-bottom: 2px;
+    }
+
+
+    .w-100.mobile-nav.row .navCol {
+        margin-left: -23px !important;
+        margin-right: -23px !important;
+    }
+
+
+
+
+
+    /*// flashdeal common */
+
+    .card-title.h5{
+        line-height: 15px;
+        margin-bottom: 0px!important;
+    }
+
+
+    .mobile-card-price-details.loader{
+        margin-top: 0!important;
+    }
+
+    .mobile-card-price-details{
+        margin-top: 14px;
+        text-align: left;
+    }
+    .show-more-div {
+        margin-top: 6px;
+    }
+    .product-card.mfdcp.card{
+        margin-bottom: 9px;
+        margin-top: 0px;
+    }
+
+    .fullBanner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .fullBanner {
+        height: 100px;
+    }
+
+    #banner {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+
+    .mobile-card-details {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rating {
+        margin-top: -4px;
+        margin-bottom: 10px;
+    }
+
+    span.bIcon {
+        background: #000;
+        padding: 7px 4px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-size: 9px;
+    }
+    .policy-content{
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+
+}
+

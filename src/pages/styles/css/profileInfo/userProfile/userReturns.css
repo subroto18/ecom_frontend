@@ -1,0 +1,38 @@
+.logistics-choices {
+    background-color: #f1f1f1;
+    padding: 26px;
+    color: #333;
+}
+.pGatewatRadioRow{
+    margin-right: -210px;
+}
+
+.gatewayReturnDiv {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+    filter: grayscale(100%);
+    transition: .5s;
+    border: 2px solid transparent;
+    width: 234px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.pGatewayRadio:checked + .gatewayReturnDiv {
+    border: 2px solid var(--primaryColor) !important;
+    filter: grayscale(0%);
+    transition: .5s;
+}
+.emptyPage{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconSize{
+    font-size: 36px;
+}

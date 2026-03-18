@@ -1,0 +1,25 @@
+/*
+Seller Profile
+ */
+
+.image-preview {
+    border: 1px solid rgba(65,65,65,.1);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.image-preview-text {
+    font-size: .5rem;
+    margin: 5px 2px !important;
+}
+
+.image-preview-cross {
+    position: absolute;
+    left: 82px;
+    bottom: 65px;
+    color: red;
+}
+
+.sellerTable {
+    padding: 22px !important;
+}

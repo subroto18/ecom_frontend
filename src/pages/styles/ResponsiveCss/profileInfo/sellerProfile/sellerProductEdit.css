@@ -1,0 +1,118 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS */
+    .joditEditorText .jodit-workplace {
+        font-size: 0.86rem;
+      }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+    .joditEditorText .jodit-workplace {
+        font-size: 0.86rem;
+      }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+    .card-header .card-title{
+        font-size: 0.95rem;
+    }
+    .joditEditorText .jodit-workplace {
+        font-size: 0.86rem;
+      }
+    .inputBoxTitle{
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+    .card-header .card-title{
+        font-size: 0.92rem;
+    }
+    .joditEditorText .jodit-workplace {
+        font-size: 0.8rem;
+      }
+      .inputBoxTitle{
+        font-size: 0.85rem;
+    } 
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .card-header .card-title{
+        font-size: 0.9rem;
+    }
+    .joditEditorText .jodit-workplace {
+        font-size: 0.75rem;
+      }
+      .inputBoxTitle{
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .card-header .card-title{
+        font-size: 0.88rem;
+    }
+    .joditEditorText .jodit-workplace {
+        font-size: 0.7rem;
+      }
+      .inputBoxTitle{
+        font-size: 0.8rem;
+    }
+}

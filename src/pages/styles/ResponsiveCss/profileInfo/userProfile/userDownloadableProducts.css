@@ -1,0 +1,303 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    .oder-cd-div.downloadProductDiv{
+      width: 16% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 65% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-top: 10px;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 25%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: 15px;
+      margin-top: 3px;
+      padding: 8px 24px;
+      font-size: 0.8rem !important;
+    }
+    .order-img.downloadPic {
+      margin-left: 20px;
+      margin-top: -8px;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .oder-cd-div.downloadProductDiv{
+      width: 16% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 65% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-top: 10px;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 25%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: 15px;
+      margin-top: 3px;
+      padding: 8px 24px;
+      font-size: 0.8rem !important;
+    }
+    .order-img.downloadPic {
+      margin-left: 20px;
+      margin-top: -8px;
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+  .oder-cd-div.downloadProductDiv{
+    width: 25% !important;
+  }
+  .order-title-div.oder-cd.downloadTitleDiv{
+    width: 50% !important;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv{
+    width: 25%;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv Button {
+    margin-left: 15px;
+  }
+  .order-img.downloadPic {
+    margin-left: 20px;
+    margin-top: -8px;
+  }
+    
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .oder-cd-div.downloadProductDiv{
+    width: 25% !important;
+  }
+  .order-title-div.oder-cd.downloadTitleDiv{
+    width: 50% !important;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv{
+    width: 25%;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv Button {
+    margin-left: 15px;
+  }
+  .order-img.downloadPic {
+    margin-left: 16px;
+    margin-top: -12px;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  .oder-cd-div.downloadProductDiv{
+    width: 18% !important;
+  }
+  .order-title-div.oder-cd.downloadTitleDiv{
+    width: 55% !important;
+  }
+  .order-title-div.oder-cd.downloadTitleDiv p{
+    margin-left: -10px !important;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv{
+    width: 25%;
+  }
+  .order-qnt-div.oder-cd.downloadQntDiv Button {
+    margin-left: 15px;
+  }
+  .order-img.downloadPic {
+    margin-left: 16px;
+    margin-top: -12px;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+
+  .orderDiv.downloadProductPart{
+    background-color: none !important;
+    padding: 0px !important;
+  }
+
+  .orderDiv .noDownloadableProduct{
+        margin-top: 18px !important;
+        position: absolute;
+        top: 44%;
+        left: 14%;
+        right: 14%;
+        bottom: 41%;
+        background-color: #fff;
+    }
+    .oder-cd-div.downloadProductDiv{
+      width: 21% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 55% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-left: -10px !important;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 30%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: 15px;
+    }
+    .order-img.downloadPic {
+      margin-left: 35px;
+      margin-top: -13px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+
+  .orderDiv.downloadProductPart{
+        background-color: none !important;
+        padding: 0px !important;
+    }
+
+  .orderDiv .noDownloadableProduct{
+        margin-top: 18px !important;
+        position: absolute;
+        top: 44%;
+        left: 8%;
+        right: 8%;
+        bottom: 41%;
+        background-color: #fff;       
+    }
+    .oder-cd-div.downloadProductDiv{
+      width: 25% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 45% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-left: -10px;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 25%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: 15px;
+    }
+    .order-img.downloadPic {
+      margin-left: 25px;
+      margin-top: -16px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 481.55px) {
+   .orderDiv.downloadProductPart{
+     background-color: none !important;
+     padding: 0px !important;
+   }
+
+   .orderDiv .noDownloadableProduct{
+    margin-top: 18px !important;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    right: 5%;
+    bottom: 43%;    
+    background-color: white;
+    }
+    .text-center h5{
+        font-size: 13px;
+    }
+    .oder-cd-div.downloadProductDiv{
+      width: 18% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 58% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-left: -10px;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 34%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: -8px;
+      margin-top: 4px;
+    }
+    .order-img.downloadPic {
+      margin-left: 12px;
+      margin-top: -7px;
+    }
+    
+}
+
+@media (max-width: 320.55px) {
+  .orderDiv.downloadProductPart{
+    background-color: none !important;
+    padding: 0px !important;
+  }
+
+  .orderDiv .noDownloadableProduct{
+   margin-top: 18px !important;
+   position: absolute;
+   top: 43%;
+   left: 3%;
+   right: 3%;
+   bottom: 43%;    
+   background-color: white;
+   }
+    
+    .text-center h5{
+        font-size: 11px;
+    }
+    .oder-cd-div.downloadProductDiv{
+      width: 25% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv{
+      width: 45% !important;
+    }
+    .order-title-div.oder-cd.downloadTitleDiv p{
+      margin-left: -10px;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv{
+      width: 30%;
+    }
+    .order-qnt-div.oder-cd.downloadQntDiv Button {
+      margin-left: -28px;
+      margin-top: 80px;
+    }
+    .order-img.downloadPic {
+      margin-left: 12px;
+      margin-top: -4px;
+    }
+
+}

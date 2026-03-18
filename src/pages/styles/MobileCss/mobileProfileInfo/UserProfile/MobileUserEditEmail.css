@@ -1,0 +1,87 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileEmailEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileEmailEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: 1rem !important;
+    }
+
+    .mobileEmailEditDiv .editLabel {
+        font-size: 1rem;
+        margin-bottom: 0.3rem !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileEmailEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileEmailEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: 1rem !important;
+    }
+
+    .mobileEmailEditDiv .editLabel {
+        font-size: 1rem;
+        margin-bottom: 0.3rem !important;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .mobileEmailEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileEmailEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: .85rem !important;
+    }
+
+    .mobileEmailEditDiv .editLabel {
+        margin-bottom: 0.3rem !important;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .mobileEmailEditDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileEmailEditDiv .mobileSaveInfo {
+        width: 100%;
+        font-size: .85rem !important;
+    }
+
+    .mobileEmailEditDiv .editLabel {
+        margin-bottom: 0.3rem !important;
+    }
+
+}

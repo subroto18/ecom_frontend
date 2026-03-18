@@ -1,0 +1,96 @@
+.horizontalMegaMenuList ul li {
+    display: inline;
+    margin: 0 2px;
+}
+.horizontalMegaMenuDiv {
+    background: var(--white);
+}
+.horizontalMegaMenuList .catLink {
+    font-weight: 500;
+}
+
+.subCatList ul li {
+    display: block;
+}
+
+.horizontalMegaMenu ul li:hover  .subCat {
+    display: block !important;
+
+}
+.horizontalMegaMenu ul li:hover .subCatFixed {
+    display: block !important;
+    transition: .3s all;
+}
+.horizontalMegaMenuList ul {
+    padding-bottom: 10px;
+}
+
+
+.horizontalMegaMenuList ul li {
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+    transition: .3s ease-in-out;
+}
+
+
+.horizontalMegaMenuList .subCat {
+    position: absolute;
+    background: var(--whiteColor);
+    left: 14%;
+    width: 72%;
+    top: 173px;
+    display: none;
+    z-index: 10;
+    height: auto;
+    border-radius: 3px;
+    padding: 40px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    border-radius: 3px;
+    padding: 40px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    border-top: 1px solid #ddd;
+}
+
+.horizontalMegaMenuList .catLink :hover{
+    color: var(--primaryColor) !important;
+}
+.horizontalMegaMenu {
+    text-align: center;
+}
+
+
+.horizontalMegaMenuDivFixed {
+    background: var(--white);
+    position: fixed;
+    z-index: 1021;
+    left: 0;
+    right: 0;
+    top: 80px;
+    width: 100%;
+    background-color: var(--navBackground);
+    margin-bottom: 30px !important;
+    transition: .3s all ease-in-out;
+}
+
+
+
+.horizontalMegaMenuList .subCatFixed {
+    position: absolute;
+    background: var(--whiteColor);
+    left: 10%;
+    width: 76%;
+    top: 35px;
+    display: none;
+    z-index: 10;
+    height: auto;
+    border-radius: 3px;
+    padding: 40px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    border-radius: 3px;
+    padding: 40px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}

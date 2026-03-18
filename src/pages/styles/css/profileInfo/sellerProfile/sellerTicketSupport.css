@@ -1,0 +1,15 @@
+
+/*
+Support Ticket
+*/
+
+.ticket-view-more {
+    color: #05a8cb !important;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.support-ticket-btn {
+    background: #05a8cb !important;
+    border: 2px solid #05a8cb !important;
+}

@@ -1,0 +1,163 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 120px;
+        height: 120px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 118px;
+        height: 118px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS */
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 118px;
+        height: 118px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+        margin-left: -18px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 118px;
+        height: 118px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+       
+
+       }
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 118px;
+        height: 118px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+
+    }
+    
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 482px) {
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 118px;
+        height: 118px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+
+    }
+    
+
+}
+
+@media (max-width: 320.55px) {
+
+    .sellerPackageThumbnail.sellerPackagePic{
+        width: 115px;
+        height: 115px;
+    }
+    .seller-package-thumbnail-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+
+       }
+
+
+}

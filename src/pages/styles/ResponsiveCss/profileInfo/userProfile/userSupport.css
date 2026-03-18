@@ -1,0 +1,119 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    .dashboard-row{
+        margin-right: -4px !important;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280.55px) {
+
+    /* CSS */
+    .dashboard-row{
+        margin-right: -4px !important;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1025px) {
+
+    /* CSS */
+    .dashboard-row{
+        margin-right: -4px !important;
+    }
+    .profile-info-card.title.card-title.h5{
+        margin-bottom: 10px !important;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .dashboard-row{
+        margin-right: -4px !important;
+    }
+    .table-body-part{
+        font-size: 0.8rem !important;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+    .support-ticket-div {
+        margin-top: 42px;
+    }
+    
+
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+    .table-body-part{
+        font-size: 0.74rem !important;
+    }
+    
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 481.55px) {
+    .table-body-part{
+        font-size: 0.55rem !important;
+    }
+    .support-ticket-div{
+        margin-top: 42px;
+
+    }
+    .support-ticket-div .thead-light{
+        font-size: 0.63rem !important;
+    }
+    
+    
+
+}
+
+@media (max-width: 320.55px) {
+    .table-body-part{
+        font-size: 0.5rem !important;
+    }
+    .support-ticket-div{
+        margin-top: 42px;
+
+    }
+    .support-ticket-div .thead-light{
+        font-size: 0.55rem !important;
+    }
+    
+
+}

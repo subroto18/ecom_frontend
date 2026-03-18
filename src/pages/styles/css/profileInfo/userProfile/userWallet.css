@@ -1,0 +1,119 @@
+
+.wallet-div {
+    background: var(--white);
+    padding: 28px;
+    text-align: center;
+    height: 141px;
+
+}
+.table-style.table-bordered{
+    width: 56rem;
+}
+.table-style{
+    border: none;
+}
+.recharge{
+    cursor: pointer;
+}
+.walletIcon{
+    color: var(--primaryColor)
+}
+.myWalletIcon{
+    margin-right: 4px;
+}
+.wallet-b-title {
+    font-size: 16px;
+    color: var(--primaryColor);
+}
+.wallet-balance {
+    font-size: 19px;
+}
+
+.addWalletIcon {
+    font-size: 36px;
+    color: var(--primaryColor);
+}
+.wallet-recharge {
+    font-size: 18px;
+    margin-top: 14px;
+    color: var(--primaryColor);
+}
+.wallet-b-title {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.my-wallet-div {
+    background: var(--white);
+    padding: 10px;
+    margin-top: 20px;
+}
+.offline-payment-modal.modal-body {
+    padding: 20px;
+}
+.offline-wallet-recharge-title-div {
+
+    padding: 5px;
+}
+.offline-wallet-photo {
+    width: 100%;
+    height: 85%;
+}
+
+.pGatewayName.offline-recharge {
+    margin-top: -13px;
+}
+.pGatewayLabel.recharge {
+    width: 33%;
+}
+
+.offline-wallet-recharge-title-div {
+
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 4px;
+}
+.offline-wallet-content {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 17px;
+    text-align: left;
+}
+.offline-wallet-recharge {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 17px;
+    text-align: left;
+}
+.offline-wallet-bank-content {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 14px;
+}
+
+.offline-ins {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.spinner-border.text-light {
+    height: 23px;
+    width: 23px;
+}
+.myWallet{
+    margin-left: 14px;
+}
+.offlinePaymentModal .modal-dialog.modal-lg.modal-dialog-centered {
+    width: 95%;
+}
+.offline-wallet-content strong{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: rgba(82, 79, 90, 0.945) !important;
+    line-height: 1.8em !important;
+}
+.offlineWalletImgSection{
+    margin-left: 150px;
+}

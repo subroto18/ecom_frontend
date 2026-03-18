@@ -1,0 +1,77 @@
+.registrationDIv {
+    margin-top: 50px;
+}
+.form-control:focus {
+	color: var(--dark);
+	 background-color: #fff !important;
+	border-color: var(--primaryColor) !important;
+	box-shadow: unset !important;
+}
+.register-img {
+    width: 100%;
+    height: 100%;
+}
+.radioButton .css-ahj2mt-MuiTypography-root{
+    font-size: 0.95rem !important;
+}
+
+.registrationLink {
+    color: var(--primaryColor) !important;
+
+}
+
+.registrationLink:hover {
+    color: var(--secondaryColor) !important;
+
+}
+.radioButton{
+    margin-left: 0 !important;
+}
+.radioButton.MuiFormControlLabel-root.mr-2.phoneNumberUse {
+    margin-left: -1!important;
+
+}
+.loginUsingDiv {
+    margin-bottom: 14px !important;
+}
+#ResendBtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.react-tel-input .form-control{
+    width: 100% !important;
+    margin-left: none !important;
+    padding: 20px 50px;
+    background-color: #E8F0FE;
+}
+.react-tel-input .flag-dropdown{
+    border-right: none !important;
+}
+.react-tel-input .selected-flag{
+    background-color: #E8F0FE;
+}
+.react-tel-input .selected-flag .arrow {
+    position: relative !important;
+    top: 0% !important;
+    left: -5px !important;
+    margin-top: -4px !important;
+    width: 0px !important;
+    height: 0 !important;
+    border-right: 2px solid #CED4DA !important;
+    padding-right: 20px !important;
+    color: #5f6469 !important;
+    border-top: none !important;
+}
+.react-tel-input .selected-flag .arrow.up{
+    border-bottom: none !important;
+}
+.phoneErrorMsg{
+    margin-top: 13px !important;
+}
+#counter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.register-btn {
+    margin-top: 9px !important;
+}

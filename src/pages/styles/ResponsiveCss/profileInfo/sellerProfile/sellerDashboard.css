@@ -1,0 +1,154 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .notification-icon {
+        margin-right: 1.5rem !important;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025.55px) {
+
+    .notification-icon {
+        margin-right: 1.5rem !important;
+    }
+    .sellerPackageThumbnail.sellerVarification{
+        margin-left: -1px;
+    }
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .notification-icon {
+        margin-right: 1rem !important;
+    }
+
+    .notification-icon i {
+        font-size: 1rem;
+    }
+
+    .notification-count {
+        top: 4px;
+        left: 8px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .seller-dashboard-card {
+        padding: 1rem 1rem;
+    }
+    .sellerPackageThumbnail.sellerVarification{
+        margin-left: -2px;
+        width: 100px;
+        height: 100px;
+    }
+    .seller-dashboard-card h6{
+        font-size: 0.85rem;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .seller-color-divs {
+        padding: 1rem !important;
+    }
+
+    .notification-icon {
+        margin-right: 1rem !important;
+    }
+
+    .notification-icon i {
+        font-size: 1rem;
+    }
+
+    .notification-count {
+        top: 4px;
+        left: 8px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .seller-dashboard-card {
+        padding: 1rem 1rem;
+    }
+    .sellerPackageThumbnail.sellerVarification{
+        margin-left: -2px;
+        width: 100px;
+        height: 100px;
+    }
+    .seller-dashboard-card h6{
+        font-size: 0.8rem;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .seller-color-divs {
+        padding: 1rem !important;
+        height: 105px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .seller-color-divs {
+        padding: 1rem !important;
+        height: 105px;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .seller-color-divs {
+        padding: 1rem !important;
+        height: 105px;
+    }
+
+}

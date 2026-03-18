@@ -1,0 +1,129 @@
+.editProfileInfoCard .card-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.profileInfoCardBody {
+    padding: 2rem 1.25rem !important;
+}
+
+.profileInfos {
+    text-align: left;
+}
+
+.title-profile-edit-option {
+    font-size: .74rem;
+    font-weight: 300;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 5px;
+    cursor: pointer;
+}
+.title-profile-edit-option .profileEmailChange{
+    font-size: 0.7rem !important;
+    padding: 3px 8px;
+}
+.profile-info-card .card-text {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.profile-info-card .card-text h6 {
+    font-size: .7rem;
+}
+
+.profile-info-sub-news {
+    font-weight: 400;
+}
+
+.profileEditSubmitBtn {
+    width: 300px;
+    text-align: center;
+
+}
+
+.editProfileInput {
+    width: 100%;
+}
+
+.editProfileInput:focus, .editProfileInput:active {
+    border: 2px solid #05a8cb !important;
+}
+
+.editProfileInfoCard {
+    background: var(--white);
+    margin-top: 11px;
+    margin-left: -15px;
+}
+
+.show-avatar-div i {
+    font-size: 22px !important;
+
+}
+.show-avatar {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    background: #E9ECEF;
+}
+.react-date-picker__wrapper {
+    display: flex;
+    border-radius: 3px!important;
+    padding: 1px 8px!important;
+}
+.react-date-picker__calendar-button__icon.react-date-picker__button__icon {
+    display: none;
+}
+
+.profileInfos.birthday.col-lg-12.col-md-12 {
+    margin-top: 20px;
+}
+
+.profileInfos.birthday.col-lg-12.col-md-12 {
+    padding: 0;
+}
+
+.avatar-spinner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forget-password-div {
+
+    margin-top: 42px;
+}
+.forget-password {
+    background: var(--white);
+    padding: 67px;
+    margin-top: 26px;
+}
+
+.registrationLink.btn.btn-primary {
+    width: 100%;
+}
+.upLoadBtnText{
+    font-size: 0.8rem;
+}
+
+.change-password-div{
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.user-avatar-img {
+    width: 189px;
+    height: 189px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.show-avatar-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

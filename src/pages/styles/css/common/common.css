@@ -1,0 +1,687 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+/*iframe {*/
+/*    position: unset !important;*/
+/*    display:none!important;*/
+/*}*/
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    cursor: pointer;
+    outline: none;
+}
+a {
+    color: inherit !important;
+}
+.disable{
+    opacity: 0.5;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:unset!important;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.gutters {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.navbar {
+    padding:0!important;
+}
+
+
+.regularPrice {
+    color: var(--primaryColor);
+}
+.discountPrice {
+    color: var(--discountTextColor);
+    margin: 12px 0 0 0;
+    font-size: 16px!important;
+    font-weight: 600;
+}
+
+.regularPrice {
+    color:var(--darkBlackColor);
+    margin-left: 0px!important;
+}
+
+
+.regularPrice {
+    color:var(--primaryColor);
+}
+.regularPrice.singlePrice {
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn {
+    background: var(--primaryColor) !important;
+    border: 0 !important;
+    font-size: 13px !important;
+    color: var(--btntextColor) !important;
+}
+.btn:hover{
+    background: var(--secondaryColor)!important;
+}
+
+.div {
+
+    background-color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.div .slick-slider {
+    margin:0 -15px;
+}
+.div .slick-slide > div {
+    margin: 0 10px;
+}
+.div .slick-list {
+    margin: 0 -10px;
+}
+
+
+.flashSaleSlider {
+    padding: 0px 20px;
+    position: relative;
+}
+.Slider {
+    padding: 0px 20px;
+    position: relative;
+}
+.sliderArrow {
+    background: var(--primaryColor);
+    border: var(--whiteColor)!important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.sliderLeftArrow {
+    position: absolute;
+    top: 188px;
+    z-index: 1;
+    left: -13px;
+}
+.sliderRightArrow {
+    position: absolute;
+    top: 188px;
+    z-index: 1;
+    right: -13px;
+}
+.sliderArrow:hover {
+    background: var(--secondaryColor) !important;
+}
+
+.arrowBtn {
+    margin: auto;
+    width: 78px;
+}
+
+.title {
+    color: var(--sectionTitleColor);
+}
+
+.breadcrumb {
+     padding: 0!important;
+     background-color: unset!important;
+
+}
+.outerColorBox {
+    float: left;
+    border: 1px solid var(--cardPriceOffColor) ;
+    padding: 4px 3px!important;
+    margin-right: 18px!important;
+
+    border-radius: 5px!important;
+}
+
+.newColorClassOnClick{
+    border: 1px solid var(--primaryColor) !important;
+}
+
+.box.colorBox {
+    border: 0 !important;
+    padding: 3px 16px !important;
+    float: unset !important;
+    margin-right: 0 !important;
+}
+
+.new{
+    background: antiquewhite!important;
+}
+
+
+.outerColorBox {
+    float: left;
+    border: 1px solid var(--cardPriceOffColor);
+    padding: 4px 3px !important;
+    margin-right: 18px !important;
+    border-radius: 5px !important;
+
+    margin-bottom: 10px;
+}
+.box.colorBox {
+    border: 0 !important;
+    padding: 3px 14px !important;
+    float: unset !important;
+    margin-right: 0 !important;
+}
+
+.popoverUl li {
+    margin-bottom: 14px;
+}
+
+.btn.btn-loginBtn {
+    background: transparent !important;
+}
+.popoverUl {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.accountLink:hover {
+    color: var(--primaryColor) !important;
+}
+
+.btn.btn-loginBtn {
+    padding: 0;
+    margin: 0;
+}
+
+/*breadcrumb */
+.breadcrumbTitle {
+    font-size: 21px;
+    border-bottom: 2px solid var(--primaryColor);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    text-align: center !important;
+    margin: 0;
+    padding: 0;
+}
+.modal-header {
+    border-bottom: 0 !important;
+
+}
+.cartSuccessModalHeader{
+    margin-top: 20px;
+}
+.modal-footer {
+
+    border-top:0!important;
+
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green!important;
+}
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: transparent!important;
+    background-image: none;
+    flex: 1 1;
+
+    color: #fff;
+    cursor: pointer;
+    padding-left: 10px;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+/* Custom Select */
+.select {
+position: relative;
+}
+.select-currency{
+    position: relative;
+}
+/* Arrow */
+.select-currency::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 0 1em;
+    background: transparent;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: var(--btntextColor);
+}
+
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 0 1em;
+    background: transparent;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: var(--btntextColor);
+}
+/* Transition */
+.select:hover::after {
+    color: var(--btntextColor);
+}
+
+.productCategory.title {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+}
+.productCategory.title::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+
+.res{
+    display: none;
+}
+.mobileApp{
+    display: none;
+}
+.responsive-nav{
+    display: none;
+}
+
+.mainNav.sticky-top {
+    position: fixed;
+    width: 100%;
+}
+.linebar{
+    width: 0%;
+    height: 1px;
+    background: #000;
+}
+.linebarP{
+    width: 100%;
+    height: 1px;
+    background: #000;
+
+}
+.lazy-load-image-background.lazy-load-image-loaded {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+/*.row {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*    width: 100%;*/
+/*}*/
+
+.popUpContent{
+    position: relative;
+}
+
+.popUpForm {
+    padding: 13px;
+}
+.popupDiv img{
+    width: 100%!important;
+
+}
+.popupCancel {
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    font-size: 32px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.cookieDiv {
+    width: 30%;
+    position: var(--primaryColor);
+    position: fixed;
+    bottom: 0;
+    left: 49px;
+    z-index: 99;
+    background: var(--footerBackgroundColor);
+    color: var(--footerTextColor);
+    padding: 20px;
+    text-align: left;
+}
+
+.loader-spinner {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primaryColor);
+
+}
+
+.compareDiv {
+    position: relative;
+    min-height: 400px;
+}
+
+.cartLoader {
+    height: 16px;
+    margin-bottom: 30px;
+}
+
+.popup-login-logo {
+    width: auto;
+    height: 105px;
+    position: relative;
+}
+.login-site-logo {
+    margin-bottom: 21px;
+}
+.dc-b {
+
+    overflow-y: auto;
+    height: 250px;
+
+    overscroll-behavior-y: auto;
+}
+.singleProductImgDiv.d-flex.justify-content-center {
+    width: 100%;
+}
+.smallImgDiv {
+    position: absolute;
+    top: 0!important;
+    left: 28px!important;
+}
+.loader-spinner-section {
+    position: fixed;
+    background: var(--white);
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 9999;
+    opacity: 0.7;
+}
+.card-body.desktop-cwc-body {
+    position: relative;
+
+}
+.item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cartCheckoutButton a {
+    line-height: 26px !important;
+}
+.checkout-priceDiv {
+    margin-top: 5px;
+}
+.checkoutProductSalePrice {
+    font-size: 16px;
+    margin-top: 10px !important;
+    margin-left: 0px;
+}
+.loader-spinner-div {
+    width: 100%;
+    height: 700px;
+    margin-top: 9px;
+    position: relative;
+}
+
+.pending {
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #666;
+    padding: 9px;
+    color: #fff;
+}
+
+.approve{
+    font-size: 14px;
+    text-transform: capitalize;
+    background: green;
+    padding: 9px;
+    color: #fff;
+}
+
+.spinner-border.text-dark.media-loading {
+    height: 24px;
+    width: 24px;
+}
+.cancel {
+    cursor: pointer;
+    color: red;
+}
+
+.mediaPreloader {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modalBody.modal-body {
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+#jsx-iframe-424fa1470f {
+    display: block !important;
+}
+#zoid-paypal-buttons-uid_c26d2aaacc_mdk6mti6mja > iframe.component-frame {
+    z-index: 100;
+    display: block!important;
+}
+
+#jsx-iframe-053c837ef3 {
+    display: block!important;
+}
+#zoid-paypal-buttons-uid_a373f5f93f_mdu6mjq6mti > iframe{
+
+    display: block!important;
+}
+
+.rsadjust.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.csadjust {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: -15px;
+}
+.badge.text-white.bg-danger {
+    background: var(--primaryColor) !important;
+}
+
+.seller-new-notification {
+    background: #D0342C;
+    color: #fff;
+    border-radius: 9px;
+    padding: 0px 8px;
+    font-size: 15px;
+}
+
+.mark-seen-div {
+    display: flex;
+    justify-content: end;
+}
+.check-mark-checkbox {
+    margin-right: 10px;
+}
+
+.actionBtn {
+    margin: 0 3px !important;
+    background: var(--primaryColor) !important;
+    padding: 5px 9px;
+}
+
+.coupon-amount {
+    font-size: 24px;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+
+.coupon-text {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: var(--primaryColor);
+}
+
+.coupon-date {
+    font-size: 12px;
+}
+
+.coupon-name {
+    font-size: 19px;
+    margin: 9px 0px;
+}
+.coupon-code {
+    background: var(--primaryColor);
+    color: #fff;
+    padding: 4px 16px;
+    border-radius: 3px;
+}
+
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#overlay-loading {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    height: 100%;
+}
+.loader-outer {
+    position: relative;
+    height: 100vh;
+
+}
+.loader-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rotate {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.recaptcha iframe{
+    display: block!important;
+}
+
+.next-image-div{
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+.photo-div img{
+    position: unset!important;
+}
+
+
+
+.LockOn {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 105%;
+    height: 105%;
+    background-color:white;
+    vertical-align:bottom;
+    padding-top: 20%;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+    font-size:large;
+    color:blue;
+    font-style:italic;
+    font-weight:400;
+    background-image: url('/public/loading.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

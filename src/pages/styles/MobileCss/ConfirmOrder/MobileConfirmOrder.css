@@ -1,0 +1,370 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .orderInvoice {
+        padding: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .thankNote {
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+        text-align: center;
+        margin-bottom: 4px;
+        margin-top: 22px;
+    }
+    .orderNumber {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+    }
+    .orderAmountReady {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: .3rem !important;
+    }
+
+    .cart-summery {
+        background: transparent;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .deliveryDateDiv {
+        margin-bottom: 15px;
+    }
+    .deliveryDataBox{
+        background-color: #fff;
+        border: none;
+    }
+    .orderMoreDetails{
+        font-size: .85rem;
+      }
+
+    .dateInfoImg.confirmPic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .confirm-p-name-div {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .dateInfoImg.img-fluid{
+        width: 100%;
+    }
+
+    .confirm-thum-div {
+        width: 60px;
+        margin-right: 6px;
+        height: 60px;
+    }
+
+    .deliveryPn{
+        font-size: 12px;
+    }
+    .orderEmailIcon {
+        font-size: 16px;
+        margin-right: 0rem;
+    }
+    .deliveryDateDiv{
+        width: 90%;
+        margin:auto;
+    }
+    .dateInfoImg {
+        width: 115px;
+    }
+    .deliveryPn{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .orderInvoice {
+        padding: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .thankNote {
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+        text-align: center;
+        margin-bottom: 4px;
+        margin-top: 22px;
+    }
+    .orderNumber {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+    }
+    .orderAmountReady {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: .3rem !important;
+    }
+
+    .cart-summery {
+        background: transparent;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .deliveryDateDiv {
+        margin-bottom: 15px;
+    }
+    .deliveryDataBox{
+        background-color: #fff;
+        border: none;
+    }
+    .orderMoreDetails{
+        font-size: .8rem;
+      }
+    .confirmProductInfo{
+        font-size: 0.75rem;
+        margin-left: 10px;
+    }
+
+    .dateInfoImg.confirmPic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .confirm-p-name-div {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .dateInfoImg.img-fluid{
+        width: 100%;
+    }
+
+    .confirm-thum-div {
+        width: 58px;
+        margin-right: 10px;
+        height: 58px;
+    }
+
+    .deliveryPn{
+        font-size: 12px;
+    }
+    .orderEmailIcon {
+        font-size: 16px;
+        margin-right: 0rem;
+    }
+    .confirmPd{
+        margin-top: -12px;
+    }
+
+    .deliveryDateDiv{
+        width: 90%;
+        margin:auto;
+    }
+    .dateInfoImg {
+        width: 115px;
+    }
+    .deliveryPn{
+        margin-top: 0px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .orderInvoice {
+        padding: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .thankNote {
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+        text-align: center;
+        margin-bottom: 4px;
+        margin-top: 22px;
+    }
+    .orderNumber {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+    }
+    .orderAmountReady {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: .3rem !important;
+    }
+
+    .cart-summery {
+        background: transparent;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .deliveryDateDiv {
+        margin-bottom: 15px;
+    }
+    .deliveryDataBox{
+        background-color: #fff;
+        border: none;
+    }
+    .confirmProductInfo{
+        font-size: 0.75rem;
+        margin-left: 10px;
+    }
+    .confirmOrderAmount{
+        font-size: 1.12rem;
+    }
+    .orderMoreDetails{
+        font-size: .7rem;
+        width: 200px;
+        margin-left: 4px;
+      }
+    .dateInfoImg.confirmPic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .confirm-p-name-div {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .dateInfoImg.img-fluid{
+        width: 100%;
+    }
+
+    .confirm-thum-div {
+        width: 71px;
+        margin-right: 10px;
+        height: 71px;
+    }
+
+    .deliveryPn{
+        font-size: 12px;
+    }
+    .orderEmailIcon {
+        font-size: 16px;
+        margin-right: 0rem;
+    }
+    .deliveryDateDiv{
+        width: 90%;
+        margin:auto;
+    }
+    .dateInfoImg {
+        width: 115px;
+    }
+    .deliveryPn{
+        margin-top: 0px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+    .orderInvoice {
+        padding: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .thankNote {
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+        text-align: center;
+        margin-bottom: 4px;
+        margin-top: 22px;
+    }
+    .orderNumber {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+    }
+    .orderAmountReady {
+        font-size: .7rem;
+        font-weight: 400;
+        color: #282c34;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: .3rem !important;
+    }
+
+    .cart-summery {
+        background: transparent;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .deliveryDateDiv {
+        margin-bottom: 15px;
+    }
+    .deliveryDataBox{
+        background-color: #fff;
+        border: none;
+    }
+    
+    .confirmProductInfo{
+        font-size: 0.7rem;
+        margin-left: 5px;
+    }
+    .confirmOrderAmount{
+        font-size: 1.12rem;
+    }
+    .dateInfoImg.confirmPic {
+        height: 100%;
+        width: 100%;
+      }
+
+    .confirm-p-name-div {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .dateInfoImg.img-fluid{
+        width: 100%;
+    }
+
+    .confirm-thum-div{
+        width: 88px;
+        margin-right: 6px;
+    }
+
+    .deliveryPn{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .orderEmailIcon {
+        font-size: 16px;
+        margin-right: 0rem;
+    }
+    .confirmPd{
+        margin-top: -43px;
+    }
+    .deliveryDateDiv{
+        width: 90%;
+        margin:auto;
+    }
+    .dateInfoImg {
+        width: 115px;
+    }
+    .deliveryPn{
+        margin-top: 0px;
+    }
+
+}

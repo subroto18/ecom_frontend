@@ -1,0 +1,63 @@
+.topBar{
+    background-color: var(--primaryColor);
+}
+
+.hotLine {
+    color: var(--whiteColor);
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hotLineLink {
+    color: var(--whiteColor)!important;
+    font-size: 12px;
+}
+.hotLineLink:hover{
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+.topBarLabel {
+    color: var(--whiteColor);
+    font-size: 12px;
+}
+
+.horizontalLine {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.topBarOption {
+    font-size: 12px;
+}
+select {
+    word-wrap: normal;
+    font-size: 12px!important;
+}
+
+#currency {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+#currency:hover{
+    cursor: pointer;
+}
+#lang{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+
+}
+#lang:hover{
+    cursor: pointer;
+}
+.fal {
+    color: #fff;
+}

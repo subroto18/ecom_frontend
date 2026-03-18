@@ -1,0 +1,33 @@
+
+.productDesTitle.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--sectionTitleColor);
+    margin-bottom: 0px;
+    position: relative;
+}
+.productDesTitle.title::before {
+    content: '';
+    height: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+    margin-top: 26px;
+}
+
+
+.productDes {
+    background: var(--sectionBackground);
+    padding: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    overflow-x: auto;
+    min-width: 100%;
+}
+.as-zoomable-inlinecontainer {
+    width: 100% !important;
+}

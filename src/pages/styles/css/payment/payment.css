@@ -1,0 +1,83 @@
+.pGatewayRow{
+    margin-top: 25px;
+}
+.checkoutPaymentSummery {
+    background: white;
+    padding: 1rem;
+    font-size: .9rem;
+}
+
+.cPTotalAmount {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primaryColor)!important;
+}
+
+.cPSubtotal {
+    font-size: .8rem;
+    color: #9e9e9e;
+}
+
+.pGatewayRadio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.pGatewayLabel {
+    width: 100%;
+}
+
+.pGatewayRadio + .gatewayDiv {
+    cursor: pointer;
+}
+
+.pGatewayRadio:checked + .gatewayDiv {
+    border: 2px solid var(--primaryColor)!important;
+    filter: grayscale(0%);
+    transition: .5s;
+}
+
+.gatewayDiv {
+    display: block;
+    padding: 2px 15px 40px 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+    filter: grayscale(100%);
+    transition: .5s;
+    border: 2px solid transparent;
+    width: 100%;
+    height: 121px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pGatewayImg {
+    width: 160px !important;
+    margin-bottom: .4rem;
+}
+
+.pGatewayName {
+    font-weight: 600;
+    display: block;
+}
+
+.checkoutAgreeDiv {
+    font-size: .9rem;
+}
+
+.checkoutAgreeLink {
+    color: var(--primaryColor)!important;
+}
+
+.checkoutAgreeDiv .css-y3qy4r-MuiButtonBase-root-MuiIconButton-root-PrivateSwitchBase-root{
+    padding: 0px;
+}
+.termsText{
+    margin-left: 5px;
+}
+.checkoutAgreeDiv{
+    display: flex;
+}

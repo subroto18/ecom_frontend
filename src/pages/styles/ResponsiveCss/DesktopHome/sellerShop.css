@@ -1,0 +1,71 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .store-cover {
+      height: 230px;
+    }
+    .storeLogoDiv {
+      position: absolute;
+      bottom: 14px;
+      left: 110px;
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+    .store-cover {
+      height: 225px;
+    }
+    .storeLogoDiv {
+      position: absolute;
+      bottom: 18px;
+      left: 90px;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .storeLogoDiv {
+        left: 50px;
+        bottom: 8px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .storeLogoDiv {
+        left: 50px;
+        bottom: 8px;
+    }
+
+}
+
+

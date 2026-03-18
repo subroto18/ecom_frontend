@@ -1,0 +1,241 @@
+
+.cart-summery-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+
+.cart-summery-subtitle {
+    font-size: .9rem;
+    font-weight: 300;
+
+    margin-bottom: .5rem;
+}
+
+.cart-summery-subtitle-price {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.cart-summery-price {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-voucher-btn {
+
+    border-radius: 0px !important;
+}
+
+.voucher-input {
+    border-radius: 0px !important;
+}
+
+.voucher-input-group .form-control:focus {
+    box-shadow: none !important;
+}
+
+.order-summery-checkout {
+    height: 38px;
+    width: 100%;
+    background-color: var(--primaryColor)!important;
+
+    transition: .5s !important;
+}
+
+.order-summery-checkout:hover {
+    height: 38px;
+    width: 100%;
+    background:var(--secondaryColor);
+
+    transition: .5s;
+}
+
+.cart-select-all {
+    font-weight: 400;
+
+}
+
+.cart-select-all {
+    font-size: .9rem;
+    font-weight: 400;
+
+}
+
+.cart-product-details {
+    align-items: center;
+}
+
+.cart-product-name {
+    margin-bottom: 0px;
+    font-size: .9rem;
+}
+.checkoutProductDetail{
+    margin-left: 10px;
+} 
+
+.cart-product-price-div {
+    padding: 15px 0px;
+}
+
+.cart-product-price {
+    margin-bottom: 0px;
+}
+
+.cart-value-button {
+    height: 100%;
+
+    padding: 10px;
+}
+
+.cart-value-input {
+    width: 50px;
+    padding: 0px 18px;
+    border: none;
+}
+
+.cart-value-input:focus {
+    outline: none !important;
+}
+
+#cart {
+    margin-top: 38px;
+}
+
+
+.cart-all-delete {
+
+    transition: .3s !important;
+    color: var(--primaryColor) !important;
+}
+
+.cart-all-delete:hover {
+    color: var(--secondaryColor)!important;
+    transition: .3s;
+}
+label {
+    display: inline-block;
+   margin-bottom:0 !important;
+}
+
+.cartDivRow.row {
+    background: var(--sectionBackground);
+    margin: 14px 0 14px 0 ;
+    border-radius: 3px;
+    padding: 12px 0;
+}
+
+.quantityCart {
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 19px;
+}
+
+.cart-product-trash {
+    font-size: 16px;
+    color: var(--cardPriceOffColor);
+}
+.cart-product-trash:hover {
+    color: var(--secondaryColor);
+    cursor: pointer;
+}
+.cart-product-wishlist {
+    font-size: 16px;
+    color: var(--cardPriceOffColor);
+}
+.cart-product-wishlist:hover {
+    color: var(--secondaryColor);
+    cursor: pointer;
+}
+
+.cart-product-price {
+    font-size: 16px;
+}
+.cart-summery {
+    background: var(--sectionBackground);
+    padding: 21px 24px;
+    border-radius: 3px;
+}
+.btn-voucher-btn {
+
+    border-radius: 0px !important;
+    background-color: var(--primaryColor)!important;
+    color: var(--btntextColor) !important;
+}
+.btn.btn-voucher-btn:hover{
+    background: var(--secondaryColor) !important;
+}
+#decrease {
+    width: 30px;
+    height: 28px;
+}
+#increase{
+    width: 30px;
+    height: 28px;
+}
+
+
+.order-summery-checkout{
+    background-color: var(--primaryColor)!important;
+}
+
+.order-summery-checkout:hover{
+    background-color: var(--secondaryColor)!important;
+}
+
+.cart-all-delete.btn.btn-primary {
+    background: transparent !important;
+}
+
+
+
+.MuiCheckbox-colorPrimary.Mui-checked, .MuiCheckbox-colorPrimary.MuiCheckbox-indeterminate {
+    color: var(--primaryColor) !important;
+}
+
+.PrivateSwitchBase-input-4 {
+    display: none;
+}
+
+
+.checkAllProduct{
+    margin-left: -5px;
+}
+
+.MuiFormControlLabel-root {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-left: -11px;
+    margin-right: 0px!important;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cart-add-btn-div {
+    margin-top: 20px;
+}
+.cartDiv {
+    background: var(--sectionBackground);
+    padding: 2px 18px;
+    border: 3px;
+    border-radius: 5px;
+}
+.cart-img {
+    width: 50px;
+}
+.deliveryAddress{
+    margin-top: 0px!important;
+}
+
+.cart-empty-div {
+    background: var(--whiteColor);
+    padding: 108px;
+    text-align: center;
+    font-size: 25px;
+}
+.cart-img {
+    width: 71px;
+    height: 68px;
+}

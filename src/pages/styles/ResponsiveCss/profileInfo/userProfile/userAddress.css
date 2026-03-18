@@ -1,0 +1,296 @@
+.addNewAddressBtn {
+    padding: .7rem;
+    width: 250px;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+    .address-label {
+        padding: 0.5rem 1.5rem !important;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .addressHeading{
+        display: block !important;
+    }
+
+    .userAddressTypeBtn {
+        padding: .6rem .6rem !important;
+    }
+
+    .userAddressType {
+        font-size: .78rem !important;
+    }
+    .defaultAddressText{
+        font-size: 0.75rem !important;
+    }
+    .tableTextSize{
+        font-size: 0.7rem;
+    }
+    .addressText {
+        margin-top: 6px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .address-label {
+        padding: 0.4rem 1rem !important;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .addressHeading{
+        display: block !important;
+    }
+    .defaultAddressText{
+        font-size: 0.75rem !important;
+        text-align: right !important;
+    }
+    .addressText span{
+        margin: 0px !important;
+        margin: 0 3px !important;
+    }
+
+    .userAddressTypeBtn {
+        padding: .6rem .6rem !important;
+        margin-bottom: .3rem;
+    }
+
+    .userAddressType {
+        font-size: 0.8rem;
+    }
+    .tableTextSize{
+        font-size: 0.7rem;
+    }
+    .addressText {
+        margin-top: 6px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+      .address-label {
+        padding: 0.4rem 1rem !important;
+    }
+}  
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .profile-title{
+        display: none;
+    }
+    .addressTableContainer {
+        padding-bottom: 35px;
+    }
+    .defaultAddressText{
+        font-size: 0.78rem !important;
+    }
+    .userAddressTypeBtn {
+        padding: .4rem .4rem !important;
+    }
+
+    .userAddressType {
+        font-size: .8rem;
+    }
+    .tableTextSize{
+        font-size: 0.7rem;
+    }
+    .addressText{
+        margin-left: 16px;
+    }
+    .address-label {
+        padding: 0.5rem 1.5rem !important;
+    }
+    .newAddressAddPart{
+        margin-top: -25px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+
+    .profile-title{
+        display: none;
+    }
+    .addressTableContainer {
+        padding-bottom: 35px;
+    }
+    .defaultAddressText{
+        font-size: 0.75rem !important;
+    }
+    .addressText span{
+        margin: 0px !important;
+        margin: 0 5px !important;
+    }
+    .userAddressTypeBtn {
+        padding: .6rem .6rem !important;
+        margin-bottom: .3rem;
+    }
+
+    .userAddressType {
+        font-size: .8rem;
+    }
+    .tableTextSize{
+        font-size: 0.65rem;
+    }
+    .addressText{
+        margin-left: 16px;
+    }
+    .address-label {
+        padding: 0.45rem 1.2rem !important;
+    }
+    .newAddressAddPart{
+        margin-top: -25px !important;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .profile-title{
+        display: none;
+    }
+    .addressTableContainer {
+        padding-bottom: 35px;
+    }
+
+    .defaultAddressText{
+        font-size: 0.7rem !important;
+    }
+    .addressText span{
+        margin: 0px !important;
+        margin: 0 4px !important;
+    }
+
+    .table td, .table th {
+        padding: .45rem;
+    }
+
+    .userAddressTypeBtn {
+        padding: .6rem .6rem !important;
+        margin-bottom: .3rem;
+    }
+
+    .userAddressType {
+        font-size: .8rem;
+    }
+
+    .newAddAddressBtn {
+        text-align: center !important;
+        padding-bottom: .8rem;
+    }
+    .tableTextSize{
+        font-size: 0.7rem;
+    }
+    .tableTextSize{
+        font-size: 0.6rem;
+    }
+    .addressText{
+        margin-left: 16px;
+    }
+    .address-label {
+        padding: 0.45rem 1.2rem !important;
+    }
+    .newAddressCancel,
+    .newAddressAdd{
+        width: 100%;
+    }
+    .newAddressCancel{
+        margin-bottom: 10px;
+    }
+    .newAddressAddPart{
+        margin-top: -25px !important;
+    }
+}
+
+@media (max-width: 320.55px) {
+    .profile-title{
+        display: none;
+    }
+    .addressTableContainer {
+        padding-bottom: 35px;
+    }
+
+    .defaultAddressText{
+        font-size: 0.6rem !important;
+    }
+
+    .addressText span{
+        margin: 0px !important;
+        margin: 0 3px !important;
+    }
+    .table td, .table th {
+        padding: .45rem;
+    }
+
+    .userAddressTypeBtn {
+        padding: .6rem .6rem !important;
+        margin-bottom: .3rem;
+    }
+
+    .userAddressType {
+        font-size: .8rem;
+    }
+
+    .newAddAddressBtn {
+        text-align: center !important;
+        padding-bottom: .8rem;
+    }
+
+    .tableTextSize{
+        font-size: 0.55rem;
+    }
+    .addressText{
+        margin-left: 16px;
+    }
+    .address-label {
+        padding: 0.4rem 1rem !important;
+    }
+    .newAddressAddPart{
+        margin-top: -25px !important;
+    }
+    .user-address-div{
+        padding-bottom: 16px;
+    }
+}

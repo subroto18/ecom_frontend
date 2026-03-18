@@ -1,0 +1,670 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .paymentHeaderText{
+        display: none;
+    }
+
+    .paymentHeaderSize{
+        display: none;
+    }
+
+    .mobilePaymentTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .paymentArrow {
+        margin-right: 20px;
+    }
+
+    .mobilePaymentBottomBar {
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        width: 100%;
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .mobilePaymentBottomBar .mPSubTotalDiv {
+        font-size: .9rem;
+        color: #9e9e9e;
+    }
+
+    .mPSubtotal {
+        font-weight: 600;
+    }
+
+    /*.mobilePaymentBottomBar .mPTotalDiv {*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
+    .mPTotal {
+        font-size: .9rem;
+    }
+
+    .mPTotalAmount {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+    }
+
+    .mobilePayOptConfirm {
+        width: 150px;
+        font-size: 1rem !important;
+        background: var(--primaryColor) !important;
+    }
+
+    .mobilePaymentOption {
+        padding: 20px;
+    }
+
+    .mobilePGatewayRadio {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .mobilePGatewayLabel {
+        width: 100%;
+    }
+
+    .mobilePGatewayRadio + .mobileGatewayDiv {
+        cursor: pointer;
+    }
+
+    .mobilePGatewayRadio:checked + .mobileGatewayDiv {
+        border: 2px solid var(--primaryColor)!important;
+        filter: grayscale(0%);
+        transition: .5s;
+    }
+
+    .mobileGatewayDiv {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+        filter: grayscale(100%);
+        transition: .5s;
+        border: 2px solid transparent;
+        width: 100% !important;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobilePGatewayImg {
+        width: 110px !important;
+        margin-bottom: .4rem;
+    }
+
+    .mobilePGatewayName {
+        font-weight: 600;
+        display: block;
+    }
+
+    .mobileCheckoutAgreeDiv {
+        font-size: .9rem;
+    }
+    .paymentOption {
+        width: 85%;
+        height: 70%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .paymentOrderSummery{
+        display: none;
+    }
+    .termsCondition{
+        padding-bottom: 70px;
+        margin-left: 12px;
+        margin-right: 18px;
+    }
+    .termsCondition .termsText{
+        font-size: 0.8rem;
+    }
+      .paymentMethodName{
+        margin-top: -5px;
+        margin-bottom: 8px;
+      }
+      .paymentPic {
+        width: 115px !important;
+    }
+    .pGatewayRadio + .gatewayDiv {
+        margin-left: 12px;
+        margin-right: 15px;
+      }
+      .pGatewayName {
+        font-size: 12px;
+      }
+      .pGatewayRow {
+        margin-left: -27px;
+      }
+      .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+        height: 115px;
+      }
+
+
+    .pGatewayRadio + .gatewayDiv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+    }
+
+    .checkoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .paymentHeaderText{
+        display: none;
+    }
+
+    .paymentHeaderSize{
+        display: none;
+    }
+
+    .mobilePaymentTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .paymentArrow {
+        margin-right: 20px;
+    }
+
+    .mobilePaymentBottomBar {
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .mobilePaymentBottomBar .mPSubTotalDiv {
+        font-size: .9rem;
+        color: #9e9e9e;
+    }
+
+    .mPSubtotal {
+        font-weight: 600;
+    }
+
+    .mPTotal {
+        font-size: .9rem;
+    }
+
+    .mPTotalAmount {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+    }
+
+    .mobilePayOptConfirm {
+        width: 150px;
+        font-size: 1rem !important;
+        background: var(--primaryColor) !important;
+    }
+
+    .mobilePaymentOption {
+        padding: 20px;
+    }
+
+    .mobilePGatewayRadio {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .mobilePGatewayLabel {
+        width: 100%;
+    }
+
+    .mobilePGatewayRadio + .mobileGatewayDiv {
+        cursor: pointer;
+    }
+
+    .mobilePGatewayRadio:checked + .mobileGatewayDiv {
+        border: 2px solid var(--primaryColor)!important;
+        filter: grayscale(0%);
+        transition: .5s;
+    }
+
+    .mobileGatewayDiv {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+        filter: grayscale(100%);
+        transition: .5s;
+        border: 2px solid transparent;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobilePGatewayImg {
+        width: 110px !important;
+        margin-bottom: .4rem;
+    }
+
+    .mobilePGatewayName {
+        font-weight: 600;
+        display: block;
+    }
+
+    .mobileCheckoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 4rem;
+    }
+    .paymentOption {
+        width: 100%;
+        height: 70%;
+        margin-left: 22px;
+        margin-right: 40px;
+    }
+    .termsCondition{
+        padding-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 18px;
+    }
+    .termsCondition .termsText{
+        font-size: 0.7rem;
+    }
+    .paymentPic {
+        width: 110px !important;
+      }
+      .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+        height: 115px;
+      }
+    .pGatewayRow {
+        margin-top: 0px;
+      }
+
+
+    .pGatewayRadio + .gatewayDiv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+    }
+
+    .checkoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 3rem;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .paymentHeaderText{
+        display: none;
+    }
+
+    .paymentHeaderSize{
+        display: none;
+    }
+
+    .mobilePaymentTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .paymentArrow {
+        margin-right: 20px;
+    }
+
+    .mobilePaymentBottomBar {
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        width: 100%;
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .mobilePaymentBottomBar .mPSubTotalDiv {
+        font-size: .75rem;
+        color: #9e9e9e;
+    }
+
+    .mPSubtotal {
+        font-weight: 600;
+    }
+
+    .mPTotal {
+        font-size: .75rem;
+    }
+
+    .mPTotalAmount {
+        font-size: .9rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+    }
+
+    .mobilePayOptConfirm {
+        width: 125px;
+        font-size: .85rem !important;
+        background: var(--primaryColor) !important;
+    }
+
+    .mobilePaymentOption {
+        padding: 20px;
+    }
+
+    .mobilePGatewayRadio {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .mobilePGatewayLabel {
+        width: 100%;
+    }
+
+    .mobilePGatewayRadio + .mobileGatewayDiv {
+        cursor: pointer;
+        margin-left: 17.5px;
+    }
+
+    .mobilePGatewayRadio:checked + .mobileGatewayDiv {
+        border: 2px solid var(--primaryColor)!important;
+        filter: grayscale(0%);
+        transition: .5s;
+    }
+
+    .mobileGatewayDiv {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+        filter: grayscale(100%);
+        transition: .5s;
+        border: 2px solid transparent;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobilePGatewayImg {
+        width: 110px !important;
+        margin-bottom: .4rem;
+    }
+
+    .mobilePGatewayName {
+        font-weight: 600;
+        display: block;
+    }
+
+    .mobileCheckoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 4rem;
+    }
+    .paymentOption {
+        width: 100%;
+        height: 75%;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .termsCondition{
+        padding-bottom: 25px;
+        margin-left: 22px;
+        margin-right: 18px;
+    }
+    .termsCondition .termsText{
+        font-size: 0.7rem;
+    }
+      .paymentMethodName{
+        margin-top: -5px;
+        margin-bottom: 8px;
+      }
+      .paymentPic {
+        width: 105px !important;
+      }
+      .checkoutPaymentSummery{
+          display: none;
+      }
+      .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+        height: 115px;
+      }
+      .pGatewayRow {
+        margin-top: 0px;
+      }
+
+
+    .pGatewayRadio + .gatewayDiv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+    }
+
+    .checkoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .paymentHeaderText{
+        display: none;
+    }
+
+    .mobilePaymentTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .paymentArrow {
+        margin-right: 20px;
+    }
+
+    .mobilePaymentBottomBar {
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        width: 100%;
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .mobilePaymentBottomBar .mPSubTotalDiv {
+        font-size: .75rem;
+        color: #9e9e9e;
+    }
+
+    .mPSubtotal {
+        font-weight: 600;
+    }
+
+    .mPTotal {
+        font-size: .75rem;
+    }
+
+    .mPTotalAmount {
+        font-size: .9rem;
+        font-weight: 600;
+        color: var(--primaryColor);
+    }
+
+    .mobilePayOptConfirm {
+        width: 125px;
+        font-size: .85rem !important;
+        background: var(--primaryColor) !important;
+    }
+
+    .mobilePaymentOption {
+        padding: 20px;
+    }
+
+    .mobilePGatewayRadio {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .mobilePGatewayLabel {
+        width: 100%;
+    }
+
+    .mobilePGatewayRadio + .mobileGatewayDiv {
+        cursor: pointer;
+    }
+
+    .mobilePGatewayRadio:checked + .mobileGatewayDiv {
+        border: 2px solid var(--primaryColor)!important;
+        filter: grayscale(0%);
+        transition: .5s;
+    }
+
+    .mobileGatewayDiv {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0px rgba(0,0,0,.1);
+        filter: grayscale(100%);
+        transition: .5s;
+        border: 2px solid transparent;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobilePGatewayImg {
+        width: 110px !important;
+        margin-bottom: .4rem;
+    }
+
+    .mobilePGatewayName {
+        font-weight: 600;
+        display: block;
+    }
+
+    .mobileCheckoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 4rem;
+    }
+    .paymentOption {
+        width: 95%;
+        height: 75%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .termsCondition{
+        padding-bottom: 30px;
+    }
+    .paymentMethodName{
+        margin-top: -5px;
+        margin-bottom: 8px;
+      }
+      .paymentPic {
+        width: 115px !important;
+    }
+    .paymentHeaderSize{
+        display: none;
+    }
+      .termsCondition{
+        padding-bottom: 25px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .termsCondition .termsText{
+        font-size: 0.7rem;
+    }
+    .paymentHeading .paymentHeaderSize{
+        font-size: 0.9rem !important;
+    }
+
+
+    .pGatewayRadio + .gatewayDiv {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .checkoutPaymentSummery{
+        display: none;
+    }
+    .mobilePGatewayLabel .gatewayDiv {
+        width: 100%;
+      }
+
+    .checkoutAgreeDiv {
+        font-size: .9rem;
+        margin-bottom: 3rem;
+    }
+
+
+}  

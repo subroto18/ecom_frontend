@@ -1,0 +1,84 @@
+@media (min-width: 1400px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .shop-card .cardImgDiv {
+        padding: 25px 33px;
+        height: 167px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .shop-card .cardImgDiv {
+        padding: 15px 20px;
+        height: 159px;
+    }
+    .ShopName {
+        font-size: 18px;
+    }
+    .card-title {
+         margin-bottom: 0!important;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .shop-card .cardImgDiv {
+        padding: 15px 20px;
+        height: 140px;
+    }
+    .ShopName {
+        font-size: 16px;
+    }
+    .shopBtnDiv {
+        margin-top: 12px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+

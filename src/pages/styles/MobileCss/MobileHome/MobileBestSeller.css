@@ -1,0 +1,111 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #BestSeller {
+        padding-top: 0 !important;
+    }
+    #mobile-best-seller {
+        margin-top: 20px;
+    }
+    #mobile-best-seller .product-card.card {
+        margin-bottom: 3px;
+    }
+    .shop-details {
+        text-align: center;
+    }
+    .shop-name {
+        color: var(--textColor);
+        font-size: 13px;
+    }
+    .shop-card .cardImgDiv {
+        padding: 23px 32px!important;
+        height: 150px!important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    #BestSeller {
+        padding-top: 0 !important;
+    }
+    #mobile-best-seller {
+        margin-top: 20px;
+    }
+    #mobile-best-seller .product-card.card {
+        margin-bottom: 3px;
+    }
+    .shop-details {
+        text-align: center;
+    }
+    .shop-name {
+        color: var(--textColor);
+        font-size: 13px;
+    }
+    .shop-card .cardImgDiv {
+        padding: 21px 32px;
+        height: 218px;
+    }
+    .bestSellerPic {
+        width: 100%;
+      }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #BestSeller {
+        padding-top: 0 !important;
+    }
+    #mobile-best-seller {
+        margin-top: 20px;
+    }
+    #mobile-best-seller .product-card.card {
+        margin-bottom: 3px;
+    }
+    .shop-details {
+        text-align: center;
+    }
+    .shop-name {
+        color: var(--textColor);
+        font-size: 13px;
+    }
+    .shop-card .cardImgDiv {
+        padding: 21px 32px;
+        height: 116px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+    #BestSeller {
+        padding-top: 0 !important;
+    }
+    #mobile-best-seller {
+        margin-top: 20px;
+    }
+    #mobile-best-seller .product-card.card {
+        margin-bottom: 3px;
+    }
+    .shop-details {
+        text-align: center;
+    }
+    .shop-name {
+        color: var(--textColor);
+        font-size: 13px;
+    }
+    .shop-card .cardImgDiv {
+        padding: 10px 32px;
+        height: 116px;
+    }
+    .shopBtnDiv {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 13px;
+    }
+}

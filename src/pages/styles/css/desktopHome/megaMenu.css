@@ -1,0 +1,146 @@
+.megaMenu {
+    background: var(--whiteColor);
+    margin-top: 30px;
+    height: 403px;
+    overflow: hidden;
+
+}
+.category {
+    background: var(--primaryColor);
+    padding-top: 15px;
+    padding-inline-start: 15px;
+    padding-bottom: 7px;
+
+}
+
+.seeAllCat {
+    float: right;
+    margin-right: 27px;
+    color: var(--whiteColor);
+    font-weight: bold;
+}
+.seeAllCat a{
+    color: var(--whiteColor);
+    text-decoration: none;
+}
+.seeAllCat a:hover{
+    color: var(--whiteColor);
+    text-decoration: none;
+}
+.category-title {
+    text-decoration: none;
+    color: var(--whiteColor);
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.far.fa-bars.categoryIcon{
+    color: var(--whiteColor);
+}
+
+.MegaMenuList ul {
+    list-style: none;
+    padding: 0 0 1px;
+    margin-top: 15px;
+}
+
+.cat-img {
+    width: 20px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.MegaMenuList ul li {
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+    transition: .3s ease-in-out;
+}
+.MegaMenuList ul li:hover .subCat {
+    display: block !important;
+    left: 95%;
+    opacity: 1;
+    z-index: 13;
+    transition: .3s all ease-in-out;
+    border-left: 1px solid #3333;
+}
+.MegaMenuList ul li:hover{
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 0.1);
+}
+.catLink {
+    color: var(--dark);
+    margin-left: 13px;
+    font-size: 13px;
+    line-height: 27px;
+    display: flex;
+}
+.catLink:hover{
+    text-decoration: none;
+    color: var(--dark);
+}
+.cat-img img {
+    position: unset !important;
+}
+
+.navMenu.row {
+    position: relative;
+}
+
+.subCat {
+    position: absolute;
+    background: var(--whiteColor);
+    width: 301%;
+    top: 31px;
+    display: none;
+    z-index: 0;
+    height: 427px;
+    border-radius: 3px;
+    padding: 40px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    left: -204%;
+    overflow-y: auto;
+
+}
+.subCatTitle {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.subCatLink {
+    color: var(--dark);
+    font-size: 13px;
+}
+
+.subCatList {
+    margin-bottom: 20px;
+}
+.subCatLink:hover {
+    color: var(--dark);
+    text-decoration: none;
+}
+.subCatList ul li:hover {
+    box-shadow: none;
+}
+.subCatLink.subCatBtn {
+    color: var(--primaryColorFade);
+    text-transform: uppercase;
+}
+.arrowRight {
+    float: right;
+    margin-right: 20px;
+    margin-top: 7px;
+    position: absolute;
+    right: 10px;
+}
+
+.subCatLink.subCatBtn:hover {
+    color: var(--primaryColor);
+}
+
+
+.megaMenu-li {
+    height: 33px;
+    width: 93%;
+    margin: auto;
+}

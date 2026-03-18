@@ -1,0 +1,233 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .banner {
+        margin-bottom: -20px;
+    }
+
+    .banner.bannerImgButtom {
+        margin-bottom: 5px !important;
+    }
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+
+    .banner {
+        margin-bottom: 0px;
+        height: 150px;
+    }
+
+    .fullBanner img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .fullBanner{
+        height: 150px;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .without-responsive-nav{
+        display: none;
+    }
+    .responsive-nav{
+        display: block;
+    }
+
+
+    .productCategory.title {
+        font-size: 16px;
+    }
+    .productCategory.title::before {
+        top: 23px;
+    }
+    .btn {
+        font-size: 10px !important;
+    }
+    .banner {
+        height: 150px;
+        margin-bottom: -22px;
+    }
+    .bannerImgButtom {
+        margin-top: -5px;
+        margin-bottom: 0px !important;
+      }
+    .fullBanner {
+        height: 150px;
+        margin-bottom: 10px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .without-responsive-nav{
+        display: none;
+    }
+    .responsive-nav{
+        display: block;
+    }
+
+
+
+    .fullBanner img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .productCategory.title {
+        font-size: 13px;
+    }
+
+    .productCategory.title::before {
+        top: 20px;
+    }
+
+    .btn {
+        font-size: 12px !important;
+        padding: 3px 8px;
+    }
+
+    #search {
+        height: 30px;
+        width: 425px;
+
+    }
+    .banner {
+        height: 134px;
+        margin-bottom: -22px;
+    }
+    .bannerImgButtom {
+        margin-bottom: 0px !important;
+      }
+    .fullBanner {
+        height: 150px;
+        margin-bottom: 10px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .container, .container-md, .container-sm {
+        max-width: 850px;
+    }
+
+
+    .bannerImgButtom {
+        margin-bottom: 10px !important;
+        margin-top: 15px;
+        height: 140px;
+    }
+
+    .without-responsive-nav{
+        display: none;
+    }
+    .responsive-nav{
+        display: block;
+    }
+
+    .without-res{
+        display: none;
+    }
+    .res{
+        display: block;
+        margin-left: -12px;
+        margin-right: -15px;
+    }
+    .rating {
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .banner {
+        height: 150px;
+        margin-bottom: 25px;
+    }
+
+    .bannerImgButtom {
+        margin-bottom: 10px !important;
+        margin-top: 10px;
+      }
+      #shortBanner {
+        padding-bottom: 0px !important;
+      }
+      #TopTen {
+        padding-top: 3px !important;
+      }
+      .threePartBannerRow{
+          margin-bottom: -38px;
+      }
+
+    .fourPartBannerRow {
+        margin-top: -17px;
+        margin-bottom: 14px;
+    }
+
+    .fullBanner img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .fullBanner {
+        height: 145px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+
+    .container, .container-md, .container-sm {
+        max-width: 850px;
+    }
+
+
+    .bannerImgButtom {
+        margin-bottom: 10px !important;
+        margin-top: 15px;
+        height: 140px;
+    }
+
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/

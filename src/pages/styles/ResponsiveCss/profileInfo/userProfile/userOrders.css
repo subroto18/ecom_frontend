@@ -1,0 +1,114 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280.55px) {
+
+    /* CSS */
+    .orderDetails,
+    .manageText,
+    .orderDiv-l{
+        font-size: 0.9rem; 
+    }
+    .oder-cd{
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+    .oder-cd h6{
+        font-size: 0.9rem;
+    }
+    .order-img {
+        width: 100px;
+        height: 100px;
+      }
+}
+
+
+@media (min-width: 992px) and (max-width: 1025px) {
+
+    /* CSS */
+    .orderDetails,
+    .manageText,
+    .orderDiv-l{
+        font-size: 0.86rem; 
+    }
+    .oder-cd{
+        font-size: 0.86rem;
+        margin-left: 10px;
+    }
+    .oder-cd h6{
+        font-size: 0.86rem;
+    }
+    .order-img {
+        width: 90px;
+        height: 90px;
+      }
+    
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tabText{
+        font-size: 0.8rem;
+    }
+    .orderDetails,
+    .manageText,
+    .orderDiv-l{
+        font-size: 0.78rem; 
+    }
+    .oder-cd{
+        font-size: 0.78rem;
+        margin-left: 25px;
+        margin-top: 6px !important;
+    }
+    .oder-cd h6{
+        font-size: 0.78rem;
+    }
+    .order-img {
+        width: 75px;
+        height: 75px;
+      }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .tabText{
+        font-size: 0.8rem;
+    }
+    .orderDetails,
+    .manageText,
+    .orderDiv-l{
+        font-size: 0.78rem; 
+    }
+    .oder-cd{
+        font-size: 0.78rem;
+        margin-left: 25px;
+        margin-top: 6px !important;
+    }
+    .oder-cd h6{
+        font-size: 0.78rem;
+    }
+    .order-img {
+        width: 75px;
+        height: 75px;
+      }
+}

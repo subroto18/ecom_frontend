@@ -1,0 +1,800 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileProductFilterContainer.container {
+        margin-top: 14px;
+    }
+    .shortBy{
+        margin: 0 8px;
+        margin-top: 20px;
+    }
+
+
+
+    .filterDrawer {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+        opacity: 0;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+    }
+
+    .filterDrawer.active {
+        opacity: 1;
+        display: block;
+        width: 75% !important;
+        background: white;
+        padding: 20px;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+        overflow: auto;
+    }
+
+    .outerFilterContainer {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+    }
+
+    .outerFilterContainer.active {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        width: 100%;
+    }
+
+    .filterDrawer .productSearch {
+        margin-bottom: 1rem !important;
+    }
+
+
+
+    .filterLastDiv {
+        height: 3rem;
+    }
+
+    .freeShippingIcon {
+        width: 40px;
+        margin-right: 10px;
+        border-right: 1px solid;
+        padding-right: 10px;
+    }
+
+
+    .productSearch {
+        border-radius: 5px;
+        margin-top: 26px;
+        clear: both!important;
+    }
+
+
+
+    .productSearchTitle {
+        padding: 1px;
+    }
+
+    .productSearchTitle h6 {
+        font-size: 10px !important;
+    }
+    .variationBox {
+        padding: 2px 0px;
+        overflow: hidden;
+        margin: 12px 7px;
+    }
+
+    .variationBox .box {
+        border: 1px solid var(--cardPriceOffColor);
+        border-radius: 3px;
+        padding: 6px 16px !important;
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .filter-btn {
+        padding: 9px;
+        font-size: 12px !important;
+    }
+
+    .d-flex.searchArea {
+        margin-top: 12px;
+        position: relative;
+    }
+    .productSortRow{
+        background-color: #fff;
+    }
+    .searchInput{
+        width: 84%;
+        font-size: 0.95rem;
+    }
+    .searchBtn {
+        padding: 0 7px;
+        width: 10% !important;
+    }
+    .searchHistory{
+        width: 100% !important;
+    }
+    .searchTextPrice{
+        margin-left: 0px !important;
+        font-size: 13px !important;
+    }
+    .mobileSearchBar .searchArea{
+        margin-top: -6px !important;
+    }
+    .mobileSearchBar .searchDiv {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .mobileFilterButtons {
+        margin-bottom: -24px;
+    }
+
+    .productSortRow.row{
+        clear: both;
+    }
+    .mobileFilterButtons {
+        float: right;
+    }
+
+    .input-range {
+        margin-top: 28px;
+        padding-bottom: 14px;
+    }
+
+
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+        padding: 5.5px 4px;
+    }
+    .productSortRow .MuiAutocomplete-root.shortBy.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        margin-bottom: 0px;
+    }
+    filter-icon{
+        cursor: pointer;
+    }
+    .mobileFilterIconDiv{
+        margin-top: 20px;
+    }
+
+
+    .filterDrawer.active{
+        display: block;
+        transition: all ease .3s;
+        padding-top: 63px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+
+
+    .shortBy{
+        margin: 0 8px;
+        margin-top: 20px;
+    }
+
+
+
+    .filterDrawer {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+        opacity: 0;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+    }
+
+    .filterDrawer.active {
+        opacity: 1;
+        display: block;
+        width: 85% !important;
+        background: white;
+        padding: 20px;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+        overflow: auto;
+    }
+
+    .outerFilterContainer {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+    }
+
+    .outerFilterContainer.active {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .filterDrawer .productSearch {
+        margin-bottom: 1rem !important;
+    }
+
+    .filterLastDiv {
+        height: 3rem;
+    }
+
+    .freeShippingIcon {
+        width: 40px;
+        margin-right: 10px;
+        border-right: 1px solid;
+        padding-right: 10px;
+    }
+
+
+
+    .productSearch {
+        border-radius: 5px;
+        margin-top: 26px;
+        clear: both!important;
+    }
+
+
+
+    .productSearchTitle {
+        padding: 1px;
+    }
+
+    .productSearchTitle h6 {
+        font-size: 10px !important;
+    }
+    .variationBox {
+        padding: 2px 0px;
+        overflow: hidden;
+        margin: 12px 7px;
+    }
+
+    .variationBox .box {
+        border: 1px solid var(--cardPriceOffColor);
+        border-radius: 3px;
+        padding: 6px 16px !important;
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .filter-btn {
+        padding: 9px;
+        font-size: 12px !important;
+    }
+
+
+    .searchArea{
+        margin-top: 12px !important;
+    }
+    .searchInput{
+        width: 83%;
+        font-size: 0.95rem;
+    }
+    .searchBtn {
+        padding: 0 7px;
+        width: 10% !important;
+    }
+    .searchHistory{
+        width: 100% !important;
+    }
+    .searchTextTitle{
+        font-size: 12px;
+    }
+    .searchTextPrice{
+        margin-left: 0px !important;
+        font-size: 13px !important;
+    }
+    .mobileSearchBar .searchArea{
+        margin-top: -6px !important;
+    }
+    .mobileSearchBar .searchDiv {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    .mobileFilterButtons {
+        margin-bottom: -24px;
+    }
+
+    .productSortRow.row{
+        clear: both;
+    }
+    .mobileFilterButtons {
+        float: right;
+    }
+
+    .input-range {
+        margin-top: 28px;
+        padding-bottom: 14px;
+    }
+
+
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+        padding: 5.5px 4px;
+    }
+    .productSortRow .MuiAutocomplete-root.shortBy.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        margin-bottom: 0px;
+    }
+    filter-icon{
+        cursor: pointer;
+    }
+
+    .mobileFilterIconDiv{
+        margin-top: 20px;
+    }
+
+
+    .filterDrawer.active{
+        display: block;
+        transition: all ease .3s;
+        padding-top: 63px;
+    }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .shortBy{
+        margin: 0 8px;
+        margin-top: 20px;
+    }
+
+
+
+    .filterDrawer {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+        opacity: 0;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+    }
+
+    .filterDrawer.active {
+        opacity: 1;
+        display: block;
+        width: 75% !important;
+        background: white;
+        padding: 20px;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+        overflow: auto;
+    }
+
+    .outerFilterContainer {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+    }
+
+    .outerFilterContainer.active {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+       cursor: pointer;
+    }
+
+    .filterDrawer .productSearch {
+        margin-bottom: 1rem !important;
+    }
+
+
+
+    .filterLastDiv {
+        height: 3rem;
+    }
+
+    .freeShippingIcon {
+        width: 40px;
+        margin-right: 10px;
+        border-right: 1px solid;
+        padding-right: 10px;
+    }
+
+
+    .productSearch {
+        border-radius: 5px;
+        margin-top: 26px;
+        clear: both!important;
+    }
+
+    .productSearchTitle h6{
+        font-size: 12px!important;
+    }
+
+
+    .productSearchTitle {
+        padding: 1px;
+    }
+
+    .productSearchTitle h6 {
+        font-size: 10px !important;
+    }
+    .variationBox {
+        padding: 2px 0px;
+        overflow: hidden;
+        margin: 12px 7px;
+    }
+
+    .variationBox .box {
+        border: 1px solid var(--cardPriceOffColor);
+        border-radius: 3px;
+        padding: 2px 11px !important;
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .searchArea{
+        margin-top: 14px !important;
+    }
+    .searchInput{
+        width: 80%;
+        font-size: 0.95rem;
+    }
+    .searchBtn {
+        padding: 0 7px;
+        width: 10% !important;
+    }
+    .searchHistory{
+        width: 100% !important;
+    }
+    .searchTextTitle{
+        font-size: 12px;
+    }
+    .searchTextPrice{
+        margin-left: 0px !important;
+        font-size: 13px !important;
+    }
+    .mobileSearchBar .searchArea{
+        margin-top: -6px !important;
+    }
+    .mobileSearchBar .searchDiv {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    .shortBy{
+        margin:0;
+        margin-top: 20px;
+    }
+
+    .filter-icon:nth-child(1) {
+        margin-right: 6px;
+    }
+    .mobileFilterButtons {
+        margin-bottom: -24px;
+    }
+
+    .productSortRow.row{
+        clear: both;
+    }
+    .mobileFilterButtons {
+        float: right;
+    }
+
+    .input-range {
+        margin-top: 28px;
+        padding-bottom: 14px;
+    }
+
+
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+        padding: 5.5px 4px;
+    }
+    .productSortRow .MuiAutocomplete-root.shortBy.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        margin-bottom: 0px;
+    }
+    filter-icon{
+        cursor: pointer;
+    }
+
+    .mobileFilterIconDiv{
+        margin-top: 20px;
+    }
+
+
+    .filterDrawer.active{
+        display: block;
+        transition: all ease .3s;
+        padding-top: 63px;
+    }
+
+}
+
+
+
+@media(max-width: 319px){
+
+
+    .shortBy{
+        margin: 0 8px;
+        margin-top: 20px;
+    }
+
+
+
+    .filterDrawer {
+        position: absolute;
+        height: 100%;
+        top: -20px;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+        opacity: 0;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+    }
+
+    .filterDrawer.active {
+        opacity: 1;
+        display: block;
+        width: 85% !important;
+        background: white;
+        padding: 20px;
+        transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+        overflow: auto;
+    }
+
+    .outerFilterContainer {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        right: 0;
+        z-index: 100;
+        width: 0px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .outerFilterContainer.active {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.2);
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+        display: block;
+    }
+
+    .filterDrawer .productSearch {
+        margin-bottom: 1rem !important;
+    }
+
+
+
+    .filterLastDiv {
+        height: 3rem;
+    }
+
+    .freeShippingIcon {
+        width: 40px;
+        margin-right: 10px;
+        border-right: 1px solid;
+        padding-right: 10px;
+    }
+
+
+
+    .productSearch {
+        border-radius: 5px;
+        margin-top: 26px;
+        clear: both!important;
+    }
+
+    .productSearchTitle h6{
+        font-size: 12px!important;
+    }
+
+
+    .productSearchTitle {
+        padding: 1px;
+    }
+
+    .productSearchTitle h6 {
+        font-size: 10px !important;
+    }
+    .variationBox {
+        padding: 2px 0px;
+        overflow: hidden;
+        margin: 12px 7px;
+    }
+
+    .variationBox .box {
+        border: 1px solid var(--cardPriceOffColor);
+        border-radius: 3px;
+        padding: 2px 11px !important;
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .shortBy{
+        margin:0;
+        margin-top: 20px;
+    }
+
+    .filter-icon:nth-child(1) {
+        margin-right: 6px;
+    }
+    .mobileFilterButtons {
+        margin-bottom: -24px;
+    }
+
+    .productSortRow.row{
+        clear: both;
+    }
+    .mobileFilterButtons {
+        float: right;
+    }
+
+    .input-range {
+        margin-top: 28px;
+        padding-bottom: 14px;
+    }
+
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+        padding: 5.5px 4px;
+    }
+    .productSortRow .MuiAutocomplete-root.shortBy.MuiAutocomplete-hasClearIcon.MuiAutocomplete-hasPopupIcon {
+        margin-bottom: 0px;
+    }
+    filter-icon{
+        cursor: pointer;
+    }
+
+    /* #search {
+    height: 35px;
+    font-size: 12px;
+    width: 88% !important;
+    border-radius: 4px !important;
+} */
+    /* .searchBtn.btn.btn-primary {
+        background-color: transparent !important;
+    }
+    .d-flex.searchArea {
+        margin-top: 9px;
+        position: relative;
+    }
+    .searchDiv {
+        position: absolute;
+        width: 100%;
+    }
+
+    .searchBtn.btn.btn-primary {
+        position: absolute;
+        right: 41px;
+        top: -2px;
+
+        color: #000 !important;
+    }
+    .far.fa-arrow-left.search-back-arrow {
+        margin-right: 6px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    .searchBox {
+
+        position: absolute;
+        background: var(--white);
+        z-index: 9;
+        top: 16px;
+        padding: 0px;
+        box-shadow: unset;
+        width: 100vw;
+        left: -47px;
+        right: 0;
+        height: 100vh;
+    } */
+
+    .searchArea{
+        margin-top: 9px !important;
+    }
+    .productPriceRange{
+        display: none;
+    }
+
+
+
+
+    .mobileFilterIconDiv .freeShippingIcon{
+        width: 10%;
+    }
+    .searchInput{
+        width: 78%;
+        font-size: 0.95rem;
+    }
+    .searchBtn {
+        padding: 0 7px;
+        width: 12% !important;
+    }
+    .searchHistory{
+        width: 100% !important;
+    }
+    .searchTextTitle{
+        font-size: 12px;
+    }
+    .searchTextPrice{
+        margin-left: 0px !important;
+        font-size: 12px !important;
+    }
+    .mobileSearchBar .searchArea {
+        margin-top: -6px !important;
+    }
+    .mobileSearchBar .searchDiv {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+
+    .mobileFilterIconDiv{
+      margin-top: 20px;
+    }
+
+
+    .filterDrawer.active{
+        display: block;
+        transition: all ease .3s;
+        padding-top: 63px;
+    }
+
+
+
+}

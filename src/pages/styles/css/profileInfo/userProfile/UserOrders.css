@@ -1,0 +1,154 @@
+.orderDiv-r {
+    width: 200px;
+    margin-left: 14px;
+}
+.orderDiv {
+    background: var(--whiteColor) !important;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.orderDiv-l {
+    margin-top: 8px;
+}
+.order-img {
+    width: 112px;
+    height: 112px;
+}
+.oder-cd {
+    font-size: 15px;
+    margin-top: 44px;
+    margin-left: 10px;
+}
+.order-qnt-div.oder-cd p {
+    margin-left: 20px;
+    margin-right: 21px;
+
+}
+.order-cancel-div.oder-cd p {
+    background: #ddd;
+    padding: 3px;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.oder-cd-div {
+    width: 14%;
+}
+.order-title-div.oder-cd {
+    width: 30%;
+}
+.order-qnt-div.oder-cd {
+    width: 15%;
+}
+.order-cancel-div.oder-cd {
+
+    margin: auto;
+}
+.orderId {
+    color: var(--primaryColor);
+}
+.order-delivery-div.oder-cd {
+    width: 23%;
+}
+
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+.stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+
+.stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+}
+
+.stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+}
+
+.stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 6px;
+}
+
+.stepper-item.active {
+    font-weight: bold;
+}
+
+.stepper-item.completed .step-counter {
+    background-color: #4bb543;
+}
+
+.stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #4bb543;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+}
+
+.stepper-item:first-child::before {
+    content: none;
+}
+.stepper-item:last-child::after {
+    content: none;
+}
+
+.d-flex.order-details {
+    margin-top: 73px;
+}
+.order-review.oder-cd {
+    text-align: right;
+}
+.order-review.oder-cd {
+    width: 20%;
+}
+.order-price-div.oder-cd {
+    width: 15%;
+}
+.order-cancel-d.oder-cd p {
+    background: var(--backgroundColor);
+    padding: 2px 17px;
+    border-radius: 8%;
+    text-transform: capitalize;
+
+}
+.order-delivery-div.oder-cd {
+    width: 23%;
+    margin-left: 70px;
+}
+
+.oder-cd{
+    margin-top: 20px;
+}

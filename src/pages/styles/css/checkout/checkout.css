@@ -1,0 +1,180 @@
+.packageDiv {
+    background: white;
+}
+
+.packageHeader {
+    background: #e7e9ec;
+    padding: .3rem 1rem;
+    font-size: .9rem;
+}
+
+.packageCount {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.packageShipped {
+    font-size: .8rem;
+    color: #9e9e9e;
+}
+
+.packageSeller {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.productDetails {
+    padding: .9rem;
+}
+
+.pDetail {
+    display: flex;
+}
+
+.checkoutProductImg {
+    height: 120px !important;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.checkoutProductName {
+    font-size: .9rem;
+}
+
+.checkoutProductVariation {
+    font-size: .7rem;
+    color: darkgray;
+}
+
+.checkoutProductSalePrice, .checkoutProductPrice {
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
+.checkoutProductRegularPrice, .checkoutProductDiscount, .checkoutProductQuantity {
+    font-size: .9rem;
+}
+
+.checkoutProductRegularPrice {
+    color: grey;
+}
+
+.orderSummery {
+    background: white;
+    padding: 1rem;
+    margin-top: 2px !important;
+}
+
+.shippingAddressInitial, .billingAddressInitial, .phoneInitial, .emailInitial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+    margin-bottom: .9rem;
+}
+
+.billSameAddress, .checkoutPhone, .checkoutEmail {
+    font-size: .9rem;
+}
+
+.checkoutIcons {
+    color: var(--primaryColor);
+    margin-right: 5px;
+}
+
+.checkoutAddressName {
+    font-weight: 600;
+}
+
+.checkoutEdit {
+    font-size: .9rem !important;
+    color: var(--primaryColor);
+}
+
+.checkoutFullAddress {
+    font-size: .8rem;
+    margin-bottom: .6rem;
+}
+
+.checkoutPickupPoint {
+    font-size: .8rem;
+    border: 2px dashed var(--primaryColor);
+    padding: .5rem;
+    cursor: pointer;
+    margin-bottom: .6rem;
+}
+
+.ppSuggested {
+    color: #9e9e9e;
+    font-size: .7rem;
+}
+
+.orderSubtotal, .orderTax, .orderDiscount, .orderTotal {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    margin-bottom: .6rem;
+}
+
+.checkoutGreyLabel, .checkoutItemCount {
+    color: #9e9e9e;
+}
+
+.voucherDiv {
+    margin-bottom: .6rem;
+}
+
+.voucherBtn {
+    border: 2px solid var(--primaryColor) !important;
+    color: var(--primaryColor) !important;
+    background: transparent !important;
+    transition: .8s !important;
+}
+
+.voucherBtn:hover {
+    border-color: var(--primaryColor) !important;
+    color: white !important;
+    background: var(--primaryColor) !important;
+    transition: .8s !important;
+}
+
+.checkoutVoucherInput {
+    height: 100% !important;
+    border: 2px solid #ced4da !important;
+    transition: .5s !important;
+}
+
+.checkoutVoucherInput:focus {
+    border-color: var(--primaryColor) !important;
+    border-right: 2px solid var(--primaryColor) !important;
+    transition: .5s !important;
+}
+
+.oTotalValue {
+    font-size: 1rem;
+    color: var(--primaryColor);
+}
+
+.taxIncludedDiv {
+    font-size: .65rem;
+    margin-bottom: .6rem;
+}
+
+.oNextBtn {
+    width: 100%;
+}
+.modal-body.shippingModal {
+    padding: 37px;
+}
+.shipment-loader svg {
+    height: 0px;
+}
+#checkout{
+    margin-top: 20px;
+}
+.variation.vname{
+    margin-right: 2px;
+}
+.variation.vvalue{
+    margin-right: 4px;
+}

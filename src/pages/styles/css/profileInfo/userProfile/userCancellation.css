@@ -1,0 +1,53 @@
+
+/*
+My Cancellations
+ */
+
+.canceled-on {
+    font-size: .8rem;
+}
+
+.canceled-order-number {
+    font-size: .8rem;
+}
+
+.canceled-order-id {
+    color: #05a8cb;
+}
+
+.canceled-product-name {
+    font-size: .9rem;
+}
+
+.canceled-product-quantity {
+    font-size: .9rem;
+}
+
+.canceled-quantity-label {
+    color: #9e9e9e;
+}
+.order-cancel-details-div {
+    background: var(--white);
+    padding: 12px;
+    margin-top: 20px;
+}
+.order-cancel-div.oder-cd {
+    width: 38%;
+    margin: auto;
+}
+.order-cancel-div.oder-cd {
+    width: 39%;
+    margin: auto;
+}
+
+.cancel-order-date {
+    border: 1px solid #dadada;
+    background-color: #eff0f5;
+    border-radius: 4px;
+    padding: 12px;
+    position: relative;
+
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}

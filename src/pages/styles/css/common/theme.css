@@ -1,0 +1,86 @@
+:root{
+    --backgroundColor:#F5F5F5;
+    --primaryColor: #2DB6D3;
+    --primaryColorFade:  rgba(5,168,203,.5) !important;
+    --secondaryColor: #FCAA00;
+    --navBackground:#ffff;
+    --secondaryHoverColor:#bbe4ed;
+    --sectionBackground:#ffff;
+    --whiteColor:#ffff;
+    --blackColor:#231F20;
+    --star:#bfbfbf;
+    --menuTextColor:#fff;
+    --darkBlackColor:#bfbfbf;
+    --darkGrayColor:#333333;
+
+
+    --textColor:#000;
+
+    --sectionTitleColor:#000;
+    --discountTextColor:#FF0000;
+
+    --cardBackgroundColor:#fff;
+
+    --cardPriceTitleColor:#000;
+    --cardTextHoverColor:#fff;
+    --cardPriceOffColor:#bfbfbf;
+    --cardTextColor:#fff;
+
+
+    --newsLetterTextColor:#fff;
+
+    --footerBackgroundColor:#111723;
+    --footerTextColor: #bfbfbf;
+    --footerIconColor:#fff;
+
+    --copyRightBackgroundColor:#0D111B;
+    --copyRightColor:#ffff !important;
+    --btntextColor:#fff;
+    --colorRed: #DB2B39;
+    --colorGreen: #51CB20;
+    --colorBlue: #2708A0;
+    --colorDarkGrey: #212738;
+    --colorGolden: #F3A712;
+    --colorOrange: #FF6542;
+    --colorYellow: #F2DC5D;
+    --colorNavyBlue: #061A40;
+    --colorPink: #F786AA;
+    --colorSkyBlue: #6CD4FF;
+    --colorLightGrey: #9F9AA4;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins', 'sans-serif','Font Awesome 5 Brands';
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    color: #000000!important;
+    box-sizing: border-box;
+    background-color: var(--backgroundColor) !important;
+}
+
+/*@font-face {*/
+/*    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins', 'sans-serif','Font Awesome 5 Brands';*/
+/*    font-size: 14px!important;*/
+/*    font-weight: 400!important;*/
+/*    font-family: "Poppins";*/
+/*    src: local("Poppins"),*/
+/*    url("src/pages/styles/css/webfonts/Poppins/Poppins-Regular.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Poppins';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: local('Pacifico Regular'), local('Pacifico-Regular'),*/
+/*    url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700')*/
+/*    format('woff2');*/
+/*    font-display: swap;*/
+/*}*/
+

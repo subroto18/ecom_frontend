@@ -1,0 +1,40 @@
+.categoriesImg img {
+    height: 100%;
+    width: auto;
+}
+.categoriesTitle {
+    font-size: 15px;
+    padding: 0;
+    margin: 0px;
+    text-align: left;
+}
+.categoriesRow{
+    margin-right: -15px!important;
+    margin-left: -15px!important;
+}
+
+.categories.title{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+.categories.title::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+.categoriesBody {
+    margin-bottom: 10px;
+}
+.categoriesImg {
+    width: 30%;
+    height: 50px;
+}
+
+.div.TopTen {
+    background-color: unset;
+    padding: 0;
+}

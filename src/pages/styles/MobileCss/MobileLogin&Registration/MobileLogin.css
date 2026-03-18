@@ -1,0 +1,251 @@
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .login-input-group {
+        padding: 1rem 1.5rem !important;
+    }
+
+    .loginDiv {
+        margin-top: 0px !important;
+    }
+    .loginImg{
+        margin-top: 45px !important;
+    }
+
+    .loginSocialDiv {
+        margin-top: 1.3rem !important;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+    .popupLoginDiv {
+        padding: 0 20px;
+    }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .loginImg {
+        display: none !important;
+    }
+
+    .loginDiv {
+        width: 90%;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .popupLoginDiv .loginDiv{
+        margin-top: 0px;
+    }
+    .popup-login-logo {
+        width: 230px;
+    }
+    .login-site-logo {
+        margin-bottom: 10px;
+    }
+
+    .loginRow {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+    .loginForm{
+        padding: 0.3rem 0.75rem;
+        font-size: 0.87rem;
+    }
+
+    .loginSocialDiv {
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .loginImg {
+        display: none;
+    }
+
+    .login-input-group {
+        padding: 2.3rem !important;
+    }
+
+    .loginDiv {
+        margin-top: 90px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .popupLoginDiv .loginDiv{
+        margin-top: 0px;
+    }
+    .popup-login-logo {
+        width: 230px;
+    }
+    .login-site-logo {
+        margin-bottom: 10px;
+    }
+
+    .loginRow {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+    .loginForm{
+        padding: 0.3rem 0.75rem;
+        font-size: 0.83rem;
+    }
+
+    .loginSocialDiv {
+        margin-top: 1rem !important;
+    }
+
+    .popupLoginDiv {
+        margin-top: -25px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .loginContainer {
+        padding: 1rem !important;
+    }
+
+    .loginImg {
+        display: none;
+    }
+
+    .login-input-group {
+        padding: 1.5rem !important;
+    }
+
+    .loginDiv {
+        margin-top: 90px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .popupLoginDiv .loginDiv{
+        margin-top: 0px;
+    }
+    .popup-login-logo {
+        width: 230px;
+    }
+    .login-site-logo {
+        margin-bottom: 10px;
+    }
+
+    .loginRow {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .subTitle {
+        font-size: 0.76rem;
+    }
+
+    .loginSocialDiv {
+        margin-top: 1rem !important;
+    }
+    .loginForm{
+        padding: 0.3rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .forget-password-btn {
+        font-size: 0.74rem;
+    }
+
+    .popupLoginDiv {
+        margin-top: -25px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .loginContainer {
+        padding: 1rem !important;
+    }
+
+    .loginImg {
+        display: none;
+    }
+
+    .login-input-group {
+        padding: 1rem !important;
+    }
+
+    .loginDiv {
+        margin-top: 90px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .loginRow {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .subTitle {
+        font-size: 0.7rem;
+    }
+    .loginForm{
+        padding: 0.3rem 0.75rem;
+        font-size: 0.8rem;
+    }
+    .form-check-label{
+        font-size: 0.75rem;
+    }
+
+    .loginSocialDiv {
+        margin-top: 1rem !important;
+    }
+
+    .forget-password-btn {
+        font-size: 0.74rem;
+    }
+    .form-check-label {
+        font-size: 0.74rem;
+    }
+
+    .popupLoginDiv {
+        margin-top: -116px;
+    }
+}

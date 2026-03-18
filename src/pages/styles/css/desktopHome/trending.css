@@ -1,0 +1,44 @@
+.trending.title {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.trending.title::before {
+    content: '';
+    height: 2px;
+    width: 228px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+.trending .cardImgDiv {
+    height: 200px;
+}
+.trending .cardImgDiv img{
+    height: 100%;
+}
+
+.trendingCard .productTitle {
+    font-size: 14px !important;
+}
+.product-card.trendingCard.card {
+    height: 140px;
+}
+.trendingCard .cardImgDiv {
+    height: 120px;
+    width: 160px;
+    padding: 15px 0 0px 0px;
+}
+.tendingRow{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.trending {
+    background: var(--sectionBackground);
+    padding: 30px;
+}
+.trending.TitleDiv {
+    padding: 0;
+}

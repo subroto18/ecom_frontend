@@ -1,0 +1,110 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+    .printBtn{
+        margin-left: -7px;
+    }
+
+    .sortInput {
+        margin: 0px;
+        padding: 0 15px;
+    }
+
+    .inputTextSize{
+        margin-bottom: 10px;
+    }
+
+    .sellerTableSize{
+        width: 100% !important;
+    }
+    .dataTables_wrapper.dt-bootstrap4{
+      padding: 0!important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+
+    .printBtn{
+        margin-left: -7px;
+    }
+
+    .dataTables_wrapper.dt-bootstrap4{
+       padding: 0!important;
+    }
+    .sellerTableSize{
+        width: 100% !important;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+
+    .printBtn{
+        margin-left: -7px;
+    }
+    .sortInput {
+        margin: 0px;
+        padding: 0 15px;
+    }
+
+    .inputTextSize{
+        margin-bottom: 10px;
+    }
+
+    .dataTables_wrapper.dt-bootstrap4{
+        padding: 0!important;
+    }
+    .sellerTableSize{
+        width: 100% !important;
+    }
+    table tr td .badge{
+        padding: 4px 6px;
+        font-weight: 500;
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+
+    .printBtn{
+        margin-left: -7px;
+    }
+    .sortInput {
+        margin: 0px;
+        padding: 0 12px;
+    }
+
+    .inputTextSize{
+        margin-bottom: 10px;
+    }
+
+    .dataTables_wrapper.dt-bootstrap4{
+       padding: 0px!important;
+    }
+    .sellerTableSize{
+        width: 100% !important;
+    }
+    table tr td .badge{
+        padding: 4px 6px;
+        font-weight: 500;
+        font-size: 0.63rem;
+    }
+}

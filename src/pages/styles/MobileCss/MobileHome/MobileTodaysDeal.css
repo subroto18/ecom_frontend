@@ -1,0 +1,716 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+.mtdpopacity {
+    position: absolute;
+    background: var(--sectionBackground);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    display: none;
+}
+
+.product-card.todayDealCard.card:hover .mtdpopacity {
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .Slider{
+        padding: 0;
+    }
+    .div {
+        background-color: unset;
+        padding: 0px;
+        border-radius: 3px;
+    }
+    .cardImgDiv {
+        padding: 10px 0px;
+        height: 122px;
+        overflow: hidden;
+        position: relative;
+    }
+    .cardImgDiv:hover img {
+        transform: unset!important;
+        transition: unset!important;
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .cardImgDiv {
+        padding: 2px 0px;
+        height: 99px!important;
+        overflow: hidden;
+        position: relative;
+    }
+    .hotDeal {
+        background: var(--discountTextColor);
+        border-radius: 3px;
+        font-size: 14px;
+        padding: 3px;
+        font-weight: bold;
+        color: var(--whiteColor);
+    }
+    #todays-deal-mobile .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 27px;
+        /* display: none; */
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .regularPrice.singlePrice {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--discountTextColor);
+    }
+    .regularPrice.singlePrice.dealP {
+        margin-top: 1px !important;
+        /* width: 62px; */
+        padding: 1px 11px;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: -16px 0 0 0!important;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 15px !important;
+        text-align: right;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 14px;
+    }
+
+    .Slider.loader {
+        padding: 0 !important;
+    }
+
+
+    .product-card.todayDealCard.card {
+        height: 160px;
+        padding: 16px;
+    }
+
+
+    .product-card.todayDealCard.card {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .mobile-hot-deal {
+        margin: auto;
+    }
+
+
+    .mtdc-div {
+        height: auto !important;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+
+
+    .TitleDiv.mtdptitle{
+        margin-bottom: 20px!important;
+    }
+
+    .mobile-todaysdeal-price-details {
+        text-align: center;
+        display: block;
+        position: absolute;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .discountPrice.mtdp {
+        margin-right: 0px !important;
+        font-size: 13px !important;
+        margin-top: -16px !important;
+        display: block;
+        text-align: center;
+    }
+    .row.mtdrow {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .mtdc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .regularPrice.mtrp{
+        font-weight:bold ;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .Slider{
+        padding: 0;
+    }
+    .div {
+        background-color: unset;
+        padding: 0px;
+        border-radius: 3px;
+    }
+    .cardImgDiv {
+        padding: 10px 0px;
+        height: 122px;
+        overflow: hidden;
+        position: relative;
+    }
+    .cardImgDiv:hover img {
+        transform: unset!important;
+        transition: unset!important;
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .cardImgDiv {
+        padding: 2px 0px;
+        height: 99px!important;
+        overflow: hidden;
+        position: relative;
+    }
+    .hotDeal {
+        background: var(--discountTextColor);
+        border-radius: 3px;
+        font-size: 14px;
+        padding: 3px;
+        font-weight: bold;
+        color: var(--whiteColor);
+    }
+    #todays-deal-mobile .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 27px;
+        /* display: none; */
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .regularPrice.singlePrice {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--discountTextColor);
+    }
+    .regularPrice.singlePrice.dealP {
+        margin-top: 1px !important;
+        /* width: 62px; */
+        padding: 1px 11px;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: -16px 0 0 0!important;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 15px !important;
+        text-align: right;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 14px;
+    }
+
+    .Slider.loader {
+        padding: 0 !important;
+    }
+
+    .product-card.todayDealCard.card {
+        height: 128px;
+    }
+
+
+
+    .product-card.todayDealCard.card {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .mobile-hot-deal {
+        margin: auto;
+    }
+
+
+    .mtdc-div {
+        height: auto !important;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .TitleDiv.mtdptitle{
+        margin-bottom: 20px!important;
+    }
+
+    .mobile-todaysdeal-price-details {
+        text-align: center;
+        display: block;
+        position: absolute;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .discountPrice.mtdp {
+        margin-right: 0px !important;
+        font-size: 13px !important;
+        margin-top: -16px !important;
+        display: block;
+        text-align: center;
+    }
+    .row.mtdrow {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .mtdc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .regularPrice.mtrp{
+        font-weight:bold ;
+    }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .Slider{
+        padding: 0;
+    }
+    .div {
+        background-color: unset;
+        padding: 0px;
+        border-radius: 3px;
+    }
+    .cardImgDiv {
+        padding: 10px 0px;
+        height: 122px;
+        overflow: hidden;
+        position: relative;
+    }
+    .cardImgDiv:hover img {
+        transform: unset!important;
+        transition: unset!important;
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .cardImgDiv {
+        padding: 2px 0px;
+        height: 99px!important;
+        overflow: hidden;
+        position: relative;
+    }
+    .hotDeal {
+        background: var(--discountTextColor);
+        border-radius: 3px;
+        font-size: 14px;
+        padding: 3px;
+        font-weight: bold;
+        color: var(--whiteColor);
+    }
+    #todays-deal-mobile .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 27px;
+        /* display: none; */
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .regularPrice.singlePrice {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--discountTextColor);
+    }
+    .regularPrice.singlePrice.dealP {
+        margin-top: 1px !important;
+        /* width: 62px; */
+        padding: 1px 11px;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: -16px 0 0 0!important;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 15px !important;
+        text-align: right;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 14px;
+    }
+
+    .Slider.loader {
+        padding: 0 !important;
+    }
+
+    .product-card.todayDealCard.card {
+        height: 110px;
+    }
+
+
+
+    .product-card.todayDealCard.card {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .mobile-hot-deal {
+        margin: auto;
+    }
+
+
+    .mtdc-div {
+        height: auto !important;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .TitleDiv.mtdptitle{
+        margin-bottom: 20px!important;
+    }
+
+    .mobile-todaysdeal-price-details {
+        text-align: center;
+        display: block;
+        position: absolute;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .discountPrice.mtdp {
+        margin-right: 0px !important;
+        font-size: 13px !important;
+        margin-top: -16px !important;
+        display: block;
+        text-align: center;
+    }
+    .row.mtdrow {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .mtdc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .regularPrice.mtrp{
+        font-weight:bold ;
+    }
+
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+    .Slider{
+        padding: 0;
+    }
+    .div {
+        background-color: unset;
+        padding: 0px;
+        border-radius: 3px;
+    }
+    .cardImgDiv {
+        padding: 10px 0px;
+        height: 122px;
+        overflow: hidden;
+        position: relative;
+    }
+    .cardImgDiv:hover img {
+        transform: unset!important;
+        transition: unset!important;
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .cardImgDiv {
+        padding: 2px 0px;
+        height: 99px!important;
+        overflow: hidden;
+        position: relative;
+    }
+    .hotDeal {
+        background: var(--discountTextColor);
+        border-radius: 3px;
+        font-size: 14px;
+        padding: 3px;
+        font-weight: bold;
+        color: var(--whiteColor);
+    }
+    #todays-deal-mobile .productCategory.title::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: var(--primaryColor);
+        position: absolute;
+        top: 27px;
+        /* display: none; */
+    }
+    .priceDiv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: var(--primaryColor);
+        width: 68px;
+        border-bottom-right-radius: 5px;
+    }
+    .price {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: var(--whiteColor);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .regularPrice.singlePrice {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--discountTextColor);
+    }
+    .regularPrice.singlePrice.dealP {
+        margin-top: 1px !important;
+        /* width: 62px; */
+        padding: 1px 11px;
+    }
+    .discountPrice {
+        color: var(--discountTextColor);
+        margin: -16px 0 0 0!important;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 15px !important;
+        text-align: right;
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+    }
+    .regularPrice {
+        color: var(--darkBlackColor);
+        padding: 1px 14px;
+    }
+
+    .Slider.loader {
+        padding: 0 !important;
+    }
+
+
+
+
+
+    .product-card.todayDealCard.card {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        height: 80px;
+    }
+
+
+
+    .mobile-hot-deal {
+        margin: auto;
+    }
+
+
+    .mtdc-div {
+        height: auto !important;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .TitleDiv.mtdptitle{
+        margin-bottom: 20px!important;
+    }
+
+    .mobile-todaysdeal-price-details {
+        text-align: center;
+        display: block;
+        position: absolute;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .discountPrice.mtdp {
+        margin-right: 0px !important;
+        font-size: 13px !important;
+        margin-top: -16px !important;
+        display: block;
+        text-align: center;
+    }
+    .row.mtdrow {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .mtdc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .regularPrice.mtrp{
+        font-weight:bold ;
+    }
+
+
+}

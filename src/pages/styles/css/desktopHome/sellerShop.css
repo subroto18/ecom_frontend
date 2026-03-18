@@ -1,0 +1,128 @@
+
+/*
+Store Home
+*/
+
+
+.store-cover {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.store-logo-block {
+    text-align: center;
+}
+
+.store-logo {
+    border-radius: 50%;
+    height: 157px;
+    border: 3px solid rgba(65,65,65,.3);
+    margin-top: 10px;
+}
+.store-socials {
+    padding: 20px 50px !important;
+}
+
+.store-social-icons {
+    padding: 10px;
+    color: #414141;
+    border: 2px solid var(--primaryColor);
+    border-radius: 11px;
+    transition: .5s !important;
+}
+
+i.fab.fa-facebook-f.store-social-icons.mr-2 {
+    padding: 10px 13px !important;
+}
+
+i.fab.fa-instagram.store-social-icons.mr-2 {
+    padding: 10px 12px !important;
+}
+
+i.fab.fa-facebook-f.store-social-icons.mr-2:hover {
+    background: #4267B2;
+    border: 2px solid #4267B2;
+    color: white;
+    transition: .5s;
+}
+
+i.fab.fa-twitter.store-social-icons.mr-2:hover {
+    background: #1DA1F2;
+    border: 2px solid #1DA1F2;
+    color: white;
+    transition: .5s;
+}
+
+i.fab.fa-instagram.store-social-icons.mr-2:hover {
+    background: linear-gradient(45deg, #833AB4, #C13584);
+    border: 2px solid #C13584;
+    color: white;
+    transition: .5s;
+}
+
+i.fab.fa-youtube.store-social-icons:hover {
+    background: #FF0000;
+    border: 2px solid #FF0000;
+    color: white;
+    transition: .5s;
+}
+
+.store-profile-options {
+    border-bottom: 4px solid transparent;
+    transition: .3s !important;
+}
+
+.store-profile-options.nav-link.active {
+    background: transparent !important;
+    border-bottom: 4px solid var(--primaryColor);
+    border-radius: 0;
+    transition: .3s !important;
+}
+
+.store-titles {
+    line-height: 1 !important;
+}
+
+.store-titles span {
+    border-bottom: 4px solid var(--primaryColor);
+}
+
+.store-hr {
+    margin-top: 0px !important;
+}
+
+.storeLogoDiv {
+    position: absolute;
+    bottom: 18px;
+    left: 139px;
+}
+.shopStoreDiv {
+    background: var(--sectionBackground);
+}
+
+.shopStoreDiv {
+    background: var(--sectionBackground);
+    padding-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.store-logo {
+    border-radius: 50%;
+    height: 160px;
+    border: 3px solid rgba(65,65,65,.3);
+    margin-top: 10px;
+    width: 160px;
+}
+
+.store-name {
+    height: 44px;
+}
+.sellerImgDiv .photo-div {
+    height: 200px;
+}
+.store-logo img {
+    position: unset !important;
+    border-radius: 50%;
+}

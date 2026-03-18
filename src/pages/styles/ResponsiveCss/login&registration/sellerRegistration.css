@@ -1,0 +1,58 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .sellerRegisterInput h1{
+        font-size: 2rem;
+    }
+    .register-img {
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+    .sellerRegisterInput h1{
+        font-size: 1.8rem;
+    }
+    
+
+}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sellerRegisterInput h1{
+        font-size: 1.7rem;
+    }
+
+    .sellerRegistrationDiv{
+        margin-top: 45px;
+    }
+
+
+    /*.sellerContainer {*/
+    /*    padding-top: 0px !important;*/
+    /*    margin-top: 0px !important;*/
+    /*    margin-bottom: 0px !important;*/
+    /*}*/
+
+
+}

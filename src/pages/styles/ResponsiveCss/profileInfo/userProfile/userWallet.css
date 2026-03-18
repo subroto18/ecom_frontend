@@ -1,0 +1,427 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    .table-style.table-bordered{
+        width: 98%;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 33% !important;
+    }
+    .offLinePayOption{
+        width: 200px;
+        height: 120px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -10px;
+      }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280.55px) {
+
+    /* CSS */
+    .table-style.table-bordered{
+        width: 100%;
+    }
+    .wallet-recharge {
+        font-size: 14px;
+    }
+    .pGatewayName.offline-recharge{
+        margin-top: 2px;
+    }
+    .offline-wallet-recharge-title-div {
+        padding: 20px 38px;
+    }
+    .offline-wallet-content p{
+        font-size: 0.8rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 33% !important;
+    }
+    .offLinePayOption{
+        width: 200px;
+        height: 120px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -10px;
+      }
+    .offlineWalletImgSection{
+        margin-left: 100px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1025px) {
+
+    /* CSS */
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .wallet-recharge {
+        font-size: 16px;
+    }
+    .wallet-recharge {
+        font-size: 14px;
+    }
+    .pGatewayName.offline-recharge{
+        margin-top: 2px;
+    }
+    .offline-wallet-content p{
+        font-size: 0.8rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 33% !important;
+    }
+    .offLinePayOption{
+        width: 200px;
+        height: 120px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -10px;
+      }
+      .offlineWalletImgSection{
+        margin-left: 90px;
+    }  
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .wallet-recharge {
+        font-size: 14px;
+    }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 110px;
+    }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+    .table-style tr{
+        font-size: 0.55rem !important;
+    }
+      .offline-wallet-content h2{
+        font-size: 1.3rem;
+    }
+    .offline-wallet-content p{
+        font-size: 0.8rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 45% !important;
+    }
+    .offLinePayOption{
+        width: 150px;
+        height: 80px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -8px;
+        font-size: 0.8rem;
+      }
+      .offlineWalletImgSection{
+        margin-left: 100px;
+    }  
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 110px;
+    }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+    .wallet-recharge {
+        font-size: 13px;
+    }
+    .table-style tr{
+        font-size: 0.7rem !important;
+    }
+    .wallet-content-div .wallet-b-title {
+        text-align: center;
+        font-size: 12px;
+    }
+    .wallet-b-title {
+        margin-top: 10px;
+    }
+    .wallet-balance {
+        font-size: 18px;
+    }
+      .offline-wallet-content h2{
+          font-size: 1.3rem;
+      }
+      .offline-wallet-content p{
+          font-size: 0.8rem;
+      }
+      .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 45% !important;
+    }
+    .offLinePayOption{
+        width: 150px;
+        height: 80px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -8px;
+        font-size: 0.8rem;
+      }
+    .offlineWalletImgSection{
+        margin-left: 100px;
+    }  
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+    
+    .wallet-container{
+        margin-top: 20px;
+    }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 110px;
+    }
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+      .walletBalance{
+          font-size: 15px !important;
+      }
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .table-style tr{
+        font-size: 0.7rem !important;
+    }
+    .wallet-recharge {
+        font-size: 13px;
+    }
+    .wallet-b-title {
+        font-size: 12.5px;
+        margin-top: -12px;
+        padding: 0 20px;
+    }
+    .offline-wallet-content h2{
+        font-size: 1.3rem;
+    }
+    .offline-wallet-content p{
+        font-size: 0.8rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 45% !important;
+    }
+    .offLinePayOption{
+        width: 150px;
+        height: 80px;
+    }
+    .offlineWalletImgSection{
+        margin-left: 40px;
+    }  
+}
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+    .wallet-container{
+        margin-top: 20px;
+    }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 100px;
+    }
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+      .walletBalance{
+          font-size: 15px !important;
+      }
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .table-style tr{
+        font-size: 0.7rem !important;
+    }
+    .wallet-recharge {
+        font-size: 11px;
+    }
+    .offline-wallet-content h2{
+        font-size: 1.3rem;
+    }
+    .offline-wallet-content p{
+        font-size: 0.8rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 45% !important;
+    }
+    .offLinePayOption{
+        width: 150px;
+        height: 80px;
+    }
+    .pGatewayName.offline-recharge {
+        margin-top: -9px;
+        font-size: 0.7rem;
+      }
+      .wallet-recharge {
+        font-size: 13px;
+      }
+      .offlineWalletImgSection{
+        margin-left: 30px;
+    }  
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 481.55px) {
+    .wallet-container{
+        margin-top: 20px;
+    }
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .table-style tr{
+        font-size: 0.6rem !important;
+    }
+    .wallet-recharge {
+        font-size: 11px;
+    }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 100px;
+    }
+    .offline-wallet-content h2{
+        font-size: 1.2rem;
+    }
+    .offline-wallet-content p{
+        font-size: 0.75rem;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 60% !important;
+    }
+    .offLinePayOption{
+        width: 170px;
+        height: 90px;
+    }
+    .wallet-recharge {
+        font-size: 13px;
+    }
+    .offlineWalletImgSection{
+        margin-left: 15px;
+    } 
+}
+
+@media (max-width: 320.55px) {
+    .wallet-content-div {
+        margin-top: -12px;
+      }
+    .wallet-container{
+        margin-top: 20px;
+    }
+    .table-style.table-bordered{
+        width: 100% !important;
+    }
+    .wallet-content-div.balance {
+        margin-top: -14px !important;
+      }
+    .wallet-div{
+        margin-bottom: 15px;
+        height: 100px;
+    }
+    .table-style tr{
+        font-size: 0.6rem !important;
+    }
+    .wallet-recharge {
+        font-size: 11px;
+    }
+    .wallet-div{
+        margin-bottom: 15px;
+    }
+    .offline-wallet-recharge-title-div{
+        padding: 17px 9px;
+    }
+    .offlinePGateway{
+        width: 73% !important;
+    }
+    .offLinePayOption{
+        width: 160px;
+        height: 90px;
+    }
+    .offline-wallet-content h2{
+        font-size: 1.2rem;
+    }
+    .offline-wallet-content p{
+        font-size: 0.75rem;
+    }
+    .wallet-recharge {
+        font-size: 13px;
+      }
+      .offlineWalletImgSection{
+        margin-left: -10px;
+    } 
+}

@@ -1,0 +1,115 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    #shopByCategories {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .shop-by-b-row-col.col {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .mobile-category-img{
+        height: 100%;
+    }
+
+    .cardImgDiv.mobile-category {
+        padding: 20px 20px;
+        height: 166px !important;
+    }
+
+    .product-card.categoryProductCard.card {
+        margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+    .shop-by-b-row-col.col {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .cardImgDiv.mobile-category {
+        height: 122px !important;
+    }
+    .mobile-category-img{
+        height: 100%;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .shop-by-b-row-col.col {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+    .cardImgDiv.mobile-category {
+        height: 100px !important;
+    }
+    .categoryProductCard {
+        margin-bottom: 0px;
+      }
+    .mobile-category-img{
+        height: 100%;
+    }
+
+
+    .allCat.title{
+        font-size: 14px;
+    }
+
+    .all-cat-title{
+        font-size: 12px;
+    }
+    .cat-div{
+        margin-bottom: -1rem;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+
+    /* CSS */
+    .shop-by-b-row-col.col {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+
+
+    .mobile-category-img{
+        height: 100%;
+    }
+    .product-card.categoryProductCard.card {
+        padding: 0;
+        margin-bottom: 6px;
+    }
+
+    .allCat.title{
+        font-size: 14px;
+    }
+
+    .all-cat-title{
+        font-size: 12px;
+    }
+    .cat-div{
+        margin-bottom: -1rem;
+    }
+
+
+}

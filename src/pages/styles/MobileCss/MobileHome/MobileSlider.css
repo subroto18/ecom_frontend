@@ -1,0 +1,177 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .sliderDiv {
+        margin-top: 20px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 18px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .sliderDiv {
+        margin-top: 32px;
+        border-radius: 3px;
+        width: 100%;
+        height: 212px;
+        overflow: hidden;
+    }
+    #mobile-slider {
+        margin-top: 75px;
+    }
+    .slick-slide img {
+        display: block;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .sliderDiv {
+        margin-top: 20px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 18px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .sliderDiv {
+        margin-top: 32px;
+        border-radius: 3px;
+        width: 100%;
+        height: 208px;
+        overflow: hidden;
+        margin-bottom: 7px;
+    }
+    #mobile-slider {
+        margin-top: 80px;
+    }
+    .slick-slide img {
+        display: block;
+        border-radius: 10px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .sliderDiv {
+        margin-top: 20px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 18px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    /* .sliderDiv {
+        margin-top: 32px;
+        border-radius: 3px;
+        width: 100%;
+        height: 208px;
+        overflow: hidden;
+    } */
+    #mobile-slider {
+        margin-top: 80px;
+    }
+    .slick-slide img {
+        display: block;
+        border-radius: 10px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 150px!important;
+        border-radius: 5px !important;
+    }
+    .sliderDiv {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+
+    .sliderDiv {
+        margin-top: 20px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 18px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .sliderDiv {
+        margin-top: 32px;
+        border-radius: 3px;
+        width: 100%;
+        height: 208px;
+        overflow: hidden;
+    }
+    #mobile-slider {
+        margin-top: 67px;
+    }
+    .slick-slide img {
+        display: block;
+        border-radius: 10px;
+    }
+    .slider-img {
+        width: 100% !important;
+        height: 140px !important;
+        border-radius: 0 !important;
+    }
+    .sliderDiv {
+        margin-top: 0px;
+        border-radius: 5px;
+        width: 100%;
+        height: 140px;
+        overflow: hidden;
+    }
+
+}

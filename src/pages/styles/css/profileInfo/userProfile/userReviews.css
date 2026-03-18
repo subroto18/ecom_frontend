@@ -1,0 +1,154 @@
+/*
+My Reviews
+*/
+.profile-review-options {
+    font-weight: bold;
+    border-bottom: 5px solid transparent;
+    transition: .3s !important;
+    color: #9e9e9e !important;
+    font-size: 1rem;
+}
+
+.profile-review-options.active {
+    background: transparent !important;
+    color: var(--primaryColor) !important;
+    border-bottom: 5px solid var(--primaryColor);
+    border-radius: 0px !important;
+    transition: .3s !important;
+}
+
+.purchased-on {
+    color: #9e9e9e;
+    font-weight: 300;
+    font-size: .85rem;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.review-product-name {
+    font-size: .8rem;
+}
+
+.review-seller-name {
+    font-size: .9rem;
+}
+
+.review-btn {
+    width: 150px;
+    font-size: .9rem !important;
+    background: var(--primaryColor) !important;
+    color: var(--btntextColor) !important;
+    transition: .5s !important;
+}
+
+.review-btn:hover {
+    background: var(--secondaryColor) !important;
+    color: white !important;
+    transition: .5s;
+}
+
+.review-product-right-element {
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+
+.review-part {
+    background: var(--white);
+    padding: 18px;
+}
+
+
+.upload__image-wrapper {
+    margin-top: 10px;
+}
+.drag-image.d-flex.justify-content-center.align-items-center.align-middle {
+    width: 52px;
+    height: 61px;
+    margin-top: 6px;
+}
+.review-img-upload {
+    width: 48px;
+    height: 47px;
+    cursor: pointer;
+}
+.review-img-div {
+    border: 1px solid aliceblue;
+    margin-top: 10px;
+    width: 52px;
+    height: 52px;
+    position: relative;
+    float: left;
+    margin-right: 11px;
+    margin-bottom: 26px;
+}
+.fas.fa-times.review-times {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    font-size: 10px;
+}
+.note {
+    display: block;
+    width: 100%;
+    float: unset;
+    clear: both;
+    margin-top: 6px;
+}
+.fas.fa-times.review-times {
+    cursor: pointer;
+}
+.review-img-upload {
+    width: 48px;
+    height: 47px;
+    cursor: pointer;
+    background: #ddd;
+
+    margin-top: 11px;
+}
+
+.rvl {
+    border-left: 1px solid var(--primaryColor);
+    height: 80%;
+    position: absolute;
+    left: 49%;
+    top: 16px;
+    margin: auto;
+
+}
+.review-btn.btn.btn-primary {
+    margin-top: 14px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.review-div {
+    background: var(--white);
+    margin-top: 13px;
+    padding: 11px;
+}
+
+
+.reviewImg {
+    height: 54px;
+    margin-right: 9px;
+    margin-top: 10px;
+    display: flex;
+    width: 50px;
+    float: left;
+    margin-bottom: 18px;
+}
+
+.reviewImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #d5d5d5
+}
+
+.review-des-div {
+    background: #eff0f5;
+    padding: 14px;
+    border: 1px solid #d5d5d5;
+    white-space: pre-wrap;
+    font-size: 14px;
+
+}

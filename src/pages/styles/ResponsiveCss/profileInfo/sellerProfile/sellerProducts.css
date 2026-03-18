@@ -1,0 +1,377 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    .sellerTableSize tr th{
+      font-size: 0.82rem;
+    }
+    .premiumPackages{
+      font-size: 1.8rem;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+     }
+   .sellerTableSize tr th{
+     font-size: 0.8rem !important;
+   }
+   .sellerTableSize tr td{
+     font-size: 0.78rem !important;
+   }
+   .premiumPackages{
+    font-size: 1.6rem;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.85rem;
+  }
+  .packageName{
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.73rem !important;
+  }
+  .sellerTableSize .table-bordered {
+    margin-left: -10px;
+  }
+  .sellerTableSize tr td{
+    font-size: 0.72rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.5rem;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.85rem;
+  }
+  .package-price{
+    font-size: 1.5rem !important;
+  }
+  .packageName{
+    font-size: 12px;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.72rem !important;
+  }
+  .sellerTableSize tr td{
+    font-size: 0.71rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.5rem;
+  }
+ .sellerPackagePic {
+    margin-left: 35px;
+    height: 165px;
+    margin-top: -38px;
+    width: 70%;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+  .package-div Button {
+    font-size: 0.7rem;
+  }
+  .sellerPackagePic {
+    margin-left: 35px;
+    height: 165px;
+    margin-top: -38px;
+    width: 70%;
+  }
+  .package-div{
+    text-align: center;
+  }
+  .package-price{
+    font-size: 1.4rem !important;
+  }
+  .packageName{
+    font-size: 12px;
+  }
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.72rem !important;
+  }
+  .sellerTableSize tr td{
+    font-size: 0.71rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.5rem;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+  .package-div Button {
+    font-size: 0.7rem;
+  }
+  .package-div{
+    text-align: center;
+  }
+  .sellerPackagePic {
+    margin-left: 35px;
+    height: 165px;
+    margin-top: -38px;
+    width: 70%;
+  }
+  .package-price{
+    font-size: 1.45rem !important;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .editBtn{
+    font-size: 10px;
+  }
+  .dataTables_info{
+    text-align: left;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.7rem !important;
+  }
+  .sellerTableSize tr td{
+    font-size: 0.7rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.4rem;
+  }
+  .sellerPackagePic {
+    margin-left: 35px;
+    height: 165px;
+    margin-top: -38px;
+    width: 70%;
+  }
+  .sellerPackageTitleDiv {
+    margin-bottom: 48px !important;
+    margin-top: 28px !important;
+  }
+  .sellerPackage{
+    margin-top: -22px !important;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+  .package-price h3{
+    font-size: 1rem !important;
+  }
+  .package-price{
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .editBtn{
+    font-size: 10px;
+  }
+  .dataTables_info{
+    text-align: left;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.7rem !important;
+  }
+  .sellerTableSize tr td{
+    font-size: 0.687rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.35rem;
+  }
+  .sellerPackagePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .package-div{
+    text-align: center;
+  }
+  .sellerPackageTitleDiv {
+    margin-bottom: 48px !important;
+    margin-top: 28px !important;
+  }
+  .sellerPackage{
+    margin-top: -22px !important;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+  .package-price{
+    font-size: 1.4rem !important;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+    .deleteBtn{
+      padding: 3px 11px;
+      font-size: 12px !important;
+  }
+  .editBtn{
+    font-size: 10px;
+  }
+  .sellerTableSize .dataTables_info{
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .sellerTableSize tr th{
+    font-size: 0.69rem !important;
+  }
+  
+  .sellerTableSize tr td{
+    font-size: 0.68rem !important;
+  }
+  .premiumPackages{
+    font-size: 1.12rem;
+  }
+  .sellerPackagePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 140px !important;
+  }
+  .package-div{
+    text-align: center;
+  }
+  .sellerPackageTitleDiv {
+    margin-bottom: 48px !important;
+    margin-top: 28px !important;
+  }
+  .sellerPackage{
+    margin-top: -22px !important;
+  }
+  .package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+  .package-price{
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .deleteBtn{
+    padding: 3px 11px;
+    font-size: 12px !important;
+}
+.editBtn{
+  font-size: 10px;
+}
+.sellerTableSize .dataTables_info{
+  text-align: left;
+  font-size: 0.7rem;
+}
+.sellerTableSize tr th{
+  font-size: 0.68rem !important;
+}
+.sellerTableSize tr td{
+  font-size: 0.66rem !important;
+}
+.premiumPackages{
+  font-size: 1.1rem;
+}
+.sellerPackagePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 110px !important;
+}
+.package-div{
+  text-align: center;
+}
+.sellerPackageTitleDiv {
+  margin-bottom: 48px !important;
+  margin-top: 28px !important;
+}
+.sellerPackage{
+  margin-top: -22px !important;
+}
+.package-pp,
+  .package-dp,
+  .package-duration{
+    font-size: 0.8rem;
+  }
+}

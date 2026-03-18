@@ -1,0 +1,152 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280.55px) {
+
+    /* CSS */
+    .live-support-refresh {
+        margin-top: 9px;
+        margin-left: 5px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1025px) {
+
+    /* CSS */
+    .live-support-refresh {
+        margin-top: 9px;
+        margin-left: 6px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 5px 6px;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .live-support-refresh {
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 5px 6px;
+    }
+    
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .live-support-refresh {
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 5px 6px;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.55px) {
+    .live-support {
+        margin-top: 75px;
+    }
+    .live-support-refresh {
+        margin-top: 11px;
+        margin-left: 20px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 6px 8px;
+    }
+ }
+
+@media (min-width: 481px) and (max-width: 575.55px) {
+    .live-support {
+        margin-top: 75px;
+    }
+    .live-support-refresh {
+        margin-top: 11px;
+        margin-left: 20px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 6px 8px;
+    }
+ }
+    
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 481.55px) {
+    .live-support {
+        margin-top: 75px;
+        margin-right: 8px;
+    }
+    .avatar-img{
+        margin-left: 0px !important;
+    }
+    .live-support-refresh {
+        margin-top: 11px;
+        margin-left: 28px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 6px 8px;
+    }
+    .live-support-media {
+        margin-right: 7px;
+        }
+ } 
+    
+
+
+
+@media (max-width: 320.55px) {
+    .live-support {
+        margin-top: 75px;
+        margin-right: 8px;
+    }
+    .avatar-img{
+        margin-left: 0px !important;
+    } 
+    .text-message{
+        width: 100%;
+        font-size: 0.8rem !important;
+    }
+    .live-support-refresh {
+        margin-top: 11px;
+        margin-left: 32px;
+    }
+    .live-support-refresh .btn.btn-primary {
+        padding: 6px 8px;
+    }
+    .live-support-media {
+        margin-right: 7px;
+        }
+ }
+   

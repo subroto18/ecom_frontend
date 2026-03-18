@@ -1,0 +1,1342 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+.addressBadge {
+    border-radius: 20px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileCheckoutTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .addCheckoutAddressMobile {
+        padding: 20px;
+        text-align: center;
+        background: white;
+        margin: 10px 0px;
+        border: 2px dashed var(--primaryColor);
+        font-size: 1rem;
+    }
+    .orderSummery{
+        margin-top: 25px!important;
+        margin-bottom: 25px!important;
+    }
+
+    .editCheckoutAddressMobile {
+        background: white;
+        padding: 10px 15px;
+    }
+    .taxIncludedDiv{
+        margin-bottom: 0 !important;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress,
+    .editCheckoutAddressMobile .billingAddress {
+        display: flex;
+        flex: 15;
+        margin-bottom: 15px;
+    }
+
+    .editCheckoutAddressMobile .contactPhone,
+    .editCheckoutAddressMobile .contactEmail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .billingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .contactPhone .checkoutIcons,
+    .editCheckoutAddressMobile .contactEmail .checkoutIcons {
+        margin-right: 15px;
+        font-size: 1rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails,
+    .editCheckoutAddressMobile .billingAddress .addressDetails{
+        flex: 13;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetailsEdit,
+    .editCheckoutAddressMobile .billingAddress .addressDetailsEdit {
+        flex: 1;
+        text-transform: uppercase;
+        color: var(--primaryColor) !important;
+        text-align: right;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .addressName {
+        font-weight: bold;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .fullAddress,
+    .editCheckoutAddressMobile .billingAddress .addressDetails .fullAddress {
+        font-size: .8rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .removeContactDetail,
+    .editCheckoutAddressMobile .contactEmail .removeContactDetail {
+        position: absolute;
+        right: 70px;
+        background: #9e9e9e;
+        color: white !important;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .saveContactDetail,
+    .editCheckoutAddressMobile .contactEmail .saveContactDetail {
+        position: absolute;
+        right: 15px;
+        color: var(--primaryColor) !important;
+    }
+
+    .packageCountDetails {
+        display: flex;
+        flex: 10;
+        align-items: center;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+    }
+
+    .mobilePackageDiv .packageShipper {
+        flex: 7;
+    }
+
+    .mobilePackageDiv .packageHeader {
+        background: white;
+        padding: .5rem 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .mobilePackageDiv .mobileProductDetails {
+        padding: .7rem 0px;
+    }
+
+    .checkoutProductSmallDetails {
+        border-top: 1px solid rgba(0,0,0,0.2);
+        padding: 0.3rem 0px;
+    }
+
+    .checkoutProductSmallDetails .cItems {
+        font-size: .7rem;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .priceDroppedInfo {
+        font-size: .7rem;
+        color: #9e9e9e;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .cSDPrice {
+        color: var(--primaryColor);
+        font-weight: 500;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        margin: auto;
+
+        margin-bottom: 5rem;
+        margin-top: 15px;
+        height: 285px;
+    }
+
+    .applyCheckoutVoucherBody {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .applyCheckoutVoucherBody .voucher-input {
+        border-radius: 4px !important;
+    }
+
+    .applyCheckoutVoucherBody .btn-voucher-btn {
+        padding: 0px 50px !important;
+        font-size: .85rem !important;
+        border-radius: 5px !important;
+        background: #eae9e9 !important;
+        color: #333333 !important;
+        text-transform: uppercase;
+        font-weight: 400 !important;
+    }
+
+    .applyCheckoutVoucherBody .form-control::placeholder {
+        color: #9e9e9e;
+    }
+
+    .mobileCheckoutBottomBar {
+        background: white;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobileOrderTotal .oTotalValue {
+        color: var(--primaryColor);
+        font-weight: 600;
+    }
+
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: .85rem;
+    }
+
+    .checkoutBottomRight .oCheckoutBtn {
+        width: 150px;
+        font-size: 1rem !important;
+    }
+
+    .mobileDeliveryOptions button {
+        border: 2px solid rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.02);
+        padding: 15px;
+        border-radius: 5px;
+        font-size: .75rem;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 110px;
+    }
+
+    .mobileDeliveryOptions button.isChecked {
+        border: 2px solid var(--primaryColor);
+    }
+
+    .mobileDeliveryOptions .deliveryPlace {
+        font-size: .65rem;
+    }
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .packageCount {
+        font-size: .8rem;
+        font-weight: 500;
+        display: block;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        height: 285px;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+
+
+
+    .OrderSummaryPart .cart-summery{
+        padding-top: 5px !important;
+    }
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: 8px;
+    }
+
+
+
+    .checkoutProductImg {
+        height: 58px !important;
+        margin-right: 4px;
+        width: 65px;
+    }
+
+
+    .checkoutProductDetailDiv{
+        margin-top: 8px;
+    }
+
+    .voucherBtn.btn.btn-outline-secondary {
+        height: 100% !important;
+        transition: .5s !important;
+        color: #fff !important;
+        font-size: 12px !important;
+        background: var(--primaryColor) !important;
+        border: 0px !important;
+    }
+
+    .cart-summery {
+        background: var(--sectionBackground);
+        padding: 0;
+        border-radius: 3px;
+    }
+    .default-shipping {
+        border: 1px dotted;
+        border-radius: 7px;
+        font-size: 11px;
+        padding: 0px 12px;
+    }
+    .d-flex.justify-content-between.shippingDiv {
+        height: 37px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileCheckoutTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .addCheckoutAddressMobile {
+        padding: 20px;
+        text-align: center;
+        background: white;
+        margin: 10px 0px;
+        border: 2px dashed var(--primaryColor);
+        font-size: 1rem;
+    }
+
+    .editCheckoutAddressMobile {
+        background: white;
+        padding: 10px 15px;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress,
+    .editCheckoutAddressMobile .billingAddress {
+        display: flex;
+        flex: 15;
+        margin-bottom: 15px;
+    }
+
+    .editCheckoutAddressMobile .contactPhone,
+    .editCheckoutAddressMobile .contactEmail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .billingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .contactPhone .checkoutIcons,
+    .editCheckoutAddressMobile .contactEmail .checkoutIcons {
+        margin-right: 15px;
+        font-size: 1rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails,
+    .editCheckoutAddressMobile .billingAddress .addressDetails{
+        flex: 13;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetailsEdit,
+    .editCheckoutAddressMobile .billingAddress .addressDetailsEdit {
+        flex: 1;
+        text-transform: uppercase;
+        color: var(--primaryColor) !important;
+        text-align: right;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .addressName {
+        font-weight: bold;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .fullAddress,
+    .editCheckoutAddressMobile .billingAddress .addressDetails .fullAddress {
+        font-size: .8rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .removeContactDetail,
+    .editCheckoutAddressMobile .contactEmail .removeContactDetail {
+        position: absolute;
+        right: 70px;
+        background: #9e9e9e;
+        color: white !important;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .saveContactDetail,
+    .editCheckoutAddressMobile .contactEmail .saveContactDetail {
+        position: absolute;
+        right: 15px;
+        color: var(--primaryColor) !important;
+    }
+
+    .packageCountDetails {
+        display: flex;
+        flex: 10;
+        align-items: center;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+    }
+    .orderSummery{
+        margin-top: 25px!important;
+        margin-bottom: 25px!important;
+    }
+
+    .mobilePackageDiv .packageShipper {
+        flex: 7;
+    }
+
+    .mobilePackageDiv .packageHeader {
+        background: white;
+        padding: .5rem 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .mobilePackageDiv .mobileProductDetails {
+        padding: .7rem 0px;
+    }
+
+    .checkoutProductSmallDetails {
+        border-top: 1px solid rgba(0,0,0,0.2);
+        padding: 0.3rem 0px;
+    }
+
+    .checkoutProductSmallDetails .cItems {
+        font-size: .7rem;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .priceDroppedInfo {
+        font-size: .7rem;
+        color: #9e9e9e;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .cSDPrice {
+        color: var(--primaryColor);
+        font-weight: 500;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        margin: auto;
+        height: 285px;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+
+    .applyCheckoutVoucherBody {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .applyCheckoutVoucherBody .voucher-input {
+        border-radius: 4px !important;
+    }
+
+    .applyCheckoutVoucherBody .btn-voucher-btn {
+        padding: 0px 50px !important;
+        font-size: .85rem !important;
+        border-radius: 5px !important;
+        background: #eae9e9 !important;
+        color: #333333 !important;
+        text-transform: uppercase;
+        font-weight: 400 !important;
+    }
+
+    .applyCheckoutVoucherBody .form-control::placeholder {
+        color: #9e9e9e;
+    }
+
+    .mobileCheckoutBottomBar {
+        background: white;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        align-items: center;
+    }
+
+
+
+    .mobileOrderTotal .oTotalValue {
+        color: var(--primaryColor);
+        font-weight: 600;
+    }
+
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: .85rem;
+    }
+
+    .checkoutBottomRight .oCheckoutBtn {
+        width: 150px;
+        font-size: 1rem !important;
+    }
+
+    .mobileDeliveryOptions button {
+        border: 2px solid rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.02);
+        padding: 15px;
+        border-radius: 5px;
+        font-size: .75rem;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 110px;
+    }
+
+    .mobileDeliveryOptions button.isChecked {
+        border: 2px solid var(--primaryColor);
+    }
+
+    .mobileDeliveryOptions .deliveryPlace {
+        font-size: .65rem;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .packageCount {
+        font-size: .8rem;
+        font-weight: 500;
+        display: block;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        height: 285px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: 7px;
+    }
+
+
+    .checkoutProductImg {
+        height: 58px !important;
+        margin-right: 4px;
+        width: 65px;
+    }
+
+    .voucherBtn.btn.btn-outline-secondary {
+        height: 100% !important;
+        transition: .5s !important;
+        color: #fff !important;
+        font-size: 12px !important;
+        background: var(--primaryColor) !important;
+        border: 0px !important;
+    }
+
+    .cart-summery {
+        background: var(--sectionBackground);
+        padding: 0;
+        border-radius: 3px;
+    }
+    .default-shipping {
+        border: 1px dotted;
+        border-radius: 7px;
+        font-size: 11px;
+        padding: 0px 12px;
+    }
+    .d-flex.justify-content-between.shippingDiv {
+        height: 37px;
+    }
+    .mobileCheckoutBottomBar .checkoutBottomLeft {
+        padding-left: 20px;
+      }
+     .mobileCheckoutBottomBar .checkoutBottomRight{
+         padding-right: 15px;
+     } 
+     .checkoutBottomRight .oCheckoutBtn {
+         font-size: 0.8rem;
+     }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .discountBR {
+        display: none;
+    }
+
+    .mobileProductDetails .checkoutProductSalePrice {
+        margin-right: .5rem;
+    }
+
+    .mobileProductDetails .checkoutProductRegularPrice.mr-3 {
+        margin-right: .5rem !important;
+    }
+
+    .mobileCheckoutTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .addCheckoutAddressMobile {
+        padding: 10px 20px;
+        text-align: center;
+        background: white;
+        margin: 10px 0px;
+        border: 2px dashed var(--primaryColor);
+        font-size: .8rem;
+    }
+
+    .editCheckoutAddressMobile {
+        background: white;
+        padding: 10px 15px;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress,
+    .editCheckoutAddressMobile .billingAddress {
+        display: flex;
+        flex: 15;
+        margin-bottom: 15px;
+    }
+
+    .editCheckoutAddressMobile .contactPhone,
+    .editCheckoutAddressMobile .contactEmail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .billingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .contactPhone .checkoutIcons,
+    .editCheckoutAddressMobile .contactEmail .checkoutIcons {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails,
+    .editCheckoutAddressMobile .billingAddress .addressDetails{
+        flex: 13;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetailsEdit,
+    .editCheckoutAddressMobile .billingAddress .addressDetailsEdit {
+        flex: 1;
+        text-transform: uppercase;
+        color: var(--primaryColor) !important;
+        text-align: right;
+        font-size: .75rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .addressName {
+        font-size: .85rem;
+        font-weight: bold;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .fullAddress,
+    .editCheckoutAddressMobile .billingAddress .addressDetails .fullAddress {
+        font-size: .75rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .removeContactDetail,
+    .editCheckoutAddressMobile .contactEmail .removeContactDetail {
+        position: absolute;
+        right: 50px;
+        background: #9e9e9e;
+        color: white !important;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 0.7rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .saveContactDetail,
+    .editCheckoutAddressMobile .contactEmail .saveContactDetail {
+        position: absolute;
+        right: 15px;
+        color: var(--primaryColor) !important;
+        font-size: .75rem;
+    }
+
+    .phoneNumberInput.form-control,
+    .emailAddressInput.form-control {
+        width: 91% !important;
+    }
+
+    .packageCountDetails {
+        display: flex;
+        flex: 10;
+        align-items: center;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        padding: 0px .8rem;
+        margin-top: 10px;
+    }
+
+    .mobilePackageDiv .packageShipper {
+        flex: 7;
+    }
+
+    .mobilePackageDiv .packageHeader {
+        background: white;
+        padding: .5rem 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .mobilePackageDiv .mobileProductDetails {
+        padding: .7rem 0px;
+    }
+
+    .checkoutProductSmallDetails {
+        border-top: 1px solid rgba(0,0,0,0.2);
+        padding: 0.3rem 0px;
+    }
+
+    .checkoutProductSmallDetails .cItems {
+        font-size: .7rem;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .priceDroppedInfo {
+        font-size: .7rem;
+        color: #9e9e9e;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .cSDPrice {
+        color: var(--primaryColor);
+        font-weight: 500;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        height: 285px;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+
+    .applyCheckoutVoucherBody {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .applyCheckoutVoucherBody .voucher-input {
+        border-radius: 4px !important;
+    }
+
+    .applyCheckoutVoucherBody .btn-voucher-btn {
+        padding: 0px 30px !important;
+        font-size: .75rem !important;
+        border-radius: 5px !important;
+        background: #eae9e9 !important;
+        color: #333333 !important;
+        text-transform: uppercase;
+        font-weight: 400 !important;
+    }
+
+    .editCheckoutAddressMobile .form-control::placeholder,
+    .applyCheckoutVoucherBody .form-control::placeholder {
+        color: #9e9e9e;
+        font-size: .75rem !important;
+    }
+
+    .editCheckoutAddressMobile .far.fa-times {
+        font-size: .5rem;
+    }
+
+    .mobileCheckoutBottomBar {
+        background: white;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .mobileOrderTotal .oTotalValue {
+        color: var(--primaryColor);
+        font-weight: 600;
+    }
+
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: .7rem;
+    }
+
+    .checkoutBottomRight .oCheckoutBtn {
+        width: 111px;
+        font-size: .8rem !important;
+    }
+
+    .packageShipper .packageShipped,
+    .packageShipper .packageCount {
+        font-size: .65rem;
+    }
+
+    .packageShipper .packageSeller {
+        font-size: .7rem;
+    }
+
+    .packageShipper .packageCount {
+        font-size: .7rem;
+        margin-right: 5px;
+    }
+
+    .mobileProductDetails .checkoutProductName {
+        font-size: .75rem;
+    }
+
+    .mobileProductDetails .checkoutProductVariation {
+        font-size: .68rem;
+    }
+
+    .mobileProductDetails .checkoutProductSalePrice,.mobileProductDetails  .checkoutProductPrice {
+        font-size: .77rem;
+    }
+
+    .mobileProductDetails .checkoutProductRegularPrice,
+    .mobileProductDetails  .checkoutProductDiscount,
+    .mobileProductDetails  .checkoutProductQuantity {
+        font-size: .77rem;
+    }
+
+    .mobileCheckoutPriceDetails .checkoutGreyLabel,
+    .mobileCheckoutPriceDetails .checkoutItemCount {
+        font-size: .8rem;
+    }
+
+    .mobileTaxIncludedDiv {
+        text-align: left !important;
+    }
+
+    .mobileDeliveryOptions button {
+        border: 2px solid rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.02);
+        padding: 15px;
+        border-radius: 5px;
+        font-size: .75rem;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 110px;
+    }
+
+    .mobileDeliveryOptions button.isChecked {
+        border: 2px solid var(--primaryColor);
+    }
+
+    .mobileDeliveryOptions .deliveryPlace {
+        font-size: .65rem;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+    }
+    .packageCount {
+        font-size: .8rem;
+        font-weight: 500;
+        display: block;
+    }
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        height: 285px;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: 7px;
+    }
+
+
+    .checkoutProductImg {
+        height: 58px !important;
+        margin-right: 4px;
+        width: 65px;
+    }
+
+    .voucherBtn.btn.btn-outline-secondary {
+        height: 100% !important;
+        transition: .5s !important;
+        color: #fff !important;
+        font-size: 12px !important;
+        background: var(--primaryColor) !important;
+        border: 0px !important;
+    }
+
+
+
+    .cart-summery {
+        background: var(--sectionBackground);
+        padding: 0;
+        border-radius: 3px;
+    }
+    .default-shipping {
+        border: 1px dotted;
+        border-radius: 7px;
+        font-size: 11px;
+        padding: 0px 12px;
+    }
+    .d-flex.justify-content-between.shippingDiv {
+        height: 37px;
+    }
+    .checkoutProductName,
+    .cart-product-price {
+        font-size: 0.8rem;
+      }
+      .packageHeader{
+          margin-left: -13px;
+          margin-right: -13px;
+      }
+      .checkoutBottomRight {
+        margin-right: 10px;
+      }
+
+    .orderSummery{
+        margin-top: 25px!important;
+        margin-bottom: 25px!important;
+    }
+
+
+    .checkoutVoucherInput:focus {
+        border: 2px solid #ced4da;
+        border-right: 0 !important;
+        transition: .5s !important;
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+
+    .discountBR {
+        display: none;
+    }
+
+    .mobileProductDetails .checkoutProductSalePrice {
+        margin-right: .5rem;
+    }
+
+    .mobileProductDetails .checkoutProductRegularPrice.mr-3 {
+        margin-right: .5rem !important;
+    }
+
+    .mobileCheckoutTopBar {
+        display: flex;
+        padding: 10px 15px;
+        background: white;
+    }
+
+    .addCheckoutAddressMobile {
+        padding: 10px 20px;
+        text-align: center;
+        background: white;
+        margin: 10px 0px;
+        border: 2px dashed var(--primaryColor);
+        font-size: .8rem;
+    }
+
+    .editCheckoutAddressMobile {
+        background: white;
+        padding: 10px 15px;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress,
+    .editCheckoutAddressMobile .billingAddress {
+        display: flex;
+        flex: 15;
+        margin-bottom: 15px;
+    }
+
+    .editCheckoutAddressMobile .contactPhone,
+    .editCheckoutAddressMobile .contactEmail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .billingAddress .checkoutIcons,
+    .editCheckoutAddressMobile .contactPhone .checkoutIcons,
+    .editCheckoutAddressMobile .contactEmail .checkoutIcons {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails,
+    .editCheckoutAddressMobile .billingAddress .addressDetails{
+        flex: 13;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetailsEdit,
+    .editCheckoutAddressMobile .billingAddress .addressDetailsEdit {
+        flex: 1;
+        text-transform: uppercase;
+        color: var(--primaryColor) !important;
+        text-align: right;
+        font-size: .75rem;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .addressName {
+        font-size: .85rem;
+        font-weight: bold;
+    }
+
+    .editCheckoutAddressMobile .shippingAddress .addressDetails .fullAddress,
+    .editCheckoutAddressMobile .billingAddress .addressDetails .fullAddress {
+        font-size: .75rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .removeContactDetail,
+    .editCheckoutAddressMobile .contactEmail .removeContactDetail {
+        position: absolute;
+        right: 50px;
+        background: #9e9e9e;
+        color: white !important;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 0.7rem;
+    }
+
+    .editCheckoutAddressMobile .contactPhone .saveContactDetail,
+    .editCheckoutAddressMobile .contactEmail .saveContactDetail {
+        position: absolute;
+        right: 15px;
+        color: var(--primaryColor) !important;
+        font-size: .75rem;
+    }
+
+    .phoneNumberInput.form-control,
+    .emailAddressInput.form-control {
+        width: 91% !important;
+    }
+
+    .packageCountDetails {
+        display: flex;
+        flex: 10;
+        align-items: center;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+    }
+    .mobilePackageDiv .packageShipper {
+        flex: 7;
+    }
+
+    .mobilePackageDiv .packageHeader {
+        background: white;
+        padding: .5rem 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .mobilePackageDiv .mobileProductDetails {
+        padding: .7rem 0px;
+    }
+
+    .checkoutProductSmallDetails {
+        border-top: 1px solid rgba(0,0,0,0.2);
+        padding: 0.3rem 0px;
+    }
+
+    .checkoutProductSmallDetails .cItems {
+        font-size: .7rem;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .priceDroppedInfo {
+        font-size: .7rem;
+        color: #9e9e9e;
+        letter-spacing: 0.3px;
+    }
+
+    .checkoutProductSmallDetails .cSDPrice {
+        color: var(--primaryColor);
+        font-weight: 500;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+
+    .applyCheckoutVoucherBody {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .applyCheckoutVoucherBody .voucher-input {
+        border-radius: 4px !important;
+    }
+
+    .applyCheckoutVoucherBody .btn-voucher-btn {
+        padding: 0px 30px !important;
+        font-size: .75rem !important;
+        border-radius: 5px !important;
+        background: #eae9e9 !important;
+        color: #333333 !important;
+        text-transform: uppercase;
+        font-weight: 400 !important;
+    }
+
+    .editCheckoutAddressMobile .form-control::placeholder,
+    .applyCheckoutVoucherBody .form-control::placeholder {
+        color: #9e9e9e;
+        font-size: .75rem !important;
+    }
+
+    .editCheckoutAddressMobile .far.fa-times {
+        font-size: .5rem;
+    }
+
+    .mobileCheckoutBottomBar {
+        background: white;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .mobileOrderTotal .oTotalValue {
+        color: var(--primaryColor);
+        font-weight: 600;
+    }
+
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: .7rem;
+    }
+
+    .checkoutBottomRight .oCheckoutBtn {
+        width: 111px;
+        font-size: .8rem !important;
+    }
+
+    .packageShipper .packageShipped,
+    .packageShipper .packageCount {
+        font-size: .65rem;
+    }
+
+    .packageShipper .packageSeller {
+        font-size: .7rem;
+    }
+
+    .packageShipper .packageCount {
+        font-size: .7rem;
+        margin-right: 5px;
+    }
+
+    .mobileProductDetails .checkoutProductName {
+        font-size: .75rem;
+    }
+
+    .mobileProductDetails .checkoutProductVariation {
+        font-size: .68rem;
+    }
+
+    .mobileProductDetails .checkoutProductSalePrice,.mobileProductDetails  .checkoutProductPrice {
+        font-size: .77rem;
+    }
+
+    .mobileProductDetails .checkoutProductRegularPrice,
+    .mobileProductDetails  .checkoutProductDiscount,
+    .mobileProductDetails  .checkoutProductQuantity {
+        font-size: .77rem;
+    }
+
+    .mobileCheckoutPriceDetails .checkoutGreyLabel,
+    .mobileCheckoutPriceDetails .checkoutItemCount {
+        font-size: .8rem;
+    }
+
+    .mobileTaxIncludedDiv {
+        text-align: left !important;
+    }
+
+    .mobileDeliveryOptions button {
+        border: 2px solid rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.02);
+        padding: 15px;
+        border-radius: 5px;
+        font-size: .75rem;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 110px;
+    }
+
+    .mobileDeliveryOptions button.isChecked {
+        border: 2px solid var(--primaryColor);
+    }
+
+    .mobileDeliveryOptions .deliveryPlace {
+        font-size: .65rem;
+    }
+    .packageShipped {
+
+        color: #9e9e9e;
+        font-size: 11px;
+        display: block;
+    }
+    .packageEstS {
+        font-size: 11px;
+        color: #9e9e9e;
+    }
+
+    .checkoutProductImg {
+        height: 58px !important;
+        margin-right: 4px;
+        width: 65px;
+    }
+
+    .checkout-col {
+        margin-left: 36px;
+    }
+    .checkoutProductSalePrice, .checkoutProductPrice {
+        font-weight: 600;
+        color: var(--primaryColor);
+        margin-left: -4px;
+        margin-right: 8px;
+    }
+
+    .shipingBillingTitle {
+        font-size: 15px;
+    }
+
+
+    .checkoutProductSalePrice, .checkoutProductPrice {
+        font-weight: 600;
+        color: var(--primaryColor);
+        margin-left: 0;
+        margin-right: 8px;
+    }
+    .checkoutProductName {
+        font-size: 12px;
+    }
+
+    .checkoutPackagesDetails {
+        background: white;
+        margin-top: 10px;
+    }
+    .packageCount {
+        font-size: .8rem;
+        font-weight: 500;
+        display: block;
+    }
+
+    .mobileTaxIncluded {
+        color: #9e9e9e;
+        font-size: 7px;
+    }
+
+
+    .voucherBtn.btn.btn-outline-secondary {
+        height: 100% !important;
+        transition: .5s !important;
+        color: #fff !important;
+        font-size: 12px !important;
+        background: var(--primaryColor) !important;
+        border: 0px !important;
+    }
+
+
+
+    .cart-summery {
+        background: var(--sectionBackground);
+        padding: 0;
+        border-radius: 3px;
+    }
+    .default-shipping {
+        border: 1px dotted;
+        border-radius: 7px;
+        font-size: 11px;
+        padding: 0px 12px;
+    }
+
+    .d-flex.justify-content-between.shippingDiv {
+        height: 37px;
+    }
+
+    .mobileCheckoutPriceDetails {
+        background: white;
+        padding: 1.2rem;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+
+
+    .checkoutVoucherInput:focus {
+         border: 2px solid #ced4da;
+         border-right: 0 !important;
+         transition: .5s !important;
+    }
+
+    .orderSummery{
+        margin-top: 20px!important;
+        margin-bottom: 20px!important;
+    }
+
+
+}

@@ -1,0 +1,51 @@
+.flashSaleBanner {
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.flashSaleImageDiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.flashSaleTitle.title.mega::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 41px;
+}
+
+.flashSaleTitle.title.mega {
+    color: var(--btntextColor);
+    font-size: 31px;
+
+}
+
+
+
+.card-img-top.img-fluid.megaSale {
+    height: 100%;
+}
+
+.megaFlashSaleRow.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.flashSaleImageDiv.loader-thumbnail {
+    height: 250px;
+}
+
+.flashSaleImageDiv {
+    height: 200px;
+}
+.flashSaleBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}

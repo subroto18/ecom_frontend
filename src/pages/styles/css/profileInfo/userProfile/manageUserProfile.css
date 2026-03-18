@@ -1,0 +1,41 @@
+.manageProfileCard {
+    text-align: left;
+    padding: 1.25rem;
+}
+
+.manageProfileCard {
+    text-align: left;
+    padding: 1.25rem;
+}
+
+.profile-info-card.title.card-title.h5 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20px;
+}
+.profile-info-card .card-text {
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 20px;
+}
+.profile-info-sub-news {
+    color: var(--primaryColor) !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.page-item {
+    margin: 0 3px;
+}
+
+.page-item.active .btn {
+    background: var(--secondaryColor) !important;
+}
+
+.empty-div {
+    background: #fff;
+}

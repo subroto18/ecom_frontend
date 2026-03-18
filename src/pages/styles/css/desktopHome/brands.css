@@ -1,0 +1,49 @@
+.brandIng {
+    width: 30%;
+}
+.brandIng img {
+    height: 100%;
+    width: auto;
+}
+.brandTitle {
+    font-size: 20px;
+}
+.brandTitle {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 0 0 30px;
+
+}
+.brandRow{
+    margin-right: -15px!important;
+    margin-left: -15px!important;
+}
+
+.brand.title{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+.brand.title::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+}
+.brandsBody.card-body {
+    margin-bottom: 10px;
+}
+.brandIng {
+    width:55px;
+    height: 50px;
+}
+.brandTitle {
+    text-align: left;
+}
+
+.product-brand-logo {
+    width: 71px;
+    height: 48px;
+}

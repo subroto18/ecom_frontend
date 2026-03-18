@@ -1,0 +1,52 @@
+.securityVerificationDiv {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: white;
+}
+
+.securityText {
+    font-size: .9rem;
+    margin-bottom: .8rem;
+    color: lightslategray;
+}
+
+.securityOptionBtn {
+    background: transparent !important;
+    border: 2px solid var(--primaryColor) !important;
+    color: #05a8cb !important;
+    transition: .8s !important;
+}
+
+.securityOptionBtn:hover {
+    background: var(--primaryColor) !important;
+    border: 2px solid var(--primaryColor) !important;
+    color: white !important;
+    transition: .8s;
+}
+
+
+.emailVerificationDiv {
+    padding: 3rem 2rem;
+    background: white;
+}
+
+.emailVerificationText {
+    margin-bottom: 3rem;
+}
+
+.emailVerifyBtn {
+    width: 100% !important;
+}
+
+.verifyCode {
+    width: 100%;
+    margin-bottom: 2rem !important;
+}
+
+.verifyIcon {
+    color: var(--primaryColor)
+}
+
+.emailVerificationText {
+    font-size: .9rem;
+}

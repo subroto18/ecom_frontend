@@ -1,0 +1,124 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .checkoutProductImg
+
+    .package-shipped{
+        margin-top: 10px;
+    }
+
+    .checkoutProductName {
+        font-size: .8rem;
+    }
+
+    .orderSummery h4 {
+        font-size: 1.2rem;
+    }
+
+    .billSameAddress, .checkoutPhone, .checkoutEmail {
+        font-size: .8rem;
+    }
+
+    .taxIncludedDiv {
+        text-align: center !important;
+    }
+    .packageHeader{
+        margin-top: 18px;
+    }
+    .checkoutProductDetailDiv{
+        margin-top: 10px;
+    }
+    .packageDivPart{
+        margin-bottom: 5px;
+    }
+    .OrderSummaryPart .cart-summery h4{
+        font-size: 1.25rem;
+    }
+    .orderSummery {
+        margin-top: 18px !important;
+    }
+    .checkoutProductImg {
+        height: 130px !important;
+        margin-right: 10px;
+        width: 170px!important;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    .package-shipped{
+        margin-top: 10px;
+    }
+
+    .checkoutProductName {
+        font-size: .8rem;
+    }
+
+    .orderSummery h4 {
+        font-size: 1.2rem;
+    }
+
+    .billSameAddress, .checkoutPhone, .checkoutEmail {
+        font-size: .8rem;
+    }
+
+    .taxIncludedDiv {
+        text-align: center !important;
+    }
+    .packageHeader{
+        margin-top: 18px;
+    }
+    .OrderSummaryPart .cart-summery h4{
+        font-size: 1.25rem;
+    }
+    .packageDivPart{
+        margin-bottom: 5px;
+    }
+    .packageHeader{
+        margin-top: 18px;
+    }
+    .checkoutProductImg {
+        height: 130px !important;
+        margin-right: 10px;
+        width: 170px!important;
+    }
+
+}

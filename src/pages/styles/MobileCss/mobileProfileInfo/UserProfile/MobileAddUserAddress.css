@@ -1,0 +1,141 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .mobileAddNewAddressDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileAddNewAddressDiv .editLabel {
+        margin-bottom: 5px !important;
+        font-size: 1rem;
+    }
+
+    .mobileAddressType p {
+        font-size: .85rem;
+        color: gray;
+        margin-bottom: 6px;
+    }
+
+    .mobileAddressType button {
+        font-size: .85rem !important;
+        padding: 10px 20px;
+        background: lightslategray !important;
+    }
+
+    .mobileAddNewAddressDiv .saveUserAddress {
+        width: 100%;
+        font-size: 1rem !important;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .mobileAddNewAddressDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileAddNewAddressDiv .editLabel {
+        margin-bottom: 5px !important;
+        font-size: 1rem;
+    }
+
+    .mobileAddressType p {
+        font-size: .85rem;
+        color: gray;
+        margin-bottom: 6px;
+    }
+
+    .mobileAddressType button {
+        font-size: .85rem !important;
+        padding: 10px 20px;
+        background: lightslategray !important;
+    }
+
+    .mobileAddNewAddressDiv .saveUserAddress {
+        width: 100%;
+        font-size: 1rem !important;
+        padding: 10px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .mobileAddNewAddressDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileAddNewAddressDiv .editLabel {
+        margin-bottom: 5px !important;
+        font-size: .85rem;
+    }
+
+    .mobileAddressType p {
+        font-size: .85rem;
+        color: gray;
+        margin-bottom: 6px;
+    }
+
+    .mobileAddressType button {
+        font-size: .75rem !important;
+        padding: 5px 10px;
+        background: lightslategray !important;
+    }
+
+    .mobileAddNewAddressDiv .saveUserAddress {
+        width: 100%;
+        font-size: .85rem !important;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 320.55px) {
+
+    .mobileAddNewAddressDiv {
+        background: white;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .mobileAddNewAddressDiv .editLabel {
+        margin-bottom: 5px !important;
+        font-size: .85rem;
+    }
+
+    .mobileAddressType p {
+        font-size: .85rem;
+        color: gray;
+        margin-bottom: 6px;
+    }
+
+    .mobileAddressType button {
+        font-size: .75rem !important;
+        padding: 5px 10px;
+        background: lightslategray !important;
+    }
+
+    .mobileAddNewAddressDiv .saveUserAddress {
+        width: 100%;
+        font-size: .85rem !important;
+        padding: 5px 10px;
+    }
+
+}

@@ -1,0 +1,104 @@
+@media (min-width: 1400px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .our-facilities {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .ourServiceLogo {
+        font-size: 36px;
+        color: var(--primaryColor);
+        margin-bottom: 8px;
+    }
+    .ourServiceText {
+        font-size: 12px;
+        color: var(--textColor);
+    }
+
+    .newsletter-section {
+        padding: 2rem 0;
+    }
+
+    .newsletter-title {
+        font-size: 18px;
+
+    }
+
+    .newsletter-form .form-control {
+        height: 48px !important;
+
+    }
+    .newsletter-btn {
+        height: 35px;
+    }
+    .newsletter-subtitle {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+

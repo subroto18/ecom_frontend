@@ -1,0 +1,58 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .cart-add-title.cart-success-title {
+        margin-top: 0px;
+        font-size: 18px;
+        margin-bottom: 19px;
+        color: var(--primaryColor);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .cart-add-title.cart-success-title {
+        margin-top: 0px;
+        font-size: 18px;
+        margin-bottom: 19px;
+        color: var(--primaryColor);
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .cart-add-title.cart-success-title {
+        margin-top: 0px;
+        font-size: 18px;
+        margin-bottom: 19px;
+        color: var(--primaryColor);
+    }
+     .cartSuccessModal .modal-content {
+        width: 93%;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+    .cart-add-title.cart-success-title {
+        margin-top: 0px;
+        font-size: 16px;
+        margin-bottom: 19px;
+        color: var(--primaryColor);
+    }
+    .text-left.cart-success-title {
+        font-size: 11px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+    }
+    .cartSuccessModal .modal-content {
+        width: 93%;
+    }
+}

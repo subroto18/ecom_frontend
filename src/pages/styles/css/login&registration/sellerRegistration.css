@@ -1,0 +1,41 @@
+.createAccount {
+    margin-bottom: 3rem;
+}
+.form-control:focus {
+	color: var(--dark) ;
+    background-color: transparent !important;
+    border-color: #ced4da !important;
+    box-shadow: unset !important;
+}
+.sellerRegistrationTitleLabel {
+    margin-bottom: 0rem !important;
+}
+
+.sellerRegistration {
+    margin-top: .6rem;
+}
+
+
+.sellerRegistrationBtn {
+    border: 2px var(--primaryColor) !important;
+    background: var(--primaryColor) !important;
+    color: #fff !important;
+    transition: .8s !important;
+}
+
+.sellerRegistrationBtn:focus {
+    border: 2px var(--primaryColor) !important;
+    background: var(--secondaryColor) !important;
+    color: var(--btntextColor) !important;
+    transition: .8s !important;
+}
+.sellerRegistrationBtn:hover {
+    border: 2px var(--primaryColor) !important;
+    background: var(--secondaryColor) !important;
+    color: var(--btntextColor) !important;
+    transition: .8s !important;
+}
+
+.sellerRegistrationDiv{
+    margin-top: 110px;
+}

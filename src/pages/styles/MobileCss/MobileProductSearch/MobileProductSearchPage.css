@@ -1,0 +1,261 @@
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .searchMenuMobile {
+        padding: .5rem;
+    }
+
+    .searchMenuMobile {
+        flex: 15;
+        align-items: center;
+        text-align: center;
+    }
+
+    .searchArrowPrev {
+        flex: 1;
+    }
+
+    .searchBoxMobile {
+        flex: 12;
+        align-items: center;
+        position: relative;
+    }
+
+    .searchFieldClear {
+        position: absolute;
+        right: 10px;
+        background: #bfbfbf;
+        width: 20px;
+        border-radius: 50%;
+        color: white !important;
+    }
+
+    .searchText {
+        flex: 2;
+    }
+
+    .searchText span {
+        text-transform: uppercase;
+        color: var(--primaryColor);
+    }
+
+    .searchResultBodyMobile {
+        background: white;
+        height: 100vh;
+    }
+
+    .searchResultMobile {
+        padding: 10px 20px;
+        padding-left: 50px !important;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .searchMobileResultIcon {
+        float: right;
+        line-height: 1.3rem;
+        color: #bfbfbf;
+    }
+
+    .searchResultMobile span {
+        font-weight: 300;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .searchMenuMobile {
+        padding: .5rem;
+    }
+
+    .searchMenuMobile {
+        flex: 15;
+        align-items: center;
+        text-align: center;
+    }
+
+    .searchArrowPrev {
+        flex: 1;
+    }
+
+    .searchBoxMobile {
+        flex: 12;
+        align-items: center;
+        position: relative;
+    }
+
+    .searchFieldClear {
+        position: absolute;
+        right: 10px;
+        background: #bfbfbf;
+        width: 20px;
+        border-radius: 50%;
+        color: white !important;
+    }
+
+    .searchText {
+        flex: 2;
+    }
+
+    .searchText span {
+        text-transform: uppercase;
+        color: var(--primaryColor);
+    }
+
+    .searchResultBodyMobile {
+        background: white;
+        height: 100vh;
+    }
+
+    .searchResultMobile {
+        padding: 10px 20px;
+        padding-left: 50px !important;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .searchMobileResultIcon {
+        float: right;
+        line-height: 1.3rem;
+        color: #bfbfbf;
+    }
+
+    .searchResultMobile span {
+        font-weight: 300;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .searchMenuMobile {
+        padding: .5rem;
+    }
+
+    .searchMenuMobile {
+        flex: 15;
+        align-items: center;
+        text-align: center;
+    }
+
+    .searchArrowPrev {
+        flex: 1;
+    }
+
+    .searchBoxMobile {
+        flex: 12;
+        align-items: center;
+        position: relative;
+    }
+
+    .searchFieldClear {
+        position: absolute;
+        right: 10px;
+        background: #bfbfbf;
+        width: 20px;
+        border-radius: 50%;
+        color: white !important;
+    }
+
+    .searchText {
+        flex: 2;
+    }
+
+    .searchText span {
+        text-transform: uppercase;
+        color: var(--primaryColor);
+    }
+
+    .searchResultBodyMobile {
+        background: white;
+        height: 100vh;
+    }
+
+    .searchResultMobile {
+        padding: 10px 20px;
+        padding-left: 50px !important;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .searchMobileResultIcon {
+        float: right;
+        line-height: 1.3rem;
+        color: #bfbfbf;
+    }
+
+    .searchResultMobile span {
+        font-weight: 300;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .searchMenuMobile {
+        padding: .5rem;
+    }
+
+    .searchMenuMobile {
+        flex: 15;
+        align-items: center;
+        text-align: center;
+    }
+
+    .searchArrowPrev {
+        flex: 1;
+    }
+
+    .searchBoxMobile {
+        flex: 12;
+        align-items: center;
+        position: relative;
+    }
+
+    .searchFieldClear {
+        position: absolute;
+        right: 10px;
+        background: #bfbfbf;
+        width: 20px;
+        border-radius: 50%;
+        color: white !important;
+    }
+
+    .searchText {
+        flex: 2;
+    }
+
+    .searchText span {
+        text-transform: uppercase;
+        color: var(--primaryColor);
+    }
+
+    .searchResultBodyMobile {
+        background: white;
+        height: 100vh;
+    }
+
+    .searchResultMobile {
+        padding: 10px 20px;
+        padding-left: 50px !important;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .searchMobileResultIcon {
+        float: right;
+        line-height: 1.3rem;
+        color: #bfbfbf;
+    }
+
+    .searchResultMobile span {
+        font-weight: 300;
+    }
+
+}

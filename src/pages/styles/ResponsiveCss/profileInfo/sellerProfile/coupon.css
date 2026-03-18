@@ -1,0 +1,130 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+.seller-coupon-btn.btn.btn-primary {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1025.55px) {
+    .resSellerTable{
+        width: 100% !important;
+    }
+    .resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 18px !important;
+        padding-right: 0px !important;
+      }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .resSellerTable{
+        width: 100% !important;
+    }
+    .resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    .resSellerTable{
+        width: 100% !important;
+    }
+    .resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+    .resSellerTable{
+        width: 100% !important;
+    }
+    .resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .addCouponBtn{
+        margin-right: -10px;
+      }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    .sellerTableSize.resSellerTable{
+        width: 100% !important;
+    }
+    .sellerTableSize.resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 10px !important;
+      }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sellerTableSize.resSellerTable{
+        width: 100% !important;
+    }
+    .sellerTableSize.resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 10px !important;
+      }
+      .addCouponBtn{
+        margin-right: 10px;
+      }
+
+}
+
+@media (max-width: 320.55px) {
+    .sellerTableSize.resSellerTable{
+        width: 100% !important;
+    }
+    .sellerTableSize.resSellerTable .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 10px !important;
+      }
+      .addCouponBtn{
+        margin-right: 10px;
+      }
+
+}

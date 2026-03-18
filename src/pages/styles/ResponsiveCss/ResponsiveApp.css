@@ -1,0 +1,104 @@
+/*Desktop DesktopHome pages*/
+@import "DesktopHome/ResponsiveMegaMenu.css";
+@import "DesktopHome/ResponsiveTodaysDeal.css";
+@import "DesktopHome/ResponsiveHomeSlider.css";
+@import "DesktopHome/ResponsiveNavDesktop.css";
+@import "DesktopHome/ResponsiveFlashSale.css";
+@import "DesktopHome/ResponsiveCartValidationModal.css";
+@import "DesktopHome/ResponsiveNewArrival.css";
+@import "DesktopHome/ResponsiveFeaturedTopRatedTrending.css";
+@import "DesktopHome/ResponsiveBestSeller.css";
+@import "card/ResponsiveCard.css";
+@import "common/ResponsiveCommon.css";
+@import "common/ResponsiveOurService.css";
+@import "common/ResponsiveFooterDesktop.css";
+@import "searchProduct/ResponsiveSearchProduct.css";
+@import "SingleProduct/ResponsiveSingleProduct.css";
+@import "common/ResponsiveHorizontalMenu.css";
+@import "ResponsiveMegaMenu/ResponsiveMegeMenu.css";
+
+/*MobileLogin File*/
+@import "login&registration/Login.css";
+
+/*User Registration File*/
+@import "login&registration/userRegistration.css";
+@import "login&registration/sellerRegistration.css";
+/*Manage User Profile File*/
+@import "profileInfo/userProfile/manageUserProfile.css";
+
+/*User Profile File*/
+@import "profileInfo/userProfile/userProfile.css";
+/*Edit User Profile File*/
+@import "profileInfo/userProfile/editUserProfile.css";
+
+/*User Address File*/
+@import "profileInfo/userProfile/userAddress.css";
+
+/*User Wishlist File*/
+@import "profileInfo/userProfile/userWishlist.css";
+
+/*Seller Dashboard File*/
+@import "profileInfo/sellerProfile/sellerDashboard.css";
+
+/*Seller Add ProductCard File*/
+@import "profileInfo/sellerProfile/addProduct.css";
+
+/*Seller Registration File*/
+@import "profileInfo/sellerProfile/sellerRegistration.css";
+
+/*Seller Shop File*/
+@import "DesktopHome/sellerShop.css";
+
+/*Checkout File*/
+@import "checkOut/ResponsiveCheckout.css";
+
+/*CartPage File*/
+@import "cart/ResponsiveCart.css";
+
+/*Payment File*/
+@import "payment/payment.css";
+/*compare File*/
+@import "compare/ResponsiveCompare.css";
+
+/* Confirm Order File*/
+@import "confirmOrder/confirmOrder.css";
+
+/*support file */
+@import "profileInfo/userProfile/userSupport.css"; 
+/*Live Support file*/
+@import "profileInfo/userProfile/userLiveSupport.css";
+
+/*Wallet*/
+@import "profileInfo/userProfile/userWallet.css";
+
+/*Downloadable Products*/
+@import "profileInfo/userProfile/userDownloadableProducts.css";
+
+/*Reviews file*/
+@import "profileInfo/userProfile/userAllReviews.css";
+@import "profileInfo/userProfile/userReview.css";
+
+/*User Cancellations file*/
+@import "profileInfo/userProfile/userCancellations.css";
+@import "profileInfo/userProfile/userOrderCancel.css";
+@import "profileInfo/userProfile/viewCancelOrder.css";
+
+
+/*User Orders file*/
+@import "profileInfo/userProfile/userOrders.css";
+@import "profileInfo/userProfile/viewOrder.css";
+
+/* Order Return */
+@import "profileInfo/userProfile/userOrderReturn.css";
+
+
+/*Seller Part*/
+@import "profileInfo/sellerProfile/sellerProducts.css";
+@import "profileInfo/sellerProfile/sellerProductEdit.css";
+@import "profileInfo/sellerProfile/sellerOrders.css";
+@import "profileInfo/sellerProfile/moneyWithdraw.css";
+@import "profileInfo/sellerProfile/productReviews.css";
+@import "profileInfo/sellerProfile/coupon.css";
+@import "profileInfo/sellerProfile/allModal.css";
+@import "profileInfo/sellerProfile/sellerPackage.css";
+

@@ -1,0 +1,263 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #sellerShop{
+        margin-top: 20px;
+    }
+    .storeLogoDiv {
+        position: relative;
+        left: auto;
+        top: -46px;
+        height: 75px;
+    }
+    .store-cover {
+        height: 178px;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .store-logo {
+        border-radius: 50%;
+        height: 133px;
+        border: 3px solid rgba(65,65,65,.3);
+        margin-top: -23px;
+        width: 149px;
+        margin: auto;
+    }
+    .store-name {
+        height: 30px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .shopStoreDiv .rating {
+        text-align: center;
+
+    }
+    .rating.shop-rating i {
+        font-size: 15px;
+    }
+    .store-titles span {
+        font-size: 18px;
+    }
+    .store-cover {
+        height: 230px;
+    }
+
+
+    .store-logo {
+        height: 135px;
+        width: 135px;
+        margin:auto;
+    }
+
+    .store-socials div {
+        justify-content: center !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+    #sellerShop{
+        margin-top: 20px;
+    }
+    .store-cover {
+        height: 178px;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .store-logo {
+        border-radius: 50%;
+        height: 133px;
+        border: 3px solid rgba(65,65,65,.3);
+        margin-top: -23px;
+        width: 149px;
+        margin:auto;
+    }
+    .store-name {
+        height: 37px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .shopStoreDiv .rating {
+        text-align: center;
+
+    }
+    .rating.shop-rating i {
+        font-size: 15px;
+    }
+    .store-titles span {
+        font-size: 16px;
+    }
+
+    .storeLogoDiv {
+        position: relative;
+        left: auto;
+        top: -45px;
+        height: 75px;
+    }
+
+    .storeNameRating {
+        text-align: center;
+        padding-bottom: 0px !important;
+    }
+
+    .store-logo {
+        height: 125px;
+        width: 125px;
+
+        margin:auto;
+    }
+
+    .store-socials div {
+        justify-content: center !important;
+    }
+
+    .store-titles span {
+        font-size: 18px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #sellerShop{
+        margin-top: 20px;
+    }
+    .store-cover {
+        height: 160px;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .store-name {
+        height: 37px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .shopStoreDiv .rating {
+        text-align: center;
+
+    }
+    .rating.shop-rating i {
+        font-size: 15px;
+    }
+    .store-titles span {
+        font-size: 16px;
+    }
+    .storeLogoDiv {
+        position: relative;
+        left: auto;
+        top: -60px;
+        height: 68px;
+    }
+
+    .storeNameRating {
+        text-align: center;
+        padding-bottom: 0px !important;
+    }
+
+    .store-logo {
+        height: 110px;
+        width: 110px;
+        margin:auto;
+    }
+
+    .store-socials div {
+        justify-content: center !important;
+    }
+
+    .store-titles span {
+        font-size: 18px;
+    }
+
+    .store-profile-options.nav-link {
+        padding: .5rem .3rem;
+    }
+
+    .store-socials {
+        padding: 10px 50px !important;
+    }
+    .AllProduct{
+        margin-left: 10px;
+    }
+    .productSection{
+        margin-top: 2rem !important;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 319px) {
+    #sellerShop{
+        margin-top: 20px;
+    }
+    .store-cover {
+        height: 120px;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .store-logo {
+        border-radius: 50%;
+        height: 100px;
+        border: 3px solid rgba(65,65,65,.3);
+        margin-top: -13px;
+        width: 100px;
+        margin:auto;
+    }
+    .store-name {
+        height: 25px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .shopStoreDiv .rating {
+        text-align: center;
+
+    }
+    .rating.shop-rating i {
+        font-size: 15px;
+    }
+    .store-titles span {
+        font-size: 16px;
+    }
+    .storeLogoDiv {
+        position: relative;
+        left: auto;
+        top: -46px;
+        height: 75px;
+    }
+
+    .storeNameRating {
+        text-align: center;
+        padding-bottom: 0px !important;
+    }
+
+    .store-logo {
+        height: 110px;
+        margin:auto;
+    }
+
+    .store-socials div {
+        justify-content: center !important;
+    }
+
+    .store-titles span {
+        font-size: 18px;
+    }
+
+    .store-profile-options.nav-link {
+        padding: .5rem .3rem;
+    }
+
+    .store-socials {
+        padding: 10px 50px !important;
+    }
+
+}

@@ -1,0 +1,214 @@
+
+@media (min-width: 1701px) and (max-width: 1900px) {
+
+    .horizontalMegaMenuList .subCat {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 9%;
+        width: 83%;
+        top: 173px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-top: 1px solid #ddd;
+    }
+    .horizontalMegaMenuList .subCatFixed {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 9%;
+        width: 83%;
+        top: 35px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-top: 1px solid #ddd;
+    }
+
+}
+@media (min-width: 1500px) and (max-width: 1700px) {
+
+    .horizontalMegaMenuList .subCat {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 4%;
+        width: 93%;
+        top: 173px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        /* border-radius: 3px; */
+        /* padding: 40px; */
+        /* overflow: hidden; */
+        /* transition: .3s ease-in-out; */
+        border-top: 1px solid #ddd;
+    }
+    .horizontalMegaMenuList .subCatFixed {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 4%;
+        width: 93%;
+        top: 35px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-top: 1px solid #ddd;
+    }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1499px) {
+
+    .horizontalMegaMenuList .subCat {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 1%;
+        width: 98%;
+        top: 173px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        /* border-radius: 3px; */
+        /* padding: 40px; */
+        /* overflow: hidden; */
+        /* transition: .3s ease-in-out; */
+        border-top: 1px solid #ddd;
+    }
+    .horizontalMegaMenuList .subCatFixed {
+        position: absolute;
+        background: var(--whiteColor);
+        left: 1%;
+        width: 98%;
+        top: 35px;
+        display: none;
+        z-index: 10;
+        height: auto;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-radius: 3px;
+        padding: 40px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        border-top: 1px solid #ddd;
+    }
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}

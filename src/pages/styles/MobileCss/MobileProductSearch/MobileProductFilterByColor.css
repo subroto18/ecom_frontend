@@ -1,0 +1,82 @@
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .filterByColor {
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileFilterMenuTitle {
+        color: #827f79;
+    }
+
+    .filterByColor .MuiAccordionSummary-root {
+        padding: 0px;
+    }
+
+    .filterByColor .MuiAccordionDetails-root {
+        padding: 0px;
+    }
+
+    .filterByColor .variationBox {
+        padding: 0px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    .filterByColor {
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileFilterMenuTitle {
+        color: #827f79;
+    }
+
+    .filterByColor .MuiAccordionSummary-root {
+        padding: 0px;
+    }
+
+    .filterByColor .MuiAccordionDetails-root {
+        padding: 0px;
+    }
+
+    .filterByColor .variationBox {
+        padding: 0px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .filterByColor {
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .mobileFilterMenuTitle {
+        color: #827f79;
+    }
+
+    .filterByColor .MuiAccordionSummary-root {
+        padding: 0px;
+    }
+
+    .filterByColor .MuiAccordionDetails-root {
+        padding: 0px;
+    }
+
+    .filterByColor .variationBox {
+        padding: 0px;
+    }
+
+}

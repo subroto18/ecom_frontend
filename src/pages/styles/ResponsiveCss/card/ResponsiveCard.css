@@ -1,0 +1,261 @@
+@media (min-width: 1901px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 1601px) and (max-width: 1900px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    /* CSS */
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+
+    .product-card {
+        height: 90%;
+    }
+
+    .productTitle {
+        font-size: 12px;
+
+    }
+    .discountPrice {
+        font-size: 12px;
+    }
+    .regularPrice {
+        margin: 0 0px !important;
+    }
+    .product-card .card-icons {
+        padding: 10px 14px;
+    }
+    .cardImgDiv {
+        height: 160px;
+        padding: 14px 20px;
+    }
+    .sliderLeftArrow {
+        position: absolute;
+        top: 140px;
+        z-index: 1;
+        left: -13px;
+    }
+    .sliderArrow {
+        width: 35px;
+        height: 35px;
+    }
+    .sliderRightArrow {
+        top: 140px;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .column-lg-5{
+        flex: 0 0 20%!important;
+        max-width: 20% !important;
+    }
+    .product-card{
+        height: 88%;
+    }
+    .cardImg.img-fluid {
+        height: 120px;
+      }
+
+    .productTitle {
+        font-size: 12px;
+
+    }
+    .discountPrice {
+        font-size: 12px;
+    }
+    .regularPrice {
+        margin: 0 0px !important;
+    }
+    .product-card .card-icons {
+        padding: 10px 15px;
+    }
+    .cardImgDiv {
+        height: 130px;
+        padding: 0 20px;
+        padding-top: 15px;
+    }
+    .sliderLeftArrow {
+        position: absolute;
+        top: 140px;
+        z-index: 1;
+        left: -13px;
+    }
+    .sliderArrow {
+        width: 35px;
+        height: 35px;
+    }
+    .sliderRightArrow {
+        top: 140px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    .product-card{
+        height: 88%;
+    }
+    .cardImg.img-fluid {
+        height: 120px;
+      }
+    .productTitle {
+        font-size: 12px;
+
+    }
+    .discountPrice {
+        font-size: 12px;
+    }
+    .regularPrice {
+        margin: 0 0px !important;
+    }
+    .product-card .card-icons {
+        padding: 10px 14px;
+    }
+    .cardImgDiv {
+        height: 120px;
+        padding: 0px;
+    }
+
+    .sliderLeftArrow {
+        position: absolute;
+        top: 140px;
+        z-index: 1;
+        left: -13px;
+    }
+    .sliderArrow {
+        width: 35px;
+        height: 35px;
+    }
+    .sliderRightArrow {
+        top: 140px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .product-card{
+        height: 90%;
+    }
+    .cardImg.img-fluid{
+        height: 120px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .product-card{
+        height: 90%;
+    }
+
+    .productTitle {
+        font-size: 12px;
+
+    }
+    .cardImg.img-fluid{
+        height: 135px;
+    }
+    .discountPrice {
+        font-size: 12px;
+    }
+    .regularPrice {
+        margin: 0 0px !important;
+    }
+    .product-card .card-icons {
+        padding: 10px 15px;
+    }
+    .cardImgDiv {
+        padding: 0 20px;
+        height: 140px;
+        overflow: hidden;
+    }
+    .sliderLeftArrow {
+        top: 140px;
+    }
+    .sliderArrow {
+        width: 35px;
+        height: 35px;
+    }
+    .sliderRightArrow {
+        top: 140px;
+    }
+    .cardImgDiv {
+        padding: 0;
+    }
+    .product-card .card-title{
+        margin-bottom: 20px!important;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}
+

@@ -1,0 +1,148 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .modalHeading{
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1025.55px) {
+    .sellerTableRespons{
+        width: 100% !important;
+    }
+    .sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+        padding-left: 30px !important;
+        padding-right: 12px !important;
+      }
+      .modalHeading{
+        font-size: 1.23rem;
+      }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sellerTableRespons{
+    width: 100% !important;
+}
+.sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  }
+  .reviewProductName{
+    margin-top: 10px;
+  }
+  .modalHeading{
+    font-size: 1.1rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  .sellerTableRespons{
+    width: 100% !important;
+}
+.sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  }
+  .reviewProductName{
+    margin-top: 10px;
+  }
+  .modalHeading{
+    font-size: 1.1rem;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* CSS */
+    .sellerTableRespons{
+      width: 100% !important;
+  }
+  .sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    }
+    .reviewProductName{
+      margin-top: 10px;
+    }
+    .modalHeading{
+      font-size: 1rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .sellerTableRespons{
+    width: 100% !important;
+}
+.sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+  padding-left: 8px !important;
+  padding-right: 7px !important;
+  }
+  .reviewProductName{
+    margin-top: 10px;
+  }
+  .modalHeading{
+    font-size: 0.95rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sellerTableRespons{
+    width: 100% !important;
+}
+.sellerTableRespons .dataTables_wrapper.dt-bootstrap4{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  }
+  .reviewProductName{
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  .modalHeading{
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 320.55px) {
+
+  .reviewProductName{
+    margin-top: 10px;
+    font-size: 0.85rem;
+  }
+  .modalHeading{
+    font-size: 0.92rem;
+  }
+}

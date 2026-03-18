@@ -1,0 +1,100 @@
+.card.my-5.sellerPackage {
+    padding: 15px;
+}
+.p-5.mt-5.sellerPackageTitleDiv {
+    background: var(--primaryColor);
+    border-radius: 5px;
+    color: var(--whiteColor);
+}
+.seller-package {
+    color: #000;
+}
+.package-name{
+    font-size: 1.2rem;
+}
+.package-price{
+    color: var(--primaryColor);
+    font-size: 1.6rem;
+}
+.seller-dashboard-card h6{
+    text-align: center;
+}
+.card.sellerPackage {
+    min-height: 225px;
+}
+.seller-package-thumbnail-div {
+    margin-top: 24px;
+}
+.sellerPaymentTypeDiv {
+    padding: 45px;
+    text-align: left;
+}
+
+.silvarPackageImg{
+    width: 140px !important;
+    height: 128px !important;
+}
+.upgradeBtn{
+    margin-top: 10px;
+}
+
+.sellerPackageThumbnail {
+    width: 142px;
+    margin-left: 6px;
+    margin-bottom: 7px;
+    /* border-radius: 78px; */
+    height: 143px;
+    margin-top: 0px;
+}
+.packageName{
+    text-transform: capitalize;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background-color: var(--primaryColor);
+    font-size: 15px;
+}
+.checkBoxBtn .MuiSwitch-switchBase.Mui-checked {
+    transform: translateX(16px) !important;
+}
+.checkBoxBtn .css-a0je0l-MuiButtonBase-root-MuiIconButton-root-PrivateSwitchBase-root{
+    position: absolute !important;
+    color: #fff;
+}
+.shopInfoPay .css-a0je0l-MuiButtonBase-root-MuiIconButton-root-PrivateSwitchBase-root{
+    position: absolute !important;
+    color: #fff;
+}
+.editProductSwitch .css-a0je0l-MuiButtonBase-root-MuiIconButton-root-PrivateSwitchBase-root{
+    position: absolute !important;
+    color: #fff;
+}
+
+.editBtn{
+    font-size: 18px;
+    color: var(--btntextColor) !important;
+    padding: 5px 0;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.editBtn .fa-edit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.deleteBtn{
+    padding: 3px 11px;
+    font-size: 12px !important;
+}
+
+.package-name.seller-package{
+    color: #000;
+}
+.sellerPackageDetails{
+    margin-top: 16px;
+}
+.sellerPackageName{
+    text-transform: capitalize;
+}
+

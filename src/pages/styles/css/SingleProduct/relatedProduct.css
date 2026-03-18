@@ -1,0 +1,18 @@
+.relatedProduct.title {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+}
+.relatedProduct.title::before {
+    content: '';
+    height: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+#relatedProduct {
+    margin-top: 10px;
+
+}

@@ -1,0 +1,25 @@
+.div.featuredTrending {
+    background: unset;
+    padding: 0;
+}
+.featured.trendingCard.card {
+    height: 140px;
+}
+
+.featured-trending-topRated {
+    padding: 30px;
+    background: var(--sectionBackground);
+}
+
+.product-card.featured-trending-topRated-product-card.card {
+    height: 125px;
+}
+.product-card.featured-trending-topRated-product-card.card .cardImgDiv {
+    padding: 10px 20px;
+    height: 114px;
+    width: 182px;
+}
+
+@import "FeaturedProduct.css";
+@import "topRated.css";
+@import "trending.css";

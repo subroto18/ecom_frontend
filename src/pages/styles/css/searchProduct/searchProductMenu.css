@@ -1,0 +1,25 @@
+.ProductSearchMenu {
+    background: var(--sectionBackground);
+}
+
+.ProductSearchMenu .category {
+    background: var(--primaryColor);
+    padding-top: 15px;
+    padding-inline-start: 15px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+}
+
+.searchSubCat {
+    margin-left: 25px;
+    list-style: none;
+}
+.fas.fa-sort-down.searchMenuIcon {
+    margin-left: 4px;
+
+}
+.mainMenu {
+    padding-bottom: 20px;
+}
+
+
