@@ -46,15 +46,15 @@ This frontend is fully **dynamic and backend-driven**, allowing complete UI cust
 ## 📸 UI Preview
 
 <p align="center">
-  <img src="public/branding/1.jpg" width="45%" />
-  <img src="public/branding/2.jpg" width="45%" />
+  <img src="public/branding/1.jpeg" width="45%" />
+  <img src="public/branding/2.jpeg" width="45%" />
 </p>
 
 <p align="center">
-  <img src="public/branding/3.jpg" width="45%" />
-  <img src="public/branding/4.jpg" width="45%" />
+  <img src="public/branding/3.jpeg" width="45%" />
+  <img src="public/branding/4.jpeg" width="45%" />
 </p>
 
 <p align="center">
-  <img src="public/branding/5.jpg" width="60%" />
+  <img src="public/branding/5.jpeg" width="60%" />
 </p>
